@@ -1,0 +1,1165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>ANA SERRANO | GRAPHICS & IMAGING LAB</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+
+    <link rel="shortcut icon" href="images/favicon.ico">
+
+    <!-- CSS | STYLE -->
+
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+    <!--<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />-->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/linecons.css" />
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="css/colors/purple.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+    <!-- CSS | Google Fonts -->
+
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Raleway:200,400,300,500,600' rel='stylesheet' type='text/css'>
+
+    <noscript>
+        <style>
+        @media screen and (max-width: 755px) {
+            .hs-content-scroller {
+                overflow: visible;
+            }
+        }
+        </style>
+    </noscript>
+</head>
+
+<body>
+    <!-- Page preloader -->
+    <div id="page-loader">
+        <canvas id="demo-canvas"></canvas>
+    </div>
+    <!-- container -->
+    <div id="hs-container" class="hs-container">
+
+        <!-- Sidebar-->
+        <aside class="hs-menu" id="hs-menu">
+            <!-- <canvas id="demo-canvas"></canvas> -->
+
+            <!-- Profil Image-->
+            <div class="hs-headline">
+                <a id="my-link" href="#my-panel"><i class="fa fa-bars"></i></a>
+                <div class="img-wrap">
+                    <img src="images/portrait.jpg" height="150px" />
+                </div>
+                <div class="profile_info">
+                    <h1>Ana Serrano</h1>
+                    <h4>Postdoc</h4>
+					<h4><a class="gilab-link" target="_blank" href="https://graphics.unizar.es">Graphics & Imaging Lab</a></h4>
+                    <h6><span class="fa fa-location-arrow"></span>&nbsp;&nbsp;&nbsp;Zaragoza , SPAIN</h6>
+                </div>
+                <div style="clear:both"></div>
+            </div>
+            <div class="separator-aside"></div>
+            <!-- End Profil Image-->
+
+            <!-- menu -->
+            <nav>
+                <a href="#section1"><span class="menu_name">ABOUT</span><span class="fa fa-home"></span> </a>
+                <a href="#section2"><span class="menu_name">PUBLICATIONS</span><span class="fa fa-paperclip"></span> </a>
+                <a href="#section3"><span class="menu_name">INTERNSHIPS</span><span class="fa fa-plane"></span> </a>
+                <a href="#section4"><span class="menu_name">TEACHING</span><span class="fa fa-book"></span> </a>                
+                <a href="#section5"><span class="menu_name">CONTACT</span><span class="fa fa-envelope"></span> </a>
+            </nav>
+            <!-- end menu-->
+            <!-- social icons -->
+            <!--<div class="aside-footer">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+                <a href="#"><i class="fa fa fa-dribbble"></i></a>
+                <a href="#"><i class="fa fa fa-github"></i></a>
+            </div>-->
+			<div class="aside-footer" style="font-size:10px">
+                Theme adapted from <a href="https://themeforest.net/item/pulse-academic-personal-vcard-wordpress-theme/13472101" target="_blank"> PULSE academic</a>
+            </div>
+            <!-- end social icons -->
+        </aside>
+        <!-- End sidebar -->
+
+        <!-- Go To Top Button -->
+        <a href="#hs-menu" class="hs-totop-link"><i class="fa fa-chevron-up"></i></a>
+        <!-- End Go To Top Button -->
+
+        <!-- hs-content-scroller -->
+        <div class="hs-content-scroller">
+            <!-- Header -->
+            <div id="header_container">
+                <div id="header">
+                    <div><a class="home"><i class="fa fa-home"></i></a>
+                    </div>
+                    <div><a href="" class="previous-page arrow"><i class="fa fa-angle-left"></i></a>
+                    </div>
+                    <div><a href="" class="next-page arrow"><i class="fa fa-angle-right"></i></a>
+                    </div>
+                    <!-- News scroll -->
+                    <div class="news-scroll">
+                        <span><i class="fa fa-broadcast-tower fa-lg"></i><strong>NEWS : </strong></span>
+                        <ul id="marquee" class="marquee">
+                           
+							<li>
+								We will be presenting our work on exploring users' attention in 360º movies at IEEE VR 2020 in Atlanta!                        
+							</li>
+                            <li>
+								Our paper on material similarity (presented at SIGGRAPH 2019) is available in the Publications section (including code and dataset!).						
+							</li>                           
+                        </ul>
+                    </div>
+                    <!-- End News scroll -->
+                </div>
+            </div>
+            <!-- End Header -->
+
+            <!-- hs-content-wrapper -->
+            <div class="hs-content-wrapper">
+                <!-- About section -->
+                <article class="hs-content about-section" id="section1">
+                    <span class="sec-icon fa fa-home"></span>
+                    <div class="hs-inner">
+                        <span class="before-title">.01</span>
+                        <h2>ABOUT</h2>
+                        <span class="content-title">PERSONAL DETAILS</span>
+                        <div class="aboutInfo-contanier">
+                            <div class="about-card">
+                                <!-- <div class="face2 card-face">
+                                    <div id="cd-google-map">
+                                        <div id="google-container"></div>
+                                        <div id="cd-zoom-in"></div>
+                                        <div id="cd-zoom-out"></div>
+                                        <address>Calle Maria de Luna 1, Zaragoza </address>
+                                        <div class="back-cover" data-card-back="data-card-back"><i class="fa fa-arrow-left"></i>
+                                        </div>
+                                    </div>
+                                </div> -->
+                                <div class="face1 card-face">
+                                    <div class="about-cover card-face">
+                                        <!-- <a class="map-location" data-card-front="data-card-front"><img src="images/map-icon.png" alt="">
+                                        </a>-->
+                                        <div class="about-details">
+                                            <div><span class="fa fa-inbox"></span><span class="detail"><a href="mailto:anase@unizar.es" style="font-size:14px;color:#ffffff;">anase@unizar.es</a></span>
+                                            </div>                                            
+                                        </div>
+										
+                                        <div class="cover-content-wrapper">                                            
+                                            <span class="status">
+                                            <span class="fas fa-file-download fa-lg" style="color:#F5E36E;"></span>
+                                            <span class="text"><a href="docs/CV.pdf" target="_blank" style="font-size:14px;color:#ffffff;">&nbsp Download my CV </a></span>											
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade in active" id="bio">
+								<h3>BIO</h3>
+								<h4>ABOUT ME</h4>
+								<p>								 
+									I am a postdoctoral researcher at the Graphics and Imaging Lab,  Universidad de Zaragoza (Spain). I obtained my PhD under the supervision of <a class="author-link" href="http://giga.cps.unizar.es/~diegog/" target="_blank">Prof. Diego Gutierrez</a> and <a class="author-link" href="http://webdiis.unizar.es/~bmasia/" target="_blank">Prof. Belen Masia</a>. I was the recipient of an <b>Adobe Research Fellowship</b> (honorable mention) in 2017, and a <b>NVIDIA Graduate Fellowship</b> in 2018. 
+								</p>
+								<p>
+									My research spans several areas of visual computing, in particular: computational
+									imaging, material appearance perception and editing, and virtual reality, with a focus
+									on applying perceptually-motivated solutions. I am passionate about creating and
+									applying fundamental knowledge about the perceptual system to improve human
+									experiences and develop tools to assist content creation.
+								
+								</p>
+							</div>
+							<div class="tab-pane fade in active" id="bio">
+								<img src="images/logos/gilab-logo.png" width= "17%" style="margin:0 1% 0 0"/> <img src="images/logos/sci-logo.png" width= "17%" style="margin:0 1%"/> <img src="images/logos/mpii-logo.png" width= "17%" style="margin:0 1%"/> <img src="images/logos/adobe-logo.png" width= "16.8%" style="margin:0 1%"/> <img src="images/logos/nvidia-logo.png" width= "16.8%" style="margin:0 0 0 1%"/> 
+															
+							</div>
+                        </div>
+                    </div>
+                    <br>
+                </article>
+                <!-- End About Section -->
+               
+                <!-- Publications Section -->
+                <article class="hs-content publication-section" id="section2">
+                    <span class="sec-icon fa fa-paperclip"></span>
+                    <div class="hs-inner">
+                        <span class="before-title">.02</span>
+                        <h2>PUBLICATIONS</h2>
+						
+						<span class="content-title">2020</span>                        
+                        <!-- End Filter/Sort Menu -->				
+						
+						<!-- publication wrapper -Material similarity -->                           
+                        <div id="mygrid">
+                            <!-- publication item -->
+                            <div class="publication_item">
+                                <div class="media">
+                                    <div class="pull-left">
+                                        <img height="70px" src="images/pubs/2020/publications_IEEEVR2020_VR-cine.png"/>
+                                    </div>
+                                    <div class="media-body">
+                                        <h3>Exploring the impact of 360º movie cuts in users' attention</h3>
+                                        <h4>Carlos Marañes, Diego Gutierrez, and Ana Serrano</h4>
+                                        <span class="publication_description">IEEE VR 2020 (to be presented)</span> </div>
+                                    <hr style="margin:8px auto">
+                                    <a href="./docs/Maranes_IEEEVR2020_VR-cine.pdf" target="_blank"><span class="label label-primary">PDF</span></a> 	
+									<a href="./bibs/Maranes_IEEEVR2020_VR-cine.bib" target="_blank"><span class="label label-primary">Bibtex</span></a>									
+                                </div>   
+								
+							<!-- End publication item --> 			
+                            </div>
+						<!-- publication wrapper -->
+						</div>                          
+										
+                        <!-- Filter/Sort Menu -->
+                        <span class="content-title">2019</span>                        
+                        <!-- End Filter/Sort Menu -->				
+						
+						<!-- publication wrapper -Material similarity -->                           
+                        <div id="mygrid">
+                            <!-- publication item -->
+                            <div class="publication_item">
+                                <div class="media">
+                                    <div class="pull-left">
+                                        <img height="70px" src="images/pubs/2019/publications_SIGG2019_MatSim.png"/>
+                                    </div>
+                                    <div class="media-body">
+                                        <h3>A Similarity Measure for Material Appearance</h3>
+                                        <h4>Manuel Lagunas, Sandra Malpica, Ana Serrano, Elena Garces, Diego Gutierrez, and Belen Masia</h4>
+                                        <span class="publication_description">Transactions on Graphics (Proc. SIGGRAPH), 2019</span> </div>
+                                    <hr style="margin:8px auto">
+                                    <a href="http://webdiis.unizar.es/~mlagunas/papers/similarity_siggraph_19.pdf" target="_blank"><span class="label label-primary">PDF</span></a> 
+									<a href="http://webdiis.unizar.es/~mlagunas/publication/material-similarity/" target="_blank"><span class="label label-primary">Project page</span></a>
+                                    <a href="http://giga.cps.unizar.es/~mlagunas/bibs/similarity_siggraph_19.html" target="_blank"><span class="label label-primary">Bibtex</span></a>
+									<a href="http://webdiis.unizar.es/~mlagunas/presentations/2019_similarity_SIG.pptx" target="_blank"><span class="label label-primary">Slides</span></a>
+                                </div>   
+							<!-- End publication item --> 			
+                            </div>
+						<!-- publication wrapper -->
+						</div>                          
+						
+						<!-- publication wrapper -thesis -->                           
+                        <div id="mygrid">
+                            <!-- publication item -->
+                            <div class="publication_item">
+                                <div class="media">
+                                    <div class="pull-left">
+                                        <img height="70px" src="images/pubs/2019/Serrano_thesis_Apr2019.png"/>
+                                    </div>
+                                    <div class="media-body">
+                                        <h3>Advances on computational imaging, material appearance, and virtual reality</h3>
+                                        <h4>Ana Serrano</h4>
+                                        <span class="publication_description">PhD thesis, 2019</span> </div>
+                                    <hr style="margin:8px auto">
+                                    <a href="./docs/Serrano2019_thesis_LowRes.pdf" target="_blank"><span class="label label-primary">PDF</span></a> 
+									<a href="./files/Serrano2019_ThesisPresentation.pptx" target="_blank"><span class="label label-primary">Slides</span></a>
+                                </div>   
+							<!-- End publication item --> 			
+                            </div>
+						<!-- publication wrapper -->
+						</div>                            
+						
+                        <!-- publication wrapper - Motion parallax for 360 RGBD video -->                           
+                        <div id="mygrid">
+                            <!-- publication item -->
+                            <div class="publication_item">
+                                <div class="media">
+                                    <div class="pull-left">
+                                        <img height="70px" src="images/pubs/2019/publications_IEEEVR2019_6-dof.jpg"/>
+                                    </div>
+                                    <div class="media-body">
+                                        <h3>Motion parallax for 360 RGBD video</h3>
+                                        <h4>Ana Serrano, Incheol Kim, Zhili Chen, Stephen DiVerdi, Diego Gutierrez, Aaron Hertzmann, and Belen Masia</h4>
+                                        <span class="publication_description">IEEE TVCG (Proc. IEEE VR), 2019</span> </div>
+                                    <hr style="margin:8px auto">
+                                    <a href="./docs/Serrano_IEEEVR2019_VR-6dof.pdf" target="_blank"><span class="label label-primary">PDF</span></a>
+                                    <a href="./projects/VR-6dof" target="_blank"><span class="label label-primary">Project page</span></a>
+                                    <a href="./bibs/Serrano_TVCG19_6-DoF.bib" target="_blank"><span class="label label-primary">Bibtex</span></a>
+                                    <a href="./files/Serrano_IEEEVR19_6-DoF.pptx" target="_blank"><span class="label label-primary">Slides</span></a>
+
+                                </div>   
+							<!-- End publication item --> 			
+                            </div>
+						<!-- publication wrapper -->
+						</div>                            
+							
+						<!-- publication wrapper - Crossmodal perception in virtual reality -->                           
+                        <div id="mygrid">
+                            <!-- publication item -->
+                            <div class="publication_item">
+                                <div class="media">
+                                    <div class="pull-left">
+                                        <img height="70px" src="images/pubs/2019/publications_MTA_crossmodal.jpg"/>
+                                    </div>
+                                    <div class="media-body">
+                                        <h3>Crossmodal perception in virtual reality</h3>
+                                        <h4>Sandra Malpica*, Ana Serrano*, Marcos Allue, Manuel Bedia, and Belen Masia</h4>
+                                        <span class="publication_description">Multimedia Tools & Applications, 2019</span> </div>
+                                    <hr style="margin:8px auto">
+                                    <a href="./docs/Malpica_MTA2019_Crossmodal-VR.pdf" target="_blank"><span class="label label-primary">PDF</span></a>
+                                </div>   
+							<!-- End publication item --> 			
+                            </div>
+						<!-- publication wrapper -->
+						</div> 
+						
+						<!-- publication wrapper - Motion parallax for 360 RGBD video -->                           
+                        <div id="mygrid">
+                            <!-- publication item -->
+                            <div class="publication_item">
+                                <div class="media">
+                                    <div class="pull-left">
+                                        <img height="70px" src="images/pubs/2019/publications_CEIG2019_StyleTransfer.png"/>
+                                    </div>
+                                    <div class="media-body">
+                                        <h3>Structure-preserving style transfer</h3>
+                                        <h4>Santiago Calvo, Ana Serrano, Diego Gutierrez, and Belen Masia</h4>
+                                        <span class="publication_description">CEIG, 2019</span> </div>
+                                    <hr style="margin:8px auto">
+                                    <a href="./docs/Calvo_CEIG2019_StyleTransfer.pdf" target="_blank"><span class="label label-primary">PDF</span></a>                                    
+                                    <a href="./bibs/Calvo_CEIG2019_StyleTransfer.bib" target="_blank"><span class="label label-primary">Bibtex</span></a>
+                                    <a href="./files/Calvo_CEIG2019_StyleTransfer.pptx" target="_blank"><span class="label label-primary">Slides</span></a>
+
+                                </div>   
+							<!-- End publication item --> 			
+                            </div>
+						<!-- publication wrapper -->
+						</div>    
+						
+						<!-- Filter/Sort Menu -->
+                        <span class="content-title">2018</span>                        
+                        <!-- End Filter/Sort Menu -->
+						
+						<!-- publication wrapper - Saliency in VR: How do people explore virtual environments? -->
+                        <div id="mygrid">
+                            <!-- publication item -->
+                            <div class="publication_item">
+                                <div class="media">
+                                    <div class="pull-left">
+                                        <img height="70px" src="images/pubs/2018/publications_arxiv2016_SaliencyVR.jpg"/>
+                                    </div>
+                                    <div class="media-body">
+                                        <h3>Saliency in VR: How do people explore virtual environments?</h3>
+                                        <h4>Vincent Sitzmann*, Ana Serrano*, Amy Pavel, Maneesh Agrawala, Diego Gutierrez, Belen Masia, Gordon Wetzstein</h4>
+                                        <span class="publication_description">IEEE TVCG (Proc. IEEE VR), 2018</span> </div>
+                                    <hr style="margin:8px auto">
+                                    <a href="./docs/Sitzmann_TVCG2018_VRsaliency.pdf" target="_blank"><span class="label label-primary">PDF</span></a>
+                                    <a href="https://vsitzmann.github.io/vr-saliency/" target="_blank"><span class="label label-primary">Project page</span></a>
+									<a href="./bibs/Sitzmann_TVCG18_VR-saliency.bib" target="_blank"><span class="label label-primary">Bibtex</span></a>
+									<a href="./files/Sitzmann_IEEEVR18_VR-saliency.pptx" target="_blank"><span class="label label-primary">Slides</span></a>
+                                </div>                                
+                            <!-- End publication item --> 
+							</div>
+                        <!-- publication wrapper -->   
+						</div>
+						
+						<!-- Filter/Sort Menu -->
+                        <span class="content-title">2017</span>                        
+                        <!-- End Filter/Sort Menu -->
+						
+                        <!-- publication wrapper - Movie Editing and Cognitive Event Segmentation in Virtual Reality Video -->    
+                        <div id="mygrid">
+                            <!-- publication item -->
+                            <div class="publication_item">
+                                <div class="media">
+                                    <div class="pull-left">
+                                        <img height="70px" src="images/pubs/2017/publications_SIGG2017_VR-cine.jpg"/>
+                                    </div>
+                                    <div class="media-body">
+                                        <h3>Movie Editing and Cognitive Event Segmentation in Virtual Reality Video</h3>
+                                        <h4>Ana Serrano, Vincent Sitzmann, Jaime Ruiz-Borau, Gordon Wetzstein, Diego Gutierrez, and Belen Masia</h4>
+                                        <span class="publication_description">Transactions on Graphics (Proc. SIGGRAPH), 2017</span> </div>
+                                    <hr style="margin:8px auto">
+                                    <a href="./docs/Serrano_SIGG2017_VR-cine.pdf" target="_blank"><span class="label label-primary">PDF</span></a>
+                                    <a href="./projects/VR-cinematography" target="_blank"><span class="label label-primary">Project page</span></a>
+                                    <a href="./bibs/Serrano_SIGG2017_VR-cine.bib" target="_blank"><span class="label label-primary">Bibtex</span></a>
+                                    <a href="./files/Serrano_SIGG2017_VR-cine.pptx" target="_blank"><span class="label label-primary">Slides</span></a>
+                                </div>  
+                            <!-- End publication item --> 
+                            </div>                            
+                        <!-- publication wrapper -->
+                        </div>
+						<!-- publication wrapper - Attribute-preserving gamut mapping of measured BRDFs -->	
+                        <div id="mygrid">
+                            <!-- publication item -->
+                            <div class="publication_item">
+                                <div class="media">
+                                    <div class="pull-left">
+                                        <img height="70px" src="images/pubs/2017/publications_EGSR2017_GamutMapping.jpg"/>
+                                    </div>
+                                    <div class="media-body">
+                                        <h3>Attribute-preserving gamut mapping of measured BRDFs</h3>
+                                        <h4>Tiancheng Sun, Ana Serrano, Diego Gutierrez, y Belen Masia</h4>
+                                        <span class="publication_description">Computer Graphics Forum (Proc. EGSR), 2017</span> 
+										<span class="publication_extra">> Also presented as a poster at SIGGRAPH 2017, 
+										and awarded with the 1st place at the ACM Student Research Competition Grand Final (undergraduate category) 
+										</span>
+									</div>
+									<hr style="margin:8px auto">
+									<a href="./docs/Sun_EGSR2017_GamutMapping.pdf" target="_blank"><span class="label label-primary">PDF</span></a>
+                                    <a href="./projects/gamut_mapping.html" target="_blank"><span class="label label-primary">Project page</span></a>
+									<a href="./bibs/Sun_EGSR2017_attribute.bib" target="_blank"><span class="label label-primary">Bibtex</span></a>
+								</div>   
+							<!-- End publication item --> 	
+                            </div>					
+                        <!-- publication wrapper -->
+						</div>						
+						<!-- publication wrapper - Convolutional Sparse Coding for capturing High Speed Video Content -->
+                        <div id="mygrid">
+                            <!-- publication item -->
+                            <div class="publication_item">
+                                <div class="media">
+                                    <div class="pull-left">
+                                        <img height="70px" src="images/pubs/2017/publications_CGF2016_CSC-Video.jpg"/>
+                                    </div>
+                                    <div class="media-body">
+                                        <h3>Convolutional Sparse Coding for capturing High Speed Video Content</h3>
+                                        <h4>Ana Serrano, Elena Garces, Diego Gutierrez, and Belen Masia</h4>
+                                        <span class="publication_description">Computer Graphics Forum, 2017</span> </div>
+                                    <hr style="margin:8px auto">
+									<a href="./docs/Serrano_CGF2017_preprint.pdf" target="_blank"><span class="label label-primary">PDF</span></a>
+                                    <a href="./projects/CSC-Video.html" target="_blank"><span class="label label-primary">Project page</span></a>
+									<a href="./bibs/Serrano_CGF2017_CSCVideo.bib" target="_blank"><span class="label label-primary">Bibtex</span></a>
+                                </div>   
+							<!-- End publication item --> 
+                            </div>
+						<!-- publication wrapper -->
+						</div>
+						
+						<!-- publication wrapper - Dynamic range expansion based on image statistics -->
+                        <div id="mygrid">
+                            <!-- publication item -->
+                            <div class="publication_item">
+                                <div class="media">
+                                    <div class="pull-left">
+                                        <img height="70px" src="images/pubs/2015/publications_MMTA15_rTM.jpg"/>
+                                    </div>
+                                    <div class="media-body">
+                                        <h3>Dynamic range expansion based on image statistics</h3>
+                                        <h4>Belen Masia, Ana Serrano, and Diego Gutierrez</h4>
+                                        <span class="publication_description">Multimedia Tools & Applications, 2017</span> </div>
+									<hr style="margin:8px auto">
+                                    <a href="./docs/Masia_MTAP2015_rTM_Preprint.pdf" target="_blank"><span class="label label-primary">PDF</span></a>
+									<a href="./bibs/Masia_MTAP2015_RTM.bib" target="_blank"><span class="label label-primary">Bibtex</span></a>
+								</div>
+							<!-- End publication item -->		
+                            </div>
+                        <!-- End Publication Wrapper --> 
+                        </div>
+						
+                        <!-- publication wrapper - Intuitive Editing of Visual Appearance from Real-World Datasets -->
+                        <div id="mygrid">
+                            <!-- publication item -->
+                            <div class="publication_item">
+                                <div class="media">
+                                    <div class="pull-left">
+                                        <img height="70px" src="images/pubs/2017/2017IntuitiveEditing.png"/>
+                                    </div>
+                                    <div class="media-body">
+                                        <h3>Intuitive Editing of Visual Appearance from Real-World Datasets</h3>
+                                        <h4>Julio Marco, Ana Serrano, Adrian Jarabo, Belen Masia, and Diego Gutierrez</h4>
+                                        <span class="publication_description">Material Appearance Modeling Workshop, 2017</span> </div>
+                                    <hr style="margin:8px auto">
+                                    <a href="http://webdiis.unizar.es/~juliom/pubs/2017_MAM_Intuitive_Editing.pdf" target="_blank"><span class="label label-primary">PDF</span></a>
+                                    <a href="http://webdiis.unizar.es/~juliom/pubs/2017IntuitiveEditing.bib" target="_blank"><span class="label label-primary">Bibtex</span></a>
+                                </div>
+							<!-- End publication item -->		
+                            </div>
+                        <!-- End Publication Wrapper --> 
+                        </div>
+                        <!-- publication wrapper - Improved Intuitive Appearance Editing based on Soft PCA -->
+                        <div id="mygrid">
+                            <!-- publication item -->
+                            <div class="publication_item">
+                                <div class="media">
+                                    <div class="pull-left">
+                                        <img height="70px" src="images/pubs/2017/publications_CEIG2017_SoftPCA.jpg"/>
+                                    </div>
+                                    <div class="media-body">
+                                        <h3>Improved Intuitive Appearance Editing based on Soft PCA</h3>
+                                        <h4>Sandra Malpica, Miguel Barrio, Diego Gutierrez, Ana Serrano, and Belen Masia</h4>
+                                        <span class="publication_description">CEIG, 2017.</span> </div>
+                                    <hr style="margin:8px auto">
+                                    <a href="http://webdiis.unizar.es/~aserrano/docs/Malpica_CEIG2017_SoftPCA.pdf" target="_blank"><span class="label label-primary">PDF</span></a>
+                                    <a href="http://webdiis.unizar.es/~aserrano/bibs/Malpica_CEIG2017_SoftPCA.bib" target="_blank"><span class="label label-primary">Bibtex</span></a>
+                                </div>
+                            <!-- End publication item -->       
+                            </div>
+                        <!-- End Publication Wrapper --> 
+                        </div>
+						
+						<!-- Filter/Sort Menu -->
+                        <span class="content-title">2016</span>                        
+                        <!-- End Filter/Sort Menu -->
+						
+						<!-- publication wrapper - An intuitive control space for material appearance -->
+                        <div id="mygrid">
+                            <!-- publication item -->
+                            <div class="publication_item">
+                                <div class="media">
+                                    <div class="pull-left">
+                                        <img height="70px" src="images/pubs/2016/publications_SIGGAsia2016_Materials.jpg"/>
+                                    </div>
+                                    <div class="media-body">
+                                        <h3>An intuitive control space for material appearance</h3>
+                                        <h4>Ana Serrano, Diego Gutierrez, Karol Myszkowski, Hans-Peter Seidel, and Belen Masia</h4>
+                                        <span class="publication_description">Transactions on Graphics (Proc. SIGGRAPH Asia), 2016</span> </div>
+                                    <hr style="margin:8px auto">
+                                    <a href="./docs/Serrano_SIGGASIA2016_MaterialAppearance_preprint.pdf" target="_blank"><span class="label label-primary">PDF</span></a>
+                                    <a href="./projects/Material-Appearance.html" target="_blank"><span class="label label-primary">Project page</span></a>
+									<a href="./bibs/Serrano_SIGGASIA2016_MaterialAppearance.bib" target="_blank"><span class="label label-primary">Bibtex</span></a>
+									<a href="./files/Serrano_SIGGASIA16_MaterialAppearance_presentation.pptx" target="_blank"><span class="label label-primary">Slides</span></a>
+                                </div>
+							<!-- End publication item -->		
+                            </div>
+                        <!-- End Publication Wrapper --> 
+                        </div>
+						<!-- publication wrapper - Convolutional Sparse Coding for High Dynamic Range Imaging -->
+                        <div id="mygrid">
+                            <!-- publication item -->
+                            <div class="publication_item">
+                                <div class="media">
+                                    <div class="pull-left">
+                                        <img height="70px" src="images/pubs/2016/publications_EG2015_CSHDR.jpg"/>
+                                    </div>
+                                    <div class="media-body">
+                                        <h3>Convolutional Sparse Coding for High Dynamic Range Imaging</h3>
+                                        <h4>Ana Serrano, Felix Heide, Diego Gutierrez, Gordon Wetzstein, and Belen Masia</h4>
+                                        <span class="publication_description">Computer Graphics Forum (Proc. EUROGRAPHICS), 2016</span> 
+										<span class="publication_extra">> Best paper Honorable Mention</span>
+									</div>
+									<hr style="margin:8px auto">
+                                    <a href="./docs/Serrano_EG2016_HDR_Preprint.pdf" target="_blank"><span class="label label-primary">PDF</span></a>
+                                    <a href="http://webdiis.unizar.es/~bmasia/pubs/eg2016/project_page_CSCHDR.html" target="_blank"><span class="label label-primary">Project page</span></a>
+									<a href="./bibs/Serrano_EG2016_CSHDR.bib" target="_blank"><span class="label label-primary">Bibtex</span></a>
+									<a href="./files/EG2016_Convolutional%20Sparse%20Coding%20for%20HDR.pptx" target="_blank"><span class="label label-primary">Slides</span></a>
+                                </div>
+							<!-- End publication item -->		
+                            </div>
+                        <!-- End Publication Wrapper --> 
+                        </div>
+						<!-- publication wrapper - Intuitive Editing of Material Appearance -->
+                        <div id="mygrid">
+                            <!-- publication item -->
+                            <div class="publication_item">
+                                <div class="media">
+                                    <div class="pull-left">
+                                        <img height="70px" src="images/pubs/2016/publications_SIGG2016_Materials.jpg"/>
+                                    </div>
+                                    <div class="media-body">
+                                        <h3>Intuitive Editing of Material Appearance</h3>
+                                        <h4>Ana Serrano, Diego Gutierrez, Karol Myszkowski, Hans-Peter Seidel, and Belen Masia</h4>
+                                        <span class="publication_description">SIGGRAPH (Posters), 2016</span> </div>
+									<hr style="margin:8px auto">
+                                    <a href="./docs/Serrano_SIGG2016_Poster_Materiales.pdf" target="_blank"><span class="label label-primary">PDF</span></a>
+									<a href="./bibs/Serrano_SIGG2016_Materials.bib" target="_blank"><span class="label label-primary">Bibtex</span></a>
+                                </div>
+							<!-- End publication item -->		
+                            </div>
+                        <!-- End Publication Wrapper --> 
+                        </div>
+						<!-- publication wrapper - Crossmodal perception in immersive environments -->
+                        <div id="mygrid">
+                            <!-- publication item -->
+                            <div class="publication_item">
+                                <div class="media">
+                                    <div class="pull-left">
+                                        <img height="70px" src="images/pubs/2016/publications_CEIG2016_Crossmodal.jpg"/>
+                                    </div>
+                                    <div class="media-body">
+                                        <h3>Crossmodal perception in immersive environments</h3>
+                                        <h4>Marcos Allue, Ana Serrano, Manuel G. Bedia, and Belen Masia</h4>
+                                        <span class="publication_description">Spanish Conference on Computer Graphics (CEIG), 2016</span> 
+										<span class="publication_extra">> Best paper (1 in 2)</span>
+									</div>
+									<hr style="margin:8px auto">
+                                    <a href="./docs/Allue_CEIG2016_Crossmodal.pdf" target="_blank"><span class="label label-primary">PDF</span></a>
+									<a href="./bibs/Allue_CEIG2016_Crossmodal.bib" target="_blank"><span class="label label-primary">Bibtex</span></a>
+									<a href="http://webdiis.unizar.es/~bmasia/files/CEIG2016_Crossmodal_FINAL.pptx" target="_blank"><span class="label label-primary">Slides</span></a>
+								</div>
+							<!-- End publication item -->		
+                            </div>
+                        <!-- End Publication Wrapper --> 
+                        </div>
+												
+						<!-- Filter/Sort Menu -->
+                        <span class="content-title">2015</span>                        
+                        <!-- End Filter/Sort Menu -->
+						
+						
+						<!-- publication wrapper - Compressive High-Speed Video Acquisition -->
+                        <div id="mygrid">
+                            <!-- publication item -->
+                            <div class="publication_item">
+                                <div class="media">
+                                    <div class="pull-left">
+                                        <img height="70px" src="images/pubs/2015/publications_CEIG2015_VideoCS.jpg"/>
+                                    </div>
+                                    <div class="media-body">
+                                        <h3>Compressive High-Speed Video Acquisition</h3>
+                                        <h4>Ana Serrano, Diego Gutierrez, and Belen Masia</h4>
+                                        <span class="publication_description">Spanish Conference on Computer Graphics (CEIG), 2015</span> 
+										<span class="publication_extra">> Best paper (1 in 2)</span>
+									</div>
+									<hr style="margin:8px auto">
+                                    <a href="./docs/Serrano_CEIG2015_CSVideo.pdf" target="_blank"><span class="label label-primary">PDF</span></a>
+									<a href="./bibs/Serrano_CEIG2015_CSVideo.bib" target="_blank"><span class="label label-primary">Bibtex</span></a>
+								</div>
+							<!-- End publication item -->		
+                            </div>
+                        <!-- End Publication Wrapper --> 
+                        </div>
+						<!-- publication wrapper - An In-Depth Analysis of Compressive Sensing for High Speed Video Acquisition -->
+                        <div id="mygrid">
+                            <!-- publication item -->
+                            <div class="publication_item">
+                                <div class="media">
+                                    <div class="pull-left">
+                                        <img height="70px" src="images/pubs/2015/publications_ICCP2015_poster_VideoCS.jpg"/>
+                                    </div>
+                                    <div class="media-body">
+                                        <h3>An In-Depth Analysis of Compressive Sensing for High Speed Video Acquisition</h3>
+                                        <h4>Ana Serrano, Diego Gutierrez, and Belen Masia</h4>
+                                        <span class="publication_description">ICCP (Posters), 2015</span> </div>
+									<hr style="margin:8px auto">
+                                    <a href="./docs/Serrano_ICCP2015_CSVideo_Poster.pdf" target="_blank"><span class="label label-primary">PDF</span></a>
+									<a href="./bibs/Serrano_ICCP2015_CSVideo.bib" target="_blank"><span class="label label-primary">Bibtex</span></a>
+								</div>
+							<!-- End publication item -->		
+                            </div>
+                        <!-- End Publication Wrapper --> 
+                        </div>
+						
+						<!-- Filter/Sort Menu -->
+                        <span class="content-title">2014</span>                        
+                        <!-- End Filter/Sort Menu -->
+						
+						<!-- publication wrapper - High temporal resolution video acquisition by using coded exposures and dictionary learning -->
+                        <div id="mygrid">
+                            <!-- publication item -->
+                            <div class="publication_item">
+                                <div class="media">
+                                    <div class="pull-left">
+                                        <img height="70px" src="images/pubs/2014/publications_PFC.jpg"/>
+                                    </div>
+                                    <div class="media-body">
+                                        <h3>High temporal resolution video acquisition by using coded exposures and dictionary learning</h3>
+                                        <h4>Ana Serrano</h4>
+                                        <span class="publication_description">Telecommunications Engineering Thesis, 2014.</span>
+										</br><span class="publication_extra">> With honors</span>
+									 </div>
+									<hr style="margin:8px auto">
+                                    <a href="./docs/AnaSerranoPFC_completo.pdf" target="_blank"><span class="label label-primary">PDF (spanish)</span></a>
+								</div>
+							<!-- End publication item -->		
+                            </div>
+                        <!-- End Publication Wrapper --> 
+                        </div>
+						<!-- publication wrapper - ATLAS Pixel detector firmware upgrade: Reading out the standard output for the IBL-ROD via VME -->
+                        <div id="mygrid">
+                            <!-- publication item -->
+                            <div class="publication_item">
+                                <div class="media">
+                                    <div class="pull-left">
+                                        <img height="70px" src="images/pubs/2014/publications_CERN_TechReport_SummerStudent2014.png"/>
+                                    </div>
+                                    <div class="media-body">
+                                        <h3>ATLAS Pixel detector firmware upgrade: Reading out the standard output for the IBL-ROD via VME</h3>
+                                        <h4>Ana Serrano</h4>
+                                        <span class="publication_description">Technical Report, Physics Department Internal Notes, European Organization for Nuclear Research (CERN), 2014</span> 
+									</div>
+									<hr style="margin:8px auto">
+                                    <a href="http://cds.cern.ch/record/1751025/?ln=en" target="_blank"><span class="label label-primary">PDF</span></a>
+								</div>
+							<!-- End publication item -->		
+                            </div>
+                        <!-- End Publication Wrapper --> 
+                        </div>
+						
+                    </div>
+					<!-- End Publication class inner-->                    
+					<div class="clear"></div>
+                </article>
+                <!-- End Publications Section -->
+				
+				<!-- Internships Section -->
+                <article class="hs-content publication-section" id="section3">
+                    <span class="sec-icon fa fa-plane"></span>
+                    <div class="hs-inner">
+                        <span class="before-title">.03</span>
+                        <h2>INTERNSHIPS</h2>
+                        <!-- Filter/Sort Menu -->
+                        <span class="content-title">INTERNSHIPS AND RESEARCH STAYS</span>                        
+                        <!-- End Filter/Sort Menu -->
+
+                        <!-- publication wrapper - Max-Planck institut informatik -->
+                        <div id="mygrid">
+                            <!-- publication item -->
+                            <div class="publication_item">
+                                <div class="media">
+                                    <div class="pull-left">
+                                        <img height="70px" src="images/logos/intern_MPI_logo.png"/>
+                                    </div>
+                                    <div class="media-body">
+                                        <h3 class="internship_title">SEP 2018 - NOV 2018</h3>
+                                        <span class="publication_description">Visiting Researcher at the <a class="author-link" href="https://www.mpi-inf.mpg.de/departments/computer-graphics/" target="_blank">Computer Graphics</a> group, Max-Planck institut informatik.</span> 
+                                    </div>
+                                </div>                                
+                            </div>
+                            <!-- End publication item -->                          
+                        </div>
+                        <!-- End Publication Wrapper -->
+                        <!-- publication wrapper - Adobe Research -->
+                        <div id="mygrid">
+                            <!-- publication item -->
+                            <div class="publication_item">
+                                <div class="media">
+                                    <div class="pull-left">
+                                        <img height="70px" src="images/logos/adobe-logo.jpg"/>
+                                    </div>
+                                    <div class="media-body">
+                                        <h3 class="internship_title">JUN 2017 - SEP 2017</h3>
+                                        <span class="publication_description">Research intern at <a class="author-link" href="https://research.adobe.com/" target="_blank">Adobe Creative Technologies Lab</a>, Adobe Research.</span> 
+                                    </div>
+                                </div>                                
+                            </div>
+                            <!-- End publication item -->                          
+                        </div>
+                        <!-- End Publication Wrapper -->
+                        <!-- publication wrapper - Stanford University -->
+                        <div id="mygrid">
+                            <!-- publication item -->
+                            <div class="publication_item">
+                                <div class="media">
+                                    <div class="pull-left">
+                                        <img height="70px" src="images/logos/intern_SCI_logo.png"/>
+                                    </div>
+                                    <div class="media-body">
+                                        <h3 class="internship_title">JUN 2016 - AUG 2016</h3>
+                                        <span class="publication_description">Visiting Researcher at the <a class="author-link" href="http://computationalimaging.org/" target="_blank">Stanford Computational Imaging</a> group, Stanford University.</span> 
+                                    </div>
+                                </div>                                
+                            </div>
+                            <!-- End publication item -->                          
+                        </div>
+                        <!-- End Publication Wrapper -->
+                        <!-- publication wrapper - Max-Planck institut informatik -->
+                        <div id="mygrid">
+                            <!-- publication item -->
+                            <div class="publication_item">
+                                <div class="media">
+                                    <div class="pull-left">
+                                        <img height="70px" src="images/logos/intern_MPI_logo.png"/>
+                                    </div>
+                                    <div class="media-body">
+                                        <h3 class="internship_title">AUG 2015 - JAN 2016</h3>
+                                        <span class="publication_description">Visiting Researcher at the <a class="author-link" href="https://www.mpi-inf.mpg.de/departments/computer-graphics/" target="_blank">Computer Graphics</a> group, Max-Planck institut informatik.</span> 
+                                    </div>
+                                </div>                                
+                            </div>
+                            <!-- End publication item -->                          
+                        </div>
+                        <!-- End Publication Wrapper -->
+                        <!-- publication wrapper - Stanford University -->
+                        <div id="mygrid">
+                            <!-- publication item -->
+                            <div class="publication_item">
+                                <div class="media">
+                                    <div class="pull-left">
+                                        <img height="70px" src="images/logos/intern_SCI_logo.png"/>
+                                    </div>
+                                    <div class="media-body">
+                                        <h3 class="internship_title">APR 2015 - MAY 2015</h3>
+                                        <span class="publication_description">Visiting Researcher at the <a class="author-link" href="http://computationalimaging.org/" target="_blank">Stanford Computational Imaging</a> group, Stanford University.</span>
+                                    </div>
+                                </div>                                
+                            </div>
+                            <!-- End publication item -->                          
+                        </div>
+                        <!-- End Publication Wrapper -->
+                        <!-- publication wrapper - CERN -->
+                        <div id="mygrid">
+                            <!-- publication item -->
+                            <div class="publication_item">
+                                <div class="media">
+                                    <div class="pull-left">
+                                        <img height="70px" src="images/logos/intern_CERN_logo.gif"/>
+                                    </div>
+                                    <div class="media-body">
+                                        <h3 class="internship_title">JUN 2014 - AUG 2014</h3>
+                                        <span class="publication_description">Summer Student at the ATLAS Pixel DAQ group, <a class="author-link" href="http://home.web.cern.ch/" target="_blank">European Organization for Nuclear Research (CERN)</a>.</span>
+                                        </br><span class="publication_extra">FPGA Firmware development for the upgrade of the ATLAS detector.</span> 
+
+
+                                    </div>
+                                </div>                                
+                            </div>
+                            <!-- End publication item -->                          
+                        </div>
+                        <!-- End Publication Wrapper -->
+                    </div>
+                    <div class="clear"></div>
+                </article>
+                <!-- End Internships Section -->
+
+                <!-- Teaching Section -->
+                <article class="hs-content teaching-section" id="section4">
+                    <span class="sec-icon fa fa-book"></span>
+                    <div class="hs-inner">
+                        <span class="before-title">.04</span>
+                        <h2>TEACHING</h2>
+                        <div class="teaching-wrapper">
+                            <ul class="teaching">                                
+                                <li class="time-label">
+                                    <span class="content-title">TEACHING HISTORY</span>
+                                </li>
+                                <li>
+                                    <div class="teaching-tag">
+                                        <span class="fa fa-suitcase"></span>
+                                        <div class="teaching-date">
+                                            <span>2019</span>
+                                            <div class="separator"></div>
+                                            <span>2016</span>
+                                        </div>
+                                    </div>
+                                    <div class="timeline-item">
+                                        <h3 class="timeline-header">Programming Fundamentals</h3>
+                                        <div class="timeline-body">
+                                            <h4>Universidad de Zaragoza</h4>
+                                            <span>&nbsp;</span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="teaching-tag">
+                                        <span class="fa fa-suitcase"></span>
+                                        <div class="teaching-date">
+                                            <span>2018</span>
+                                            <div class="separator"></div>
+                                            <span>2017</span>
+                                        </div>
+                                    </div>
+                                    <div class="timeline-item">
+                                        <h3 class="timeline-header">Image composition and editing</h3>
+                                        <div class="timeline-body">
+                                            <h4>Universidad de Zaragoza</h4>
+											<span>&nbsp;</span>
+                                        </div>
+                                    </div>
+                                </li>                               
+                            </ul>
+                        </div>						
+                        <div class="teaching-wrapper">
+						<ul class="teaching">  
+								<li class="time-label">
+                                    <span class="content-title">STUDENTS</span>
+                                </li>
+                                <li>
+                                    <div class="timeline-item" style="margin-left: 0px;">
+                                        <div class="timeline-body">
+                                            <p>												
+												<i>This section contains info for students and it is only available in Spanish.</i>
+											</p>
+											<p>
+												Actualmente el grupo se centra en cuatro líneas principales de investigación:
+												<ol style="list-style-type: disc;">	
+													<li>Transient imaging</li>
+													<li>Realidad Virtual</li>
+													<li>Diagnosis de defectos visuales</li>
+													<li>Percepción y edición intuitiva de apariencia</li>
+												</ol>
+											</p>
+											<p>
+												Si quieres realizar el TFG con nosotros, o estás interesado en saber lo que hacemos, puedes comenzar consultando <a class="author-link" href="http://graphics.unizar.es" target="_blank">esta web</a> que contiene recopilados los trabajos del grupo.
+											</p>
+											<p>
+												Normalmente no tenemos proyectos concretos ofertados como TFGs. Si estás interesado, ven a hablar con nosotros!
+												En esta página incluyo una lista de los TFGs dirigidos hasta el momento como muestra del tipo de proyectos que solemos dirigir.
+											</p>
+                                        </div>		
+                                    </div>
+                                </li>  
+								
+								<li>
+                                    <div class="teaching-tag">
+                                        <span class="fas fa-user-graduate"></span>
+                                        <div class="teaching-date">
+                                            <span>Jan </span>          
+											<span>2020</span>											
+                                        </div>
+                                    </div>
+                                    <div class="timeline-item">
+                                        <h3 class="timeline-header">Estudio y mejora de la reproducción de paralaje para la visualización de contenido 360º en realidad virtual</h3>
+                                        <div class="timeline-body">
+                                            <h4>Autor: Daniel Martín</h4>
+                                            <span>Master en Ing. Informática. MH 9.8/10.0</span>
+											<span style="float: right;right: 5px;">
+											<a href="docs/Resumen_DanielMartin.pdf" target="_blank" ><span class="label label-primary" style="color:#fff;">Resumen</span></a>
+											</span>
+										</div>
+                                    </div>
+                                </li>
+								
+								
+								<li>
+                                    <div class="teaching-tag">
+                                        <span class="fas fa-user-graduate"></span>
+                                        <div class="teaching-date">
+                                            <span>Jul </span>          
+											<span>2019</span>											
+                                        </div>
+                                    </div>
+                                    <div class="timeline-item">
+                                        <h3 class="timeline-header">Segmentación cognitiva de eventos en realidad virtual: aplicación a metraje completo</h3>
+                                        <div class="timeline-body">
+                                            <h4>Autor: Carlos Marañes</h4>
+                                            <span>Grado en Ing. Informática. MH 9.5/10.0</span>
+											<span style="float: right;right: 5px;">
+											<a href="docs/Resumen_CarlosMaranies.pdf" target="_blank" ><span class="label label-primary" style="color:#fff;">Resumen</span></a>
+											</span>
+										</div>
+                                    </div>
+                                </li>
+								
+								<li>
+                                    <div class="teaching-tag">
+                                        <span class="fas fa-user-graduate"></span>
+                                        <div class="teaching-date">
+                                            <span>Dic </span>          
+											<span>2018</span>											
+                                        </div>
+                                    </div>
+                                    <div class="timeline-item">
+                                        <h3 class="timeline-header">Estudio y aplicaciones de la percepción sensorial humana en Realidad Virtual</h3>
+                                        <div class="timeline-body">
+                                            <h4>Autor: Sandra Malpica</h4>
+                                            <span>Master en Ing. Biomédica. MH 9.5/10.0</span>
+											<span style="float: right;right: 5px;">
+											<a href="docs/Resumen_SandraMalpica_TFM.pdf" target="_blank" ><span class="label label-primary" style="color:#fff;">Resumen</span></a>
+											</span>
+										</div>
+                                    </div>
+                                </li>
+								
+								<li>
+                                    <div class="teaching-tag">
+                                        <span class="fas fa-user-graduate"></span>
+                                        <div class="teaching-date">
+                                            <span>Jun </span>          
+											<span>2018</span>											
+                                        </div>
+                                    </div>
+                                    <div class="timeline-item">
+                                        <h3 class="timeline-header">Generación de escenas virtuales para evaluación de algoritmos de procesado de video 360</h3>
+                                        <div class="timeline-body">
+                                            <h4>Autor: Miguel Martinez</h4>
+                                            <span>Grado en Ing. de Diseño Industrial y Desarrollo de Producto. MH 9.5/10.0</span>
+											<span style="float: right;right: 5px;">
+											<a href="docs/Resumen_MiguelMartinez.pdf" target="_blank" ><span class="label label-primary" style="color:#fff;">Resumen</span></a>
+											</span>
+										</div>
+                                    </div>
+                                </li>
+								<li>
+                                    <div class="teaching-tag">
+                                        <span class="fas fa-user-graduate"></span>
+                                        <div class="teaching-date">
+                                            <span>Sep </span>          
+											<span>2017</span>											
+                                        </div>
+                                    </div>
+                                    <div class="timeline-item">
+                                        <h3 class="timeline-header">Edición en Realidad Virtual: influencia de técnicas sonoras en la continuidad narrativa</h3>
+                                        <div class="timeline-body">
+                                            <h4>Autor: Javier Camón</h4>
+                                            <span>Grado en Ing. de Diseño Industrial y Desarrollo de Producto. MH 9.5/10.0</span>
+											<span style="float: right;right: 5px;">
+											<a href="docs/Resumen_JavierCamon.pdf" target="_blank"><span class="label label-primary" style="color:#fff;">Resumen</span></a>
+											</span>
+										</div>
+                                    </div>
+                                </li>
+								<li>
+                                    <div class="teaching-tag">
+                                        <span class="fas fa-user-graduate"></span>
+                                        <div class="teaching-date">
+                                            <span>Sep</span>          
+											<span>2017</span>											
+                                        </div>
+                                    </div>
+                                    <div class="timeline-item">
+                                        <h3 class="timeline-header">Estudio de modelos de representación de materiales para su uso en edición intuitiva de apariencia</h3>
+                                        <div class="timeline-body">
+                                            <h4>Autor: Miguel Barrio</h4>
+                                            <span>Grado en Ing. de Tecnologías y Servicios de Telecomunicación. SB 9.0/10.0</span>
+											<span style="float: right;right: 5px;">
+											<a href="docs/Resumen_MiguelBarrio.pdf" target="_blank"><span class="label label-primary" style="color:#fff;">Resumen</span></a>
+											</span>
+										</div>
+                                    </div>
+                                </li>
+								<li>
+                                    <div class="teaching-tag">
+                                        <span class="fas fa-user-graduate"></span>
+                                        <div class="teaching-date">
+                                            <span>Abr</span>          
+											<span>2017</span>											
+                                        </div>
+                                    </div>
+                                    <div class="timeline-item">
+                                        <h3 class="timeline-header">Mejora de un modelo de representación de materiales para su uso en edición intuitiva de apariencia</h3>
+                                        <div class="timeline-body">
+                                            <h4>Autor: Sandra Malpica</h4>
+                                            <span>Grado en Ing. Informática. SB 9.4/10.0</span>
+											<span style="float: right;right: 5px;">
+											<a href="docs/Resumen_Sandra.pdf" target="_blank"><span class="label label-primary" style="color:#fff;">Resumen</span></a>
+											</span>
+										</div>
+                                    </div>
+                                </li>
+								<li>
+                                    <div class="teaching-tag">
+                                        <span class="fas fa-user-graduate"></span>
+                                        <div class="teaching-date">
+                                            <span>Abr</span>          
+											<span>2017</span>											
+                                        </div>
+                                    </div>
+                                    <div class="timeline-item">
+                                        <h3 class="timeline-header">Edición cinematográfica y continuidad narrativa en realidad virtual</h3>
+                                        <div class="timeline-body">
+                                            <h4>Autor: Jaime Ruiz-Borau</h4>
+                                            <span>Grado en Ing. Informática. NB 8.5/10.0</span>
+											<span style="float: right;right: 5px;">
+											<a href="docs/Resumen_Jaime.pdf" target="_blank"><span class="label label-primary" style="color:#fff;">Resumen</span></a>
+											</span>
+										</div>
+                                    </div>
+                                </li>
+								<li>
+                                    <div class="teaching-tag">
+                                        <span class="fas fa-user-graduate"></span>
+                                        <div class="teaching-date">
+                                            <span>Feb</span>          
+											<span>2017</span>											
+                                        </div>
+                                    </div>
+                                    <div class="timeline-item">
+                                        <h3 class="timeline-header">Transferencia de textura y estilo entre imágenes utilizando redes neuronales convolucionales: un enfoque orientado a la conservación de contenido</h3>
+                                        <div class="timeline-body">
+                                            <h4>Autor: Santiago Calvo</h4>
+                                            <span>Grado en Ing. de Tecnologías y Servicios de Telecomunicación. SB 9.2/10.0</span>
+											<span style="float: right;right: 5px;">
+											<a href="docs/Resumen_Santiago.pdf" target="_blank"><span class="label label-primary" style="color:#fff;">Resumen</span></a>
+											</span>
+										</div>
+                                    </div>
+                                </li>
+								<li>
+                                    <div class="teaching-tag">
+                                        <span class="fas fa-user-graduate"></span>
+                                        <div class="teaching-date">
+                                            <span>Dic</span>          
+											<span>2016</span>											
+                                        </div>
+                                    </div>
+                                    <div class="timeline-item">
+                                        <h3 class="timeline-header">Percepción crossmodal en intornos inmersivos</h3>
+                                        <div class="timeline-body">
+                                            <h4>Autor: Marcos Allué</h4>
+                                            <span>Grado en Ing. Informática. SB 9.2/10.0</span>
+											<span style="float: right;right: 5px;">
+											<a href="docs/Resumen_Marcos.pdf" target="_blank"><span class="label label-primary" style="color:#fff;">Resumen</span></a>
+											</span>
+										</div>
+                                    </div>
+                                </li>
+								<li>
+                                    <div class="teaching-tag">
+                                        <span class="fas fa-user-graduate"></span>
+                                        <div class="teaching-date">
+                                            <span>Feb</span>          
+											<span>2015</span>											
+                                        </div>
+                                    </div>
+                                    <div class="timeline-item">
+                                        <h3 class="timeline-header">Captura de imágenes de alto rango dinámico en un solo disparo mediante Compressive Sensing</h3>
+                                        <div class="timeline-body">
+                                            <h4>Autor: Nicolás Landa</h4>
+                                            <span>Grado en Ing. Informática. SB 9.3/10.0</span>
+											<span style="float: right;right: 5px;">
+											<a href="docs/Resumen_Nico.pdf" target="_blank"><span class="label label-primary" style="color:#fff;">Resumen</span></a>
+											</span>
+										</div>
+                                    </div>
+                                </li>
+                            </ul>
+					</div>
+                </article>
+                <!-- End Teaching Section -->
+
+               
+                <!-- Contact Section -->
+                <article class="hs-content contact-section" id="section5">
+                    <span class="sec-icon fa fa-envelope"></span>
+                    <div class="hs-inner">
+                        <span class="before-title">.05</span>
+                        <h2>CONTACT</h2>
+                        <div class="contact_info">
+                            <h3>Get in touch</h3>
+                            <hr>
+                            <h5>ADDRESS</h5>
+                            <h6>Dpto. Informatica e Ing. de Sistemas. Lab. 2.06.<br> 
+							C/ Maria de Luna, 1. Ed. Ada Byron.<br> 
+							50018 - Zaragoza<br> 
+							SPAIN</h6>
+							<h5>PHONE</h5>
+                            <h6>(0034) 976762353</h6>
+							<h5>EMAIL</h5>
+                            <h6>anase@unizar.es</h6>
+
+                            <hr>
+                        </div>
+                        <!-- Contact Form -->
+                        <fieldset id="contact_form">
+                            <div id="result"></div>
+                            <input type="text" name="name" id="name" placeholder="NAME" />
+                            <input type="email" name="email" id="email" placeholder="EMAIL" />
+                            <textarea name="message" id="message" placeholder="MESSAGE"></textarea>
+                            <span class="submit_btn" id="submit_btn">SEND MESSAGE</span>
+                        </fieldset>
+                        <!-- End Contact Form -->
+                    </div>
+                </article>
+                <!-- End Contact Section -->
+            </div>
+            <!-- End hs-content-wrapper -->
+        </div>
+        <!-- End hs-content-scroller -->
+    </div>
+    <!-- End container -->
+    <div id="my-panel">
+    </div>
+
+    <!-- PLUGIN SCRIPTS -->
+
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/default.js"></script>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+    <script type="text/javascript" src="js/watch.js"></script>
+    <script type="text/javascript" src="js/layout.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+
+    <!-- END PLUGIN SCRIPTS -->
+</body>
+
+</html>
