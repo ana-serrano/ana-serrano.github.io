@@ -1,0 +1,113 @@
+.hs-content .active-sec {
+    background: #C9C2B3 !important;
+}
+.hs-inner h2:after {
+    background: #C9C2B3;
+}
+a.hs-totop-link {
+    background: #C9C2B3;
+}
+.hs-inner .before-title {
+    color: #C9C2B3;
+}
+.hs-menu nav .active-sec .fa {
+    background: #C9C2B3;
+}
+    .hs-headline .download{
+background: #C9C2B3;
+    }
+.aside1 a {
+    color: #C9C2B3;
+}
+.aside1 a:hover {
+    background: #C9C2B3;
+}
+.aside1 .aside-content .part1 {
+    color: #C9C2B3;
+}
+#header .news-scroll span {
+    color: #C9C2B3;
+}
+.tabs-left > .nav-tabs > li > a {
+    background: #C9C2B3;
+}
+.tabs-left > .nav-tabs > li > a:hover, .tabs-left > .nav-tabs > li > a:focus {
+    background: #C9C2B3;
+}
+.about-section .tab-pane h4 {
+    color: #C9C2B3;
+}
+.resume-section .resume > li > .resume-tag {
+    background: #C9C2B3;
+}
+.resume-section .resume h4 {
+    color: #C9C2B3;
+}
+.bar-main-container {
+    background: #C9C2B3;
+}
+.publication-section .date {
+    background: #C9C2B3;
+}
+.publication-section .media h4 {
+    color: #C9C2B3;
+}
+.publication-detail .ext_link {
+    background: #C9C2B3;
+}
+.publication-detail .ext_link:hover {
+    color: #C9C2B3;
+}
+.team-card-container h3 {
+    color: #C9C2B3;
+}
+.team-card-container .back .social-icons a {
+    background: #C9C2B3;
+}
+.research-section .slide-header h4 {
+    color: #C9C2B3;
+}
+.research-section .slider-details {
+    background: #C9C2B3;
+}
+.teaching-section .teaching > li > .teaching-tag {
+    background: #C9C2B3;
+}
+.teaching-section .teaching h4 {
+    color: #C9C2B3;
+}
+.work_desc .ext_link {
+    background: #C9C2B3;
+}
+.work_desc .ext_link:hover {
+    color: #C9C2B3;
+}
+.contact-section #contact_form .submit_btn:hover {
+    color: #C9C2B3;
+    border: 1px solid #C9C2B3;
+}
+.contact-section .contact_info h3 {
+    color: #C9C2B3;
+}
+.pace .pace-progress {
+    background: #C9C2B3;
+}
+@-webkit-keyframes pulse {
+    0% {
+        box-shadow: 0 0 0 .1em #C9C2B3;
+    }
+    100% {
+        box-shadow: 0 0 0 3em transparent;
+    }
+}
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 0 .1em #C9C2B3;
+    }
+    100% {
+        box-shadow: 0 0 0 3em transparent;
+    }
+}
+#my-link {
+    background: #C9C2B3;
+}
