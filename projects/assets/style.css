@@ -1,0 +1,92 @@
+html, body, div, span,
+applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dd, dl, dt, li, ol, ul,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    line-height: 1;
+    font-family: inherit;
+    text-align: left;
+    vertical-align: baseline;
+}
+a img, :link img, :visited img {border: 0}
+table {border-collapse: collapse; border-spacing: 0}
+ul {list-style: none}
+q:before, q:after,
+blockquote:before, blockquote:after {content: ""}
+
+
+@font-face {  
+  font-family: "Myriad Pro Regular";
+  src: url(fonts/MyriadPro-Regular.otf) format("opentype");
+}
+
+@font-face {  
+  font-family: "Myriad Pro Bold";
+  src: url(fonts/MyriadPro-Bold.otf) format("opentype");
+}
+
+@font-face {  
+  font-family: "Myriad Pro Italic";
+  src: url(fonts/MyriadPro-It.otf) format("opentype");
+}
+
+
+body           {font-size:18px; font-family:"Myriad Pro Regular",Helvetica,sans-serif; color:#555 }
+h1             {font-size:30px; margin-top:40px}
+h1 a           {color: #7e513c}
+p              {margin:15px 0; line-height:1.5em; text-align:justify}
+a              {color:#545976; text-decoration:none}
+a:hover        {padding-bottom: 1px; color:#9a9cb5; border-bottom:1px solid #9a9cb5}
+a.nounderline:hover {color:#9a9cb5; border-bottom:none}
+a.underline    {padding-bottom: 1px; border-bottom:1px solid #545976}
+a.underline:hover {padding-bottom: 1px; border-bottom:1px solid #9a9cb5}
+ul             {margin:15px 0; margin-left:25px; list-style-type:disc}
+li             {margin:10px 0; text-align:justify}
+
+#cover         {float:right; margin:20px 0 5px 30px}
+#wrapper       {width:850px; margin:0 auto; padding-top: 40px; margin-bottom: 80px}
+#title         {color:#545976; font-size:45px; text-align:center}
+#journal       {font-size:20px; text-align:center; font-style:italic}
+#teaser        {margin-top:40px}
+
+#authors       {width:100%; margin-top:30px}
+#authors tr    {height:25px}
+#authors tr.mail {height:35px}
+#authors td    {text-align:center}
+#authors #affiliation {font-size:14px; padding-top: 10px}
+#authors #affiliation span {margin-left: 20px}
+
+#navigation {
+    font-size:20px;
+    text-align:center;
+    text-transform:uppercase;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:10px
+}
+#navigation td {padding:15px; padding-bottom:0px}
+
+#bibtexsec {
+    font-family:"Courier",monospace; 
+    white-space:pre; 
+    font-size:12px;
+    background-color: #f3f3f3;
+    padding: 15px;
+    overflow:scroll; 
+    margin:15px 0
+}
+
+
+.super         {vertical-align:super; font-size:70%}
+.bold          {font-family:"Myriad Pro Bold",Helvetica,sans-serif; font-weight:bold}
+.italic,#journal {font-family:"Myriad Pro Italic",Helvetica,sans-serif; font-style:italic}

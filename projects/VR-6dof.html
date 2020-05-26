@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Motion parallax for 360&#176 RGBD video</title>
+<!--[if IE]>
+<link href="../shared/style-ie.css" rel="stylesheet" type="text/css">
+<![endif]-->
+<link href="./assets/style.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="./assets/scroll.js"></script>
+</head>
+
+<body>
+<a id="top"></a>
+<div id="wrapper">
+<div id="header">
+<div id="journal">IEEE TVCG (Proc. IEEE VR 2019)</div>
+<p></p>
+<div id="title"><a href="http://webdiis.unizar.es/~aserrano/projects/VR-6dof.html" class="nounderline">Motion parallax for 360&#176 RGBD video</a></div>
+
+
+<table id="authors">
+<tbody><tr>
+<td colspan="3"><a href="http://webdiis.unizar.es/~aserrano/">Ana Serrano</a><span class="super">1</span></td>
+<td colspan="3"><a href="">Incheol Kim</a><span class="super">1</span></td>
+<td colspan="3"><a href="http://www.zhilichen.com/">Zhili Chen</a><span class="super">2</span></td>
+<td colspan="3"><a href="http://www.stephendiverdi.com/">Stephen DiVerdi</a><span class="super">2</span></td>
+</tr>
+<tr>
+<td colspan="4"><a href="http://giga.cps.unizar.es/~diegog/">Diego Gutierrez</a><span class="super">1</span></td>
+<td colspan="4"><a href="https://research.adobe.com/person/aaron-hertzmann/">Aaron Hertzmann</a><span class="super">2</span></td>
+<td colspan="4"><a href="http://webdiis.unizar.es/~bmasia/">Belen Masia</a><span class="super">1</span></td>
+</tr>
+<!--<tr class="mail">
+<td><img src="../shared/mails/bmasia_rr.png"></td>
+</tr>-->
+
+<tr>
+<td colspan="12" id="affiliation">
+<span class="super">1</span> Universidad de Zaragoza, I3A
+<span class="super">2</span> Adobe Research
+</td></tr>
+</tbody></table>
+
+<p></p>
+
+<!--<a href="http://webdiis.unizar.es/~aserrano/projects/images/teaser_VR-6dof.png" class="nounderline"><img style="width:850px;" src="./images/teaser_VR-6dof.png" alt="Teaser" id="teaser"></a>-->
+
+<video width="100%" controls>
+  <source src="http://webdiis.unizar.es/~aserrano/files/VR-6dof_mainvideo.mp4" type="video/mp4">
+  Your browser does not support HTML5 video.
+</video>
+
+
+<table id="navigation">
+<tbody><tr>
+<td><a href="http://webdiis.unizar.es/~aserrano/projects/VR-6dof.html#news">News</a></td>
+<td><a href="http://webdiis.unizar.es/~aserrano/projects/VR-6dof.html#abstract">Abstract</a></td>
+<td><a href="http://webdiis.unizar.es/~aserrano/projects/VR-6dof.html#downloads">Downloads</a></td>
+<td><a href="http://webdiis.unizar.es/~aserrano/projects/VR-6dof.html#bibtex">Bibtex</a></td>
+<!--<td><a href="http://webdiis.unizar.es/~aserrano/projects/VR-cinematography.html#links">Links</a></td>-->
+<!--<td><a href="http://webdiis.unizar.es/~aserrano/projects/VR-6dof.html#related">Related</a></td>-->
+</tr>
+</tbody></table>
+</div>
+
+
+<div id="content">
+
+<h1><a id="news" href="http://webdiis.unizar.es/~aserrano/projects/VR-6dof.html#top">News</a></h1>
+<ul>
+<li><span class="italic">December, 2018</span>:  Web launched.</li>
+<li><span class="italic">February, 2019</span>: Paper available (<span class="italic">see <a href="http://webdiis.unizar.es/~aserrano/projects/VR-6dof.html#downloads">Downloads</a></span>).</li>
+<li><span class="italic">February, 2019</span>: Demo available (<span class="italic">see <a href="http://webdiis.unizar.es/~aserrano/projects/VR-6dof.html#downloads">Downloads</a></span>).</li>
+<li><span class="italic">April, 2019</span>: Source code available (<span class="italic">see <a href="http://webdiis.unizar.es/~aserrano/projects/VR-6dof.html#downloads">Downloads</a></span>).</li>
+
+</ul>
+
+
+<h1><a id="abstract" href="http://webdiis.unizar.es/~aserrano/projects/VR-6dof.html#top">Abstract</a></h1>
+<p>
+We present a method for adding parallax and real-time playback of 360&#176 videos in Virtual Reality headsets. In current video
+players, the playback does not respond to translational head movement, which reduces the feeling of immersion, and causes motion
+sickness for some viewers. Given a 360&#176 video and its corresponding depth (provided by current stereo 360 stitching algorithms), a
+naive image-based rendering approach would use the depth to generate a 3D mesh around the viewer, then translate it appropriately
+as the viewer moves their head. However, this approach breaks at depth discontinuities, showing visible distortions, while cutting the
+mesh at such discontinuities leads to ragged silhouettes and holes at disocclusions. We address these issues by improving the given
+initial depth map to yield cleaner, more natural silhouettes. We rely on a three-layer scene representation, made up of a foreground
+layer and two static background layers, to handle disocclusions by propagating information from multiple frames for the first background
+layer, and then inpainting for the second one. Our system works with input from many of today's most popular 360 stereo capture
+devices (e.g., Yi Halo or GoPro Odyssey), and works well even if the original video does not provide depth information. Our user studies
+confirm that our method provides a more compelling viewing experience, increasing immersion while reducing discomfort and nausea.
+
+<h1><a id="downloads" href="http://webdiis.unizar.es/~aserrano/projects/VR-6dof.html#">Downloads</a></h1>
+<ul>
+<li><a target="_blank" href="http://webdiis.unizar.es/~aserrano/docs/Serrano_IEEEVR2019_VR-6dof.pdf">Paper [PDF, 6.73 KB]</a></li>
+<li><a target="_blank" href="http://webdiis.unizar.es/~aserrano/docs/Serrano_IEEEVR2019_VR-6dof_supp.pdf"> Supp. Material [PDF, 11.42 KB]</a></li>
+<li><a target="_blank" href="https://drive.google.com/file/d/1NX240F5iU3lbzXH3MD7siSGM7gl8QpBk/view?usp=sharing">Demo [ZIP, 152MB]</a></li>
+<li><a target="_blank" href="https://drive.google.com/file/d/1jk72tJ9wHROH4z565PjWAhtO1d9P3etD/view?usp=sharing">Viewer source code [ZIP, 487MB]</a></li>
+<li><a target="_blank" href="https://drive.google.com/file/d/1RlquYX-ysaYE5C-7OdlQ0uQPg6sNavq_/view?usp=sharing">Video processing source code [ZIP, 242MB]</a></li>
+</ul>
+<p><i>The code is provided free for non-commercial purposes, and is property of:<br/>
+- A. Serrano, I. Kim, D. Gutierrez, and B. Masia from Universidad de Zaragoza <br/>
+- S. DiVerdi, and A. Hertzmann from Adobe Research </p></i>
+
+
+
+<h1><a id="bibtex" href="http://webdiis.unizar.es/~aserrano/projects/VR-6dof.html#top">Bibtex</a></h1>
+<div id="bibtexsec">
+@article{Serrano_TVCG_VR-6dof,
+author = {Ana Serrano and
+Incheol Kim and
+Zhili Chen and
+Stephen DiVerdi and
+Diego Gutierrez and			  
+Aaron Hertzmann and
+Belen Masia},
+title     = {Motion parallax for 360$^{\circ}$ RGBD video},
+journal   = {IEEE Transactions on Visualization and Computer Graphics},
+year      = {2019},
+}
+
+</div>
+
+
+<!--<h1><a id="related" href="#top">Related</a></h1>
+<ul>
+<li>2017: <a target="_blank" href="http://webdiis.unizar.es/~aserrano/projects/VR-cinematography">Movie Editing and Cognitive Event Segmentation in Virtual Reality Video</a></li>
+</ul>
+
+<h1><a id="acks" href="#top">Acknowledgements</a></h1>
+<p>
+The authors would like to thank Jaime Ruiz-Borau for support with
+experiments. This research has been partially funded by an ERC
+Consolidator Grant (project CHAMELEON), the Spanish Ministry of
+Economy and Competitiveness (projects TIN2016-78753- P, TIN2016-
+79710-P, and TIN2014-61696-EXP), and the NSF/Intel Partnership on
+Visual and Experiential Computing (NSF IIS 1539120). Ana Serrano
+was supported by an FPI grant from the Spanish Ministry of Economy
+and Competitiveness. Gordon Wetzstein was supported by a Terman
+Faculty Fellowship and an Okawa Research Grant. We thank the following
+artists, photographers, and studios who generously contributed their
+omni-directional stereo panoramas for this study: Dabarti CGI Studio,
+Attu Studio, Estudio Eter, White Crow Studios, Steelblue, Blackhaus
+Studio, immortal-arts, Chaos Group, Felix Dodd, Kevin Margo, Aldo
+Garcia, Bertrand Benoit, Jason Buchheim, Prof. Robert Kooima, Tom
+Isaksen (Charakter Ink.), Victor Abramovskiy (RSTR.tv).
+
+
+</p>-->
+
+
+</div>
+</div>
+
+
+</body></html>

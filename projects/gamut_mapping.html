@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Attribute-preserving gamut mapping of measured BRDFs</title>
+<!--[if IE]>
+<link href="../shared/style-ie.css" rel="stylesheet" type="text/css">
+<![endif]-->
+<link href="./assets/style.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="./assets/scroll.js"></script>
+</head>
+
+<body>
+<a id="top"></a>
+<div id="wrapper">
+<div id="header">
+<div id="journal">Computer Graphics Forum Vol.36(4), EGSR 2017</div>
+<div id="title"><a href="http://webdiis.unizar.es/~aserrano/projects/gamut_mapping.html" class="nounderline">Attribute-preserving gamut mapping of measured BRDFs</a></div>
+
+
+<table id="authors">
+<tbody><tr>
+<td><a>Tiancheng Sun</a></td>
+<td><a href="http://giga.cps.unizar.es/~aserrano/">Ana Serrano</a></td>
+<td><a href="http://giga.cps.unizar.es/~diegog/">Diego Gutierrez</a></td>
+<td><a href="http://webdiis.unizar.es/~bmasia/">Belen Masia</a></td>
+</tr>
+<!--<tr class="mail">
+<td><img src="../shared/mails/bmasia_rr.png"></td>
+</tr>-->
+
+<tr>
+<td colspan="7" id="affiliation">
+Universidad de Zaragoza
+</td></tr>
+</tbody></table>
+
+
+<a href="http://webdiis.unizar.es/~aserrano/projects/images/teaser_gamut_mapping.png" class="nounderline"><img style="width:850px;" src="./images/teaser_gamut_mapping.png" alt="Teaser" id="teaser"></a>
+
+
+<table id="navigation">
+<tbody><tr>
+<td><a href="http://webdiis.unizar.es/~aserrano/projects/gamut_mapping.html#news">News</a></td>
+<td><a href="http://webdiis.unizar.es/~aserrano/projects/gamut_mapping.html#abstract">Abstract</a></td>
+<td><a href="http://webdiis.unizar.es/~aserrano/projects/gamut_mapping.html#downloads">Downloads</a></td>
+<td><a href="http://webdiis.unizar.es/~aserrano/projectsgamut_mapping.html#bibtex">Bibtex</a></td>
+<!--<td><a href="http://webdiis.unizar.es/~aserrano/projects/gamut_mapping.html#links">Links</a></td>-->
+<td><a href="http://webdiis.unizar.es/~aserrano/projects/gamut_mapping.html#related">Related</a></td>
+</tr>
+</tbody></table>
+</div>
+
+
+<div id="content">
+
+<h1><a id="news" href="http://webdiis.unizar.es/~aserrano/projects/Material-Appearance.html#top">News</a></h1>
+<ul>
+<!--<li><span class="italic">May, 2016</span>: Paper presented at <a href="http://eurographics2016.pt/">Eurographics 2016</a> in Lisbon.</li>-->
+<li><span class="italic">September, 2017</span>: Our poster presented at SIGGRAPH 2017 featuring this work was awarded with the 
+<a target="_blank" href="http://s2017.siggraph.org/acm-student-research-competition">1st place at the ACM Student Research Competition (undergraduate category)</a></li>
+<li><span class="italic">September, 2017</span>: Paper and supplementary materials available (<span class="italic">see <a href="http://webdiis.unizar.es/~aserrano/projects/gamut_mapping.html#downloads">Downloads</a></span>).</li>
+<li><span class="italic">September, 2017</span>: Web launched.</li>
+
+</ul>
+
+
+<h1><a id="abstract" href="http://webdiis.unizar.es/~aserrano/projects/gamut_mapping.html#top">Abstract</a></h1>
+<p>
+Reproducing the appearance of real-world materials using current printing technology is problematic. The reduced
+number of inks available define the printer’s limited gamut, creating distortions in the printed appearance
+that are hard to control. Gamut mapping refers to the process of bringing an out-of-gamut material appearance
+into the printer’s gamut, while minimizing such distortions as much as possible. We present a novel two-step gamut
+mapping algorithm that allows users to specify which perceptual attribute of the original material they want to
+preserve (such as brightness, or roughness). In the first step, we work in the low-dimensional intuitive appearance
+space recently proposed by Serrano et al. [SGM*16], and adjust achromatic reflectance via an objective function
+that strives to preserve certain attributes. From such intermediate representation, we then perform an image-based
+optimization including color information, to bring the BRDF into gamut. We show, both objectively and through a
+user study, how our method yields superior results compared to the state of the art, with the additional advantage
+that the user can specify which visual attributes need to be preserved. Moreover, we show how this approach can
+also be used for attribute-preserving material editing.
+
+
+<h1><a id="downloads" href="http://webdiis.unizar.es/~aserrano/projects/gamut_mapping.html.html#top">Downloads</a></h1>
+<ul>
+<li><a target="_blank" href="http://webdiis.unizar.es/~aserrano/docs/Sun_EGSR2017_GamutMapping.pdf">Paper [PDF, 19.20 MB]</a></li>
+<li><a target="_blank" href="http://webdiis.unizar.es/~aserrano/docs/Sun_EGSR2017_GamutMapping_supp.pdf">Supplementary material [PDF, 50.50 MB]</a></li>
+<li><a target="_blank" href="http://graphics.unizar.es/docs/Sun_2017_GamutMapping_poster.pdf">Poster [PDF, 12.80 MB]</a></li>
+</ul>
+
+
+<h1><a id="bibtex" href="http://webdiis.unizar.es/~aserrano/projects/gamut_mapping.html#top">Bibtex</a></h1>
+<div id="bibtexsec">@article{sun2017attribute, 
+title={Attribute-preserving gamut mapping of measured BRDFs},
+author={Sun, Tiancheng and Serrano, Ana and Gutierrez, Diego and Masia, Belen},
+journal = {Computer Graphics Forum},
+volume={36},
+number={4},
+year={2017}
+}
+</div>
+
+<h1><a id="related" href="#top">Related</a></h1>
+<ul>
+<li>2017: <a target="_blank" href="http://webdiis.unizar.es/~juliom/pubs/2017_MAM_Intuitive_Editing.pdf">Intuitive Editing of Visual Appearance from Real-World Datasets</a></li>
+<li>2016: <a target="_blank" href="http://webdiis.unizar.es/~aserrano/projects/Material-Appearance.html">An intuitive control space for material appearance</a></li>
+</ul>
+
+<h1><a id="acks" href="#top">Acknowledgements</a></h1>
+<p>
+We would like to thank the reviewers for their insightful
+comments, and Adrian Jarabo and Ibon Guillen for discussions.
+We also thank Sandra Malpica. This research has
+been partially funded by an ERC Consolidator Grant (project
+CHAMELEON), and the Spanish Ministry of Economy and
+Competitiveness (projects TIN2016-79710-P and TIN2016-
+78753-P). Tiancheng Sun was further supported by Tsinghua
+Spark Program. Ana Serrano was supported by an FPI grant
+from the Spanish Ministry of Economy and Competitiveness.
+</p>
+
+
+</div>
+</div>
+
+
+</body></html>

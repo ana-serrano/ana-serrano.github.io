@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>An intuitive control space for material appearance</title>
+<!--[if IE]>
+<link href="../shared/style-ie.css" rel="stylesheet" type="text/css">
+<![endif]-->
+<link href="./assets/style.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="./assets/scroll.js"></script>
+</head>
+
+<body>
+<a id="top"></a>
+<div id="wrapper">
+<div id="header">
+<div id="journal">ACM Transactions on Graphics Vol.35(6), SIGGRAPH Asia 2016</div>
+<div id="title"><a href="http://webdiis.unizar.es/~aserrano/projects/Material-Appearance.html" class="nounderline">An intuitive control space for material appearance</a></div>
+
+
+<table id="authors">
+<tbody><tr>
+<td><a href="http://giga.cps.unizar.es/~aserrano/">Ana Serrano</a><span class="super">1</span></td>
+<td><a href="http://giga.cps.unizar.es/~diegog/">Diego Gutierrez</a><span class="super">1</span></td>
+<td><a href="https://people.mpi-inf.mpg.de/~karol/">Karol Myszkowski</a><span class="super">2</span></td>
+<td><a href="https://people.mpi-inf.mpg.de/~hpseidel/">Hans-Peter Seidel</a><span class="super">2</span></td>
+<td><a href="http://webdiis.unizar.es/~bmasia/">Belen Masia</a><span class="super">1</span></td>
+</tr>
+<!--<tr class="mail">
+<td><img src="../shared/mails/bmasia_rr.png"></td>
+</tr>-->
+
+<tr>
+<td colspan="7" id="affiliation">
+<span class="super">1</span> Universidad de Zaragoza
+<span class="super">2</span> MPI Informatik
+</td></tr>
+</tbody></table>
+
+
+<a href="http://webdiis.unizar.es/~aserrano/projects/images/teaser_MaterialAppearance.png" class="nounderline"><img style="width:850px;" src="./images/teaser_MaterialAppearance.png" alt="Teaser" id="teaser"></a>
+
+
+<table id="navigation">
+<tbody><tr>
+<td><a href="http://webdiis.unizar.es/~aserrano/projects/Material-Appearance.html#news">News</a></td>
+<td><a href="http://webdiis.unizar.es/~aserrano/projects/Material-Appearance.html#abstract">Abstract</a></td>
+<td><a href="http://webdiis.unizar.es/~aserrano/projects/Material-Appearance.html#downloads">Downloads</a></td>
+<td><a href="http://webdiis.unizar.es/~aserrano/projects/Material-Appearance.html#bibtex">Bibtex</a></td>
+<!--<td><a href="http://webdiis.unizar.es/~aserrano/projects/Material-Appearance.html#links">Links</a></td>-->
+<td><a href="http://webdiis.unizar.es/~aserrano/projects/Material-Appearance.html#related">Related</a></td>
+</tr>
+</tbody></table>
+</div>
+
+
+<div id="content">
+
+<h1><a id="news" href="http://webdiis.unizar.es/~aserrano/projects/Material-Appearance.html#top">News</a></h1>
+<ul>
+<!--<li><span class="italic">May, 2016</span>: Paper presented at <a href="http://eurographics2016.pt/">Eurographics 2016</a> in Lisbon.</li>-->
+<li><span class="italic">February, 2017</span>: Code available (<span class="italic">see <a href="http://webdiis.unizar.es/~aserrano/projects/Material-Appearance.html#downloads">Downloads</a></span>).</li>
+<li><span class="italic">November, 2016</span>: Paper and supplementary materials available (<span class="italic">see <a href="http://webdiis.unizar.es/~aserrano/projects/Material-Appearance.html#downloads">Downloads</a></span>).</li>
+<li><span class="italic">November, 2016</span>: Web launched.</li>
+
+</ul>
+
+
+<h1><a id="abstract" href="http://webdiis.unizar.es/~aserrano/projects/Material-Appearance.html#top">Abstract</a></h1>
+<p>
+Many different techniques for measuring material appearance have
+been proposed in the last few years. These have produced large
+public datasets, which have been used for accurate, data-driven appearance
+modeling. However, although these datasets have allowed
+us to reach an unprecedented level of realism in visual appearance,
+editing the captured data remains a challenge. In this paper, we
+present an intuitive control space for predictable editing of captured
+BRDF data, which allows for artistic creation of plausible novel
+material appearances, bypassing the difficulty of acquiring novel
+samples. We first synthesize novel materials, extending the existing
+MERL dataset up to 400 mathematically valid BRDFs. We then
+design a large-scale experiment, gathering 56,000 subjective ratings
+on the high-level perceptual attributes that best describe our
+extended dataset of materials. Using these ratings, we build and
+train networks of radial basis functions to act as functionals mapping
+the perceptual attributes to an underlying PCA-based representation
+of BRDFs. We show that our functionals are excellent predictors of
+the perceived attributes of appearance. Our control space enables
+many applications, including intuitive material editing of a wide
+range of visual properties, guidance for gamut mapping, analysis of
+the correlation between perceptual attributes, or novel appearance
+similarity metrics. Moreover, our methodology can be used to derive
+functionals applicable to classic analytic BRDF representations.
+We release our code and dataset publicly, in order to support and
+encourage further research in this direction.
+
+<h1><a id="downloads" href="http://webdiis.unizar.es/~aserrano/projects/Material-Appearance.html#top">Downloads</a></h1>
+<ul>
+<li><a target="_blank" href="http://webdiis.unizar.es/~aserrano/docs/Serrano_SIGGASIA2016_MaterialAppearance_preprint.pdf">Paper [PDF, 78.88 MB]</a></li>
+<li><a target="_blank" href="http://webdiis.unizar.es/~aserrano/docs/Serrano_SIGGASIA2016_MaterialAppearance_supp.pdf">Supplementary material [PDF, 119.66 MB]</a></li>
+<li><a target="_blank" href="http://webdiis.unizar.es/~aserrano/files/Serrano_SIGGASIA16_MaterialAppearance_presentation.pptx">Slides [PPTX, 56.3 MB]</a></li>
+<li><a target="_blank" href="http://webdiis.unizar.es/~aserrano/files/MaterialAppearance_SiggAsia2016_code.rar">Code and training dataset [RAR, 1.26 GB]</a></li>
+<li><a target="_blank" href="http://webdiis.unizar.es/~aserrano/files/MaterialAppearance_SiggAsia2016_GeneratedBRDFs.rar">Extended MERL dataset  [RAR, 2.51 GB]</a></li>
+<i> Generated BRDFs as combinations of BRDFs from the MERL dataset</i>
+</ul>
+<p><i>The code and dataset provided are property of Universidad de Zaragoza - free for non-commercial purposes</i></p>
+
+
+<h1><a id="bibtex" href="http://webdiis.unizar.es/~aserrano/projects/Material-Appearance.html#top">Bibtex</a></h1>
+<div id="bibtexsec">@article{Serrano_MaterialAppearance_SIGGAsia2016, 
+author = {Serrano, Ana and Gutierrez, Diego and Myszkowski, Karol and Seidel, Hans-Peter and Masia, Belen}, 
+title = {An intuitive control space for material appearance}, 
+journal = {ACM Transactions on Graphics (SIGGRAPH ASIA 2016)}, 
+volume = {35}, 
+number = {6}, 
+year = {2016}
+}
+</div>
+
+<h1><a id="related" href="#top">Related</a></h1>
+<ul>
+<li>2017: <a target="_blank" href="http://webdiis.unizar.es/~aserrano/projects/gamut_mapping.html">Attribute-preserving gamut mapping of measured BRDFs</a></li>
+<li>2017: <a target="_blank" href="http://webdiis.unizar.es/~juliom/pubs/2017_MAM_Intuitive_Editing.pdf">Intuitive Editing of Visual Appearance from Real-World Datasets</a></li>
+</ul>
+
+<h1><a id="acks" href="#top">Acknowledgements</a></h1>
+<p>
+We thank the members of the Graphics & Imaging Lab for fruitful
+insights and discussion, and in particular Elena Garces, Adrian
+Jarabo, Carlos Aliaga, Alba Samanes, and Cristina Tirado. We
+would also like to thank Oleksandr Sotnychenko. This research
+has been funded by the European Research Council (Consolidator
+Grant, project Chameleon, ref. 682080), as well as the Spanish
+Ministry of Economy and Competitiveness (project LIGHTSLICE,
+ref. TIN2013-41857-P). Belen Masia and Ana Serrano would like
+to acknowledge the support of the Max Planck Center for Visual
+Computing and Communication. Ana Serrano was additionally
+supported by an FPI grant from the Spanish Ministry of Economy
+and Competitiveness.
+
+</p>
+
+
+</div>
+</div>
+
+
+</body></html>
