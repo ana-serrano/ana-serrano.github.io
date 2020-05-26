@@ -1232,6 +1232,16 @@ ul.marquee li {
 /*--------------------------------------------------
 ------------------ Publication ---------------------
 ---------------------------------------------------*/
+.img-pub{
+	height: 80px;
+	width: 142px;
+
+}
+.int-pub{
+	height: 70px;
+	width: 70px;
+
+}
 
 .publication-section .card-drop {
     position: relative;
@@ -1472,6 +1482,7 @@ ul.marquee li {
 .publication-section .media .media-body {
     padding-left: 10px;
     border-left: 1px solid #DBDBE0;
+	min-height: 80px;
 }
 
 .publication-section .media .date {
@@ -3251,6 +3262,17 @@ screen and (max-height: 300px) {
 }
 
 @media all and (max-width: 900px) {
+	.img-pub{
+	display: none;
+
+}
+	.int-pub{
+	display: none;
+}
+   .publication-section .media .media-body {
+        padding-left: 2px;
+        border-left: none;
+    }
     .mfp-arrow {
         -webkit-transform: scale(0.75);
         transform: scale(0.75);
@@ -3334,6 +3356,18 @@ screen and (max-height: 300px) {
 ---------------------------------------------------*/
 
 @media screen and (max-width: 1024px) {
+	.publication-section .media .media-body {
+        padding-left: 2px;
+        border-left: none;
+    }
+	
+	.img-pub{
+	display: none;
+}
+    .int-pub{
+	display: none;
+}
+
     .jspVerticalBar {
         opacity: 1;
     }
@@ -3343,6 +3377,14 @@ screen and (max-height: 300px) {
 }
 
 @media screen and (max-width: 755px) {
+	
+	.img-pub{
+	display: none;
+
+}
+	.int-pub{
+	display: none;
+}
 	.hs-menu .aside-footer{
 	display:none;
 	}
@@ -3366,7 +3408,7 @@ screen and (max-height: 300px) {
         left: 0;
     }
     .hs-headline {
-        padding: 25px 0 0 0;
+        padding: 12px 0 0 0;
     }
     .hs-headline .download {
         color: #fff;
@@ -3478,6 +3520,13 @@ screen and (max-height: 300px) {
 }
 
 @media screen and (max-width: 450px) {
+	.img-pub{
+	display: none;
+
+}
+	.int-pub{
+	display: none;
+}
 	.hs-menu .aside-footer{
 	display:none;
 	}
