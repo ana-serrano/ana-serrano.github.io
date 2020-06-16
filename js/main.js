@@ -8,8 +8,8 @@ jQuery(document).ready(function($) {
     /* ---------------------------------------------------------------------- */
     /* ------------------ SHUFFLE JS / PUBLICATION  -------------------------- */
     /* ---------------------------------------------------------------------- */
-    /*var $mygrid = $('#mygrid');
-    $mygrid.shuffle({
+    var $mygrid = $('.mygridfilter');
+    /*$mygrid.shuffle({
         itemSelector: '.publication_item',
         speed: 500
     });*/
@@ -19,7 +19,48 @@ jQuery(document).ready(function($) {
         // get group name from clicked item
         var groupName = $(this).attr('data-group');
         // reshuffle grid
-        //$mygrid.shuffle('shuffle', groupName);
+        //$mygrid.shuffle('shuffle', groupName);		
+
+		if(groupName != 'all')
+        {
+			console.log(groupName);
+			for (var i = 2021; i > 2013; i--) 
+            {
+				console.log("Año " + i);
+                var contador = 0;
+                $("#" + i + " .publication_item").each(function()
+                {
+                    console.log(contador);
+                    if ($(this).data('group') == groupName)
+                    {
+                        $(this).show();
+                        contador++;
+                    }
+                    else
+                        $(this).hide();
+                });
+                if (contador < 1)
+                    $("#" + i).hide();
+                else
+                    $("#" + i).show();
+				/*var filteredGroup = $("#" + i + " .publication_item").data('group', groupName);
+				console.log(filteredGroup.length);
+				if (filteredGroup.length < 1)
+					$("#" + i +" .content-title").hide();
+				else
+					$("#" + i + " .content-title").show();*/
+			}
+		}
+		else{
+			for (i = 2014; i < 2021; i++) {				
+				$("#" + i).show();		
+
+                $("#" + i + " .publication_item").each(function()
+                {
+                    $(this).show();		
+                })
+			}
+		}
     });
     //$mygrid.shuffle('shuffle', 'all');
     //sorting fonction
@@ -33,7 +74,7 @@ jQuery(document).ready(function($) {
             }
 
         // Filter elements
-        //$mygrid.shuffle('sort', opts);
+        $mygrid.shuffle('sort', opts);
     });
     $('.asc').on('click', function() {
         var sort = "date-publication",
@@ -45,7 +86,7 @@ jQuery(document).ready(function($) {
             }
 
         // Filter elements
-        //$mygrid.shuffle('sort', opts);
+        $mygrid.shuffle('sort', opts);
     });
 
     /* ---------------------------------------------------------------------- */

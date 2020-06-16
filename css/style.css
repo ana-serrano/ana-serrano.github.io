@@ -1533,6 +1533,17 @@ ul.marquee li {
     margin-bottom: 10px;
 }
 
+.publication-section .mygridfilter {
+    position: relative;
+    margin: 10px 0 0 0;
+    overflow: hidden;
+}
+
+.publication-section .mygridfilter .publication_item {
+    display: block;
+    margin-bottom: 10px;
+}
+
 .publication-section .media .ex-link {
     width: 30px;
     height: 30px;
@@ -1566,15 +1577,35 @@ ul.marquee li {
     margin-right: 2px;
     padding: 3px 5px;
 }
+.publication-section .filter {
+	float: right;
+	font-weight: 500;
+    border-radius: 0;
+    margin-right: 2px;
+    padding: 3px 5px;
+	color: #d21f03;
+	font-size: 12px;
+	
+}
+
+
 .publication-section .label-primary:hover,
 .teaching-section .label-primary:hover
 {
 	background:#476de0;
 }
+.publication-section .filter:hover {
+}
+
+
 .publication-section .label-primary,
 .publication-detail .selected,
 .teaching-section .label-primary {
     background: #2b303b;
+}
+
+.publication-section .filter-primary,
+{
 }
 
 .publication-detail {

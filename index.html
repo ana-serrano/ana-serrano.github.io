@@ -14,7 +14,7 @@
     <!-- CSS | STYLE -->
 
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
-    <!--<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />-->
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
     <link rel="stylesheet" type="text/css" href="css/linecons.css" />
@@ -205,13 +205,43 @@
                         <span class="before-title">&nbsp </span>
                         <h2>PUBLICATIONS</h2>
 						
-						<span class="content-title">2020</span>                        
-                        <!-- End Filter/Sort Menu -->				
+						 <!-- Filter/Sort Menu -->	
+						<div class="row publication-form">
+                            <div class="col-md-6 publication-filter">
+                                <div class="card-drop">
+                                    <a class='toggle'>                                        
+                                        <span class='label-active'>ALL</span>
+                                    </a>
+                                    <ul id="filter">
+                                        <li class='active'><a data-label="ALL" data-group="all">ALL</a>
+                                        </li>
+                                        <li><a data-label="JOURNAL PAPERS" data-group="JOURNAL PAPERS">JOURNAL PAPERS</a>
+                                        </li>
+                                        <li><a data-label="CONFERENCES" data-group="CONFERENCES">CONFERENCES</a>
+                                        </li>                                        
+                                        <li><a data-label="THESES" data-group="THESES">THESES</a>
+                                        </li>
+                                        <li><a data-label="BOOK CHAPTERS" data-group="BOOK CHAPTERS">BOOK CHAPTERS</a>
+                                        </li>                                        
+										<li><a data-label="OTHERS" data-group="OTHERS">OTHERS</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+						<!-- End Filter/Sort Menu -->				
 						
-						<!-- publication wrapper -Material similarity -->                           
-                        <div id="mygrid">
+						
+						<!-- publication wrapper-->                           
+                        <div class="mygridfilter" id="2020">
+						
+							<!-- Year -->
+							<span class="content-title">2020</span>
+                            <br></br>
+							<!-- End Year-->
+							
 							<!-- publication item -->
-                            <div class="publication_item">
+                            <div class="publication_item" data-group='CONFERENCES'>
                                 <div class="media">
                                     <div class="pull-left">
                                         <img class="img-pub" src="images/pubs/2020/publications_CVPRW2020_Pano-Saliency.png"/>
@@ -223,14 +253,14 @@
                                     <hr style="margin:8px auto">
                                     <a href="http://webdiis.unizar.es/~danims/files/pubs/VR-Saliency-2020.pdf" target="_blank"><span class="label label-primary">PDF</span></a> 	
 									<a href="https://github.com/DaniMS-ZGZ/Panoramic-CNN-360-Saliency" target="_blank"><span class="label label-primary">Code</span></a>									
-									<a href="http://webdiis.unizar.es/~danims/files/pubs/VR-Saliency-2020" target="_blank"><span class="label label-primary">Bibtex</span></a>									
-                                </div>   
-								
+									<a href="http://webdiis.unizar.es/~danims/files/pubs/VR-Saliency-2020" target="_blank"><span class="label label-primary">Bibtex</span></a>		
+									<span class="filter filter-primary">Conference</span>
+                                </div>  
 							<!-- End publication item --> 			
-                            </div>				
-						
+                            </div>	
+									  
                             <!-- publication item -->
-                            <div class="publication_item">
+                            <div class="publication_item" data-group='CONFERENCES'>
                                 <div class="media">
                                     <div class="pull-left">
                                         <img class="img-pub" src="images/pubs/2020/publications_IEEEVR2020_VR-cine.png"/>
@@ -242,21 +272,24 @@
                                     <hr style="margin:8px auto">
                                     <a href="https://www.dropbox.com/s/sh5prb7me0q1zog/Maranes_IEEEVR2020_VR-cine.pdf?raw=1" target="_blank"><span class="label label-primary">PDF</span></a> 	
 									<a href="./bibs/Maranes_IEEEVR2020_VR-cine.bib" target="_blank"><span class="label label-primary">Bibtex</span></a>									
+									<span class="filter filter-primary">Conference</span>
                                 </div>   
 								
 							<!-- End publication item --> 			
                             </div>
-						<!-- publication wrapper -->
-						</div>                          
-										
-                        <!-- Filter/Sort Menu -->
-                        <span class="content-title">2019</span>                        
-                        <!-- End Filter/Sort Menu -->				
+						<!-- End publication wrapper -->
+						</div>                         
+														
+						<!-- publication wrapper -->                           
+                        <div class="mygridfilter" id="2019">
 						
-						<!-- publication wrapper -Material similarity -->                           
-                        <div id="mygrid">
+							<!-- Year -->
+							<span class="content-title">2019</span>
+                            <br></br>
+							<!-- End Year-->
+						
                             <!-- publication item -->
-                            <div class="publication_item">
+                            <div class="publication_item" data-group='JOURNAL PAPERS'>
                                 <div class="media">
                                     <div class="pull-left">
                                         <img class="img-pub" src="images/pubs/2019/publications_SIGG2019_MatSim.png"/>
@@ -270,16 +303,13 @@
 									<a href="http://webdiis.unizar.es/~mlagunas/publication/material-similarity/" target="_blank"><span class="label label-primary">Project page</span></a>
                                     <a href="http://giga.cps.unizar.es/~mlagunas/bibs/similarity_siggraph_19.html" target="_blank"><span class="label label-primary">Bibtex</span></a>
 									<a href="http://webdiis.unizar.es/~mlagunas/presentations/2019_similarity_SIG.pptx" target="_blank"><span class="label label-primary">Slides</span></a>
+									<span class="filter filter-primary">Journal (JCR Q1)</span>
                                 </div>   
 							<!-- End publication item --> 			
-                            </div>
-						<!-- publication wrapper -->
-						</div>                          
+                            </div>						
 						
-						<!-- publication wrapper -thesis -->                           
-                        <div id="mygrid">
                             <!-- publication item -->
-                            <div class="publication_item">
+                            <div class="publication_item" data-group='THESES'>
                                 <div class="media">
                                     <div class="pull-left">
                                         <img class="img-pub" src="images/pubs/2019/Serrano_thesis_Apr2019.png"/>
@@ -291,16 +321,13 @@
                                     <hr style="margin:8px auto">
                                     <a href="https://www.dropbox.com/s/xp9qy60g2xcq521/Serrano2019_thesis_LowRes.pdf?raw=1" target="_blank"><span class="label label-primary">PDF</span></a> 
 									<a href="https://www.dropbox.com/s/8963slt9ddhmb6n/Serrano2019_ThesisPresentation.pptx?raw=1" target="_blank"><span class="label label-primary">Slides</span></a>
+									<span class="filter filter-primary">PhD Thesis</span>
                                 </div>   
 							<!-- End publication item --> 			
-                            </div>
-						<!-- publication wrapper -->
-						</div>                            
+                            </div>					                         
 						
-                        <!-- publication wrapper - Motion parallax for 360 RGBD video -->                           
-                        <div id="mygrid">
                             <!-- publication item -->
-                            <div class="publication_item">
+                            <div class="publication_item" data-group='JOURNAL PAPERS'>
                                 <div class="media">
                                     <div class="pull-left">
                                         <img class="img-pub" src="images/pubs/2019/publications_IEEEVR2019_6-dof.jpg"/>
@@ -314,17 +341,13 @@
                                     <a href="./projects/VR-6dof.html" target="_blank"><span class="label label-primary">Project page</span></a>
                                     <a href="./bibs/Serrano_TVCG19_6-DoF.bib" target="_blank"><span class="label label-primary">Bibtex</span></a>
                                     <a href="https://www.dropbox.com/s/o1on7apwwjfikv0/Serrano_IEEEVR19_6-DoF.pptx?raw=1" target="_blank"><span class="label label-primary">Slides</span></a>
-
+									<span class="filter filter-primary">Journal (JCR Q1)</span>
                                 </div>   
 							<!-- End publication item --> 			
                             </div>
-						<!-- publication wrapper -->
-						</div>                            
-							
-						<!-- publication wrapper - Crossmodal perception in virtual reality -->                           
-                        <div id="mygrid">
+						
                             <!-- publication item -->
-                            <div class="publication_item">
+                            <div class="publication_item" data-group='JOURNAL PAPERS'>
                                 <div class="media">
 									<div class="pull-left">
 										<img class="img-pub" src="images/pubs/2019/publications_MTA_crossmodal.jpg"/>
@@ -336,16 +359,13 @@
 									</div>
                                     <hr style="margin:8px auto">
                                     <a href="https://www.dropbox.com/s/7plpezgzsmzutk8/Malpica_MTA2019_Crossmodal-VR.pdf?raw=1" target="_blank"><span class="label label-primary">PDF</span></a>
+									<span class="filter filter-primary">Journal (JCR Q2)</span>
                                 </div>   
 							<!-- End publication item --> 			
                             </div>
-						<!-- publication wrapper -->
-						</div> 
 						
-						<!-- publication wrapper - Motion parallax for 360 RGBD video -->                           
-                        <div id="mygrid">
                             <!-- publication item -->
-                            <div class="publication_item">
+                            <div class="publication_item" data-group='CONFERENCES'>
                                 <div class="media">
                                     <div class="pull-left">
                                         <img class="img-pub" src="images/pubs/2019/publications_CEIG2019_StyleTransfer.png"/>
@@ -358,21 +378,25 @@
                                     <a href="https://www.dropbox.com/s/hnzeowtng1kb5ug/Calvo_CEIG2019_StyleTransfer.pdf?raw=1" target="_blank"><span class="label label-primary">PDF</span></a>                                    
                                     <a href="./bibs/Calvo_CEIG2019_StyleTransfer.bib" target="_blank"><span class="label label-primary">Bibtex</span></a>
                                     <a href="https://www.dropbox.com/s/sltm9cg0gk9um3w/Calvo_CEIG2019_StyleTransfer.pptx?raw=1" target="_blank"><span class="label label-primary">Slides</span></a>
-
+									<span class="filter filter-primary">Conference</span>
                                 </div>   
 							<!-- End publication item --> 			
                             </div>
-						<!-- publication wrapper -->
+						<!-- End publication wrapper -->
 						</div>    
 						
-						<!-- Filter/Sort Menu -->
-                        <span class="content-title">2018</span>                        
-                        <!-- End Filter/Sort Menu -->
+											
 						
-						<!-- publication wrapper - Saliency in VR: How do people explore virtual environments? -->
-                        <div id="mygrid">
+						<!-- publication wrapper-->
+                        <div class="mygridfilter" id="2018">
+						
+							<!-- Year -->
+							<span class="content-title">2018</span>
+                            <br></br>
+							<!-- End Year-->
+							
                             <!-- publication item -->
-                            <div class="publication_item">
+                            <div class="publication_item" data-group='JOURNAL PAPERS'>
                                 <div class="media">
                                     <div class="pull-left">
                                         <img class="img-pub" src="images/pubs/2018/publications_arxiv2016_SaliencyVR.jpg"/>
@@ -386,20 +410,25 @@
                                     <a href="https://vsitzmann.github.io/vr-saliency/" target="_blank"><span class="label label-primary">Project page</span></a>
 									<a href="./bibs/Sitzmann_TVCG18_VR-saliency.bib" target="_blank"><span class="label label-primary">Bibtex</span></a>
 									<a href="https://www.dropbox.com/s/hra9nacqflid85j/Sitzmann_IEEEVR18_VR-saliency.pptx?raw=1" target="_blank"><span class="label label-primary">Slides</span></a>
+									<span class="filter filter-primary">Journal (JCR Q1)</span>
                                 </div>                                
                             <!-- End publication item --> 
 							</div>
-                        <!-- publication wrapper -->   
+                        <!-- End publication wrapper -->   
 						</div>
 						
-						<!-- Filter/Sort Menu -->
-                        <span class="content-title">2017</span>                        
-                        <!-- End Filter/Sort Menu -->
 						
-                        <!-- publication wrapper - Movie Editing and Cognitive Event Segmentation in Virtual Reality Video -->    
-                        <div id="mygrid">
+						
+                        <!-- publication wrapper -->    
+                        <div class="mygridfilter" id="2017">
+						
+							<!-- Year -->
+							<span class="content-title">2017</span>
+                            <br></br>
+							<!-- End Year-->
+							
                             <!-- publication item -->
-                            <div class="publication_item">
+                            <div class="publication_item" data-group='JOURNAL PAPERS'>
                                 <div class="media">
                                     <div class="pull-left">
                                         <img class="img-pub" src="images/pubs/2017/publications_SIGG2017_VR-cine.jpg"/>
@@ -413,15 +442,13 @@
                                     <a href="./projects/VR-cinematography.html" target="_blank"><span class="label label-primary">Project page</span></a>
                                     <a href="./bibs/Serrano_SIGG2017_VR-cine.bib" target="_blank"><span class="label label-primary">Bibtex</span></a>
                                     <a href="https://www.dropbox.com/s/7umz2lqakhpwt23/Serrano_SIGG2017_VR-cine.pptx?raw=1" target="_blank"><span class="label label-primary">Slides</span></a>
+									<span class="filter filter-primary">Journal (JCR Q1)</span>
                                 </div>  
                             <!-- End publication item --> 
-                            </div>                            
-                        <!-- publication wrapper -->
-                        </div>
-						<!-- publication wrapper - Attribute-preserving gamut mapping of measured BRDFs -->	
-                        <div id="mygrid">
+                            </div> 
+						
                             <!-- publication item -->
-                            <div class="publication_item">
+                            <div class="publication_item" data-group='JOURNAL PAPERS'>
                                 <div class="media">
                                     <div class="pull-left">
                                         <img class="img-pub" src="images/pubs/2017/publications_EGSR2017_GamutMapping.jpg"/>
@@ -438,15 +465,13 @@
 									<a href="https://www.dropbox.com/s/ptczt6op03lqab3/Sun_EGSR2017_GamutMapping.pdf?raw=1" target="_blank"><span class="label label-primary">PDF</span></a>
                                     <a href="./projects/gamut_mapping.html" target="_blank"><span class="label label-primary">Project page</span></a>
 									<a href="./bibs/Sun_EGSR2017_attribute.bib" target="_blank"><span class="label label-primary">Bibtex</span></a>
+									<span class="filter filter-primary">Journal (JCR Q1)</span>
 								</div>   
 							<!-- End publication item --> 	
-                            </div>					
-                        <!-- publication wrapper -->
-						</div>						
-						<!-- publication wrapper - Convolutional Sparse Coding for capturing High Speed Video Content -->
-                        <div id="mygrid">
-                            <!-- publication item -->
-                            <div class="publication_item">
+                            </div>	
+						
+							<!-- publication item -->
+                            <div class="publication_item" data-group='JOURNAL PAPERS'>
                                 <div class="media">
                                     <div class="pull-left">
                                         <img class="img-pub" src="images/pubs/2017/publications_CGF2017_CSC-Video.jpg"/>
@@ -459,16 +484,13 @@
 									<a href="https://www.dropbox.com/s/dqs025o4dbpet0g/Serrano_CGF2017_preprint.pdf?raw=1" target="_blank"><span class="label label-primary">PDF</span></a>
                                     <a href="./projects/CSC-Video.html" target="_blank"><span class="label label-primary">Project page</span></a>
 									<a href="./bibs/Serrano_CGF2017_CSCVideo.bib" target="_blank"><span class="label label-primary">Bibtex</span></a>
+									<span class="filter filter-primary">Journal (JCR Q1)</span>
                                 </div>   
 							<!-- End publication item --> 
                             </div>
-						<!-- publication wrapper -->
-						</div>
 						
-						<!-- publication wrapper - Dynamic range expansion based on image statistics -->
-                        <div id="mygrid">
                             <!-- publication item -->
-                            <div class="publication_item">
+                            <div class="publication_item" data-group='JOURNAL PAPERS'>
                                 <div class="media">
                                     <div class="pull-left">
                                         <img class="img-pub" src="images/pubs/2015/publications_MMTA15_rTM.jpg"/>
@@ -480,16 +502,13 @@
 									<hr style="margin:8px auto">
                                     <a href="https://www.dropbox.com/s/atrtez2f7s2cqhd/Masia_MTAP2015_rTM_Preprint.pdf?raw=1" target="_blank"><span class="label label-primary">PDF</span></a>
 									<a href="./bibs/Masia_MTAP2015_RTM.bib" target="_blank"><span class="label label-primary">Bibtex</span></a>
+									<span class="filter filter-primary">Journal (JCR Q2)</span>
 								</div>
 							<!-- End publication item -->		
                             </div>
-                        <!-- End Publication Wrapper --> 
-                        </div>
 						
-                        <!-- publication wrapper - Intuitive Editing of Visual Appearance from Real-World Datasets -->
-                        <div id="mygrid">
                             <!-- publication item -->
-                            <div class="publication_item">
+                            <div class="publication_item" data-group='CONFERENCES'>
                                 <div class="media">
                                     <div class="pull-left">
                                         <img class="img-pub" src="images/pubs/2017/2017IntuitiveEditing.png"/>
@@ -501,15 +520,13 @@
                                     <hr style="margin:8px auto">
                                     <a href="http://webdiis.unizar.es/~juliom/pubs/2017_MAM_Intuitive_Editing.pdf" target="_blank"><span class="label label-primary">PDF</span></a>
                                     <a href="http://webdiis.unizar.es/~juliom/pubs/2017IntuitiveEditing.bib" target="_blank"><span class="label label-primary">Bibtex</span></a>
+									<span class="filter filter-primary">Conference</span>
                                 </div>
 							<!-- End publication item -->		
                             </div>
-                        <!-- End Publication Wrapper --> 
-                        </div>
-                        <!-- publication wrapper - Improved Intuitive Appearance Editing based on Soft PCA -->
-                        <div id="mygrid">
+						
                             <!-- publication item -->
-                            <div class="publication_item">
+                            <div class="publication_item" data-group='CONFERENCES'>
                                 <div class="media">
                                     <div class="pull-left">
                                         <img class="img-pub" src="images/pubs/2017/publications_CEIG2017_SoftPCA.jpg"/>
@@ -521,20 +538,25 @@
                                     <hr style="margin:8px auto">
                                     <a href="https://www.dropbox.com/s/yw48cpinqrspemo/Malpica_CEIG2017_SoftPCA.pdf?raw=1" target="_blank"><span class="label label-primary">PDF</span></a>
                                     <a href="./bibs/Malpica_CEIG2017_SoftPCA.bib" target="_blank"><span class="label label-primary">Bibtex</span></a>
+									<span class="filter filter-primary">Conference</span>
                                 </div>
                             <!-- End publication item -->       
                             </div>
                         <!-- End Publication Wrapper --> 
                         </div>
 						
-						<!-- Filter/Sort Menu -->
-                        <span class="content-title">2016</span>                        
-                        <!-- End Filter/Sort Menu -->
+					
 						
-						<!-- publication wrapper - An intuitive control space for material appearance -->
-                        <div id="mygrid">
+						<!-- publication wrapper -->
+                        <div class="mygridfilter" id="2016">
+						
+							<!-- Year -->
+							<span class="content-title">2016</span>
+                            <br></br>
+							<!-- End Year-->
+							
                             <!-- publication item -->
-                            <div class="publication_item">
+                            <div class="publication_item" data-group='JOURNAL PAPERS'>
                                 <div class="media">
                                     <div class="pull-left">
                                         <img class="img-pub" src="images/pubs/2016/publications_SIGGAsia2016_Materials.jpg"/>
@@ -548,15 +570,13 @@
                                     <a href="./projects/Material-Appearance.html" target="_blank"><span class="label label-primary">Project page</span></a>
 									<a href="./bibs/Serrano_SIGGASIA2016_MaterialAppearance.bib" target="_blank"><span class="label label-primary">Bibtex</span></a>
 									<a href="https://www.dropbox.com/s/72hxqians9fnx5v/Serrano_SIGGASIA16_MaterialAppearance_presentation.pptx?raw=1" target="_blank"><span class="label label-primary">Slides</span></a>
+									<span class="filter filter-primary">Journal (JCR Q1)</span>
                                 </div>
 							<!-- End publication item -->		
                             </div>
-                        <!-- End Publication Wrapper --> 
-                        </div>
-						<!-- publication wrapper - Convolutional Sparse Coding for High Dynamic Range Imaging -->
-                        <div id="mygrid">
+                     
                             <!-- publication item -->
-                            <div class="publication_item">
+                            <div class="publication_item" data-group='JOURNAL PAPERS'>
                                 <div class="media">
                                     <div class="pull-left">
                                         <img class="img-pub" src="images/pubs/2016/publications_EG2015_CSHDR.jpg"/>
@@ -572,15 +592,13 @@
                                     <a href="http://webdiis.unizar.es/~bmasia/ppages/eg2016/project_page_CSCHDR.html" target="_blank"><span class="label label-primary">Project page</span></a>
 									<a href="./bibs/Serrano_EG2016_CSHDR.bib" target="_blank"><span class="label label-primary">Bibtex</span></a>
 									<a href="https://www.dropbox.com/s/zy9yzzqy689wjfx/EG2016_Convolutional%20Sparse%20Coding%20for%20HDR.pptx?raw=1" target="_blank"><span class="label label-primary">Slides</span></a>
+									<span class="filter filter-primary">Journal (JCR Q2)</span>
                                 </div>
 							<!-- End publication item -->		
                             </div>
-                        <!-- End Publication Wrapper --> 
-                        </div>
-						<!-- publication wrapper - Intuitive Editing of Material Appearance -->
-                        <div id="mygrid">
+						
                             <!-- publication item -->
-                            <div class="publication_item">
+                            <div class="publication_item" data-group='OTHERS'>
                                 <div class="media">
                                     <div class="pull-left">
                                         <img class="img-pub" src="images/pubs/2016/publications_SIGG2016_Materials.jpg"/>
@@ -592,15 +610,13 @@
 									<hr style="margin:8px auto">
                                     <a href="https://www.dropbox.com/s/nhvz9bx1mclfcxh/Serrano_SIGG2016_Poster_Materiales.pdf?raw=1" target="_blank"><span class="label label-primary">PDF</span></a>
 									<a href="./bibs/Serrano_SIGG2016_Materials.bib" target="_blank"><span class="label label-primary">Bibtex</span></a>
+									<span class="filter filter-primary">Poster</span>
                                 </div>
 							<!-- End publication item -->		
                             </div>
-                        <!-- End Publication Wrapper --> 
-                        </div>
-						<!-- publication wrapper - Crossmodal perception in immersive environments -->
-                        <div id="mygrid">
+						
                             <!-- publication item -->
-                            <div class="publication_item">
+                            <div class="publication_item" data-group='CONFERENCES'>
                                 <div class="media">
                                     <div class="pull-left">
                                         <img class="img-pub" src="images/pubs/2016/publications_CEIG2016_Crossmodal.jpg"/>
@@ -615,21 +631,25 @@
                                     <a href="https://www.dropbox.com/s/p7b8bnlurealppb/Allue_CEIG2016_Crossmodal.pdf?raw=1" target="_blank"><span class="label label-primary">PDF</span></a>
 									<a href="./bibs/Allue_CEIG2016_Crossmodal.bib" target="_blank"><span class="label label-primary">Bibtex</span></a>
 									<a href="http://webdiis.unizar.es/~bmasia/files/CEIG2016_Crossmodal_FINAL.pptx" target="_blank"><span class="label label-primary">Slides</span></a>
+									<span class="filter filter-primary">Conference</span>
 								</div>
 							<!-- End publication item -->		
                             </div>
                         <!-- End Publication Wrapper --> 
                         </div>
 												
-						<!-- Filter/Sort Menu -->
-                        <span class="content-title">2015</span>                        
-                        <!-- End Filter/Sort Menu -->
 						
 						
-						<!-- publication wrapper - Compressive High-Speed Video Acquisition -->
-                        <div id="mygrid">
+						<!-- publication wrapper -->
+                        <div class="mygridfilter" id="2015">
+						
+							<!-- Year -->
+							<span class="content-title">2015</span>
+                            <br></br>
+							<!-- End Year-->							
+				
                             <!-- publication item -->
-                            <div class="publication_item">
+                            <div class="publication_item" data-group='CONFERENCES'>
                                 <div class="media">
                                     <div class="pull-left">
                                         <img class="img-pub" src="images/pubs/2015/publications_CEIG2015_VideoCS.jpg"/>
@@ -643,15 +663,13 @@
 									<hr style="margin:8px auto">
                                     <a href="https://www.dropbox.com/s/zyf809kh7aqjfv7/Serrano_CEIG2015_CSVideo.pdf?raw=1" target="_blank"><span class="label label-primary">PDF</span></a>
 									<a href="./bibs/Serrano_CEIG2015_CSVideo.bib" target="_blank"><span class="label label-primary">Bibtex</span></a>
+									<span class="filter filter-primary">Conference</span>
 								</div>
 							<!-- End publication item -->		
                             </div>
-                        <!-- End Publication Wrapper --> 
-                        </div>
-						<!-- publication wrapper - An In-Depth Analysis of Compressive Sensing for High Speed Video Acquisition -->
-                        <div id="mygrid">
+						
                             <!-- publication item -->
-                            <div class="publication_item">
+                            <div class="publication_item" data-group='OTHERS'>
                                 <div class="media">
                                     <div class="pull-left">
                                         <img class="img-pub" src="images/pubs/2015/publications_ICCP2015_poster_VideoCS.jpg"/>
@@ -663,20 +681,23 @@
 									<hr style="margin:8px auto">
                                     <a href="https://www.dropbox.com/s/rbuo1p729nqqiqg/Serrano_ICCP2015_CSVideo_Poster.pdf?raw=1" target="_blank"><span class="label label-primary">PDF</span></a>
 									<a href="./bibs/Serrano_ICCP2015_CSVideo.bib" target="_blank"><span class="label label-primary">Bibtex</span></a>
+									<span class="filter filter-primary">Poster</span>
 								</div>
 							<!-- End publication item -->		
                             </div>
                         <!-- End Publication Wrapper --> 
                         </div>
 						
-						<!-- Filter/Sort Menu -->
-                        <span class="content-title">2014</span>                        
-                        <!-- End Filter/Sort Menu -->
+						<!-- publication wrapper -->
+                        <div class="mygridfilter" id="2014">
 						
-						<!-- publication wrapper - High temporal resolution video acquisition by using coded exposures and dictionary learning -->
-                        <div id="mygrid">
+							<!-- Year -->
+							<span class="content-title">2014</span>
+                            <br></br>
+							<!-- End Year-->
+							
                             <!-- publication item -->
-                            <div class="publication_item">
+                            <div class="publication_item" data-group='THESES'>
                                 <div class="media">
                                     <div class="pull-left">
                                         <img class="img-pub" src="images/pubs/2014/publications_PFC.jpg"/>
@@ -689,15 +710,13 @@
 									 </div>
 									<hr style="margin:8px auto">
                                     <a href="https://www.dropbox.com/s/kok6wtya8cumqnz/AnaSerranoPFC_completo.pdf?raw=1" target="_blank"><span class="label label-primary">PDF (spanish)</span></a>
+									<span class="filter filter-primary">Master Thesis</span>
 								</div>
 							<!-- End publication item -->		
                             </div>
-                        <!-- End Publication Wrapper --> 
-                        </div>
-						<!-- publication wrapper - ATLAS Pixel detector firmware upgrade: Reading out the standard output for the IBL-ROD via VME -->
-                        <div id="mygrid">
+						
                             <!-- publication item -->
-                            <div class="publication_item">
+                            <div class="publication_item" data-group='OTHERS'>
                                 <div class="media">
                                     <div class="pull-left">
                                         <img class="img-pub" src="images/pubs/2014/publications_CERN_TechReport_SummerStudent2014.png"/>
@@ -709,6 +728,7 @@
 									</div>
 									<hr style="margin:8px auto">
                                     <a href="http://cds.cern.ch/record/1751025/?ln=en" target="_blank"><span class="label label-primary">PDF</span></a>
+									<span class="filter filter-primary">Technical report</span>
 								</div>
 							<!-- End publication item -->		
                             </div>
