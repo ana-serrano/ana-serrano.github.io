@@ -23,14 +23,11 @@ jQuery(document).ready(function($) {
 
 		if(groupName != 'all')
         {
-			console.log(groupName);
 			for (var i = 2021; i > 2013; i--) 
             {
-				console.log("Año " + i);
                 var contador = 0;
                 $("#" + i + " .publication_item").each(function()
                 {
-                    console.log(contador);
                     if ($(this).data('group') == groupName)
                     {
                         $(this).show();

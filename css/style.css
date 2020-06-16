@@ -3405,6 +3405,10 @@ screen and (max-height: 300px) {
     .hs-content-scroller {
         overflow-x: scroll;
     }
+	
+	.hs-content{
+		min-height:400px;
+	}
 }
 
 @media screen and (max-width: 755px) {
