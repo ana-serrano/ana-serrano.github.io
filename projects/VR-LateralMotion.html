@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Title will be here</title>
+<title>Imperceptible manipulation of lateral camera motion for improved virtual reality applications</title>
 <!--[if IE]>
 <link href="../shared/style-ie.css" rel="stylesheet" type="text/css">
 <![endif]-->
@@ -13,23 +13,37 @@
 <a id="top"></a>
 <div id="wrapper">
 <div id="header">
-<div id="journal">Journal will be here Vol.00(0)</div>
-<div id="title"><a href="https://ana-serrano.github.io/projects/VR-LateralMotion.html" class="nounderline">Title will be here</a></div>
+<div id="journal">ACM Transactions on Graphics, Vol. 39(6), 2020 (SIGGRAPH Asia 2020)</div>
+<div id="title"><a href="https://ana-serrano.github.io/projects/VR-LateralMotion.html" class="nounderline" style="font-size:40px">Imperceptible manipulation of lateral camera motion for improved virtual reality applications</a></div>
 
 
 <table id="authors">
 <tbody><tr>
-<!--<td><a href="http://webdiis.unizar.es/~aserrano/">Ana Serrano</a><span class="super">1</span></td>-->
+<td><a href="https://ana-serrano.github.io/" target="_blank">Ana Serrano</a><span class="super">*</span><span class="super">1,2</span></td>
+<td><a href="http://webdiis.unizar.es/~danims/" target="_blank">Daniel Martin</a><span class="super">*</span><span class="super">1</span></td>
+<td><a href="http://giga.cps.unizar.es/~diegog/" target="_blank">Diego Gutierrez</a><span class="super">1</span></td>
+<td><a href="https://people.mpi-inf.mpg.de/~karol/" target="_blank">Karol Myszkowski</a><span class="super">2</span></td>
+<td><a href="http://webdiis.unizar.es/~bmasia/" target="_blank">Belen Masia</a><span class="super">1</span></td>
+
 </tr>
 
 <tr>
+
 <td colspan="7" id="affiliation">
-<!--<span class="super">1</span> Universidad de Zaragoza, I3A-->
-</td></tr>
+<span class="super">1</span> Universidad de Zaragoza, I3A
+<span class="super">2</span> Max Planck Institue for Informatics
+</td>
+</tr>
+<tr>
+<td colspan="7" id="affiliation">
+<span class="super">*</span> <i> Equal contribution </i>
+</td>
+</tr>
+
 </tbody></table>
 
 
-<a href="https://ana-serrano.github.io/projects/images/teaser_VR-motion.jpg" class="nounderline"><img style="width:850px;" src="./images/teaser_VR-motion.jpg" alt="Teaser" id="teaser"></a>
+<a href="./images/teaser_VR-motion.jpg" class="nounderline"><img style="width:850px;" src="./images/teaser_VR-motion.jpg" alt="Teaser" id="teaser"></a>
 
 
 <table id="navigation">
@@ -49,38 +63,73 @@
 <h1><a id="news" href="https://ana-serrano.github.io/projects/VR-LateralMotion.html#top">News</a></h1>
 <ul>
 <li><span class="italic">September, 2020</span>:  Web launched.</li>
-<!--<li><span class="italic">May, 2016</span>: Paper available (<span class="italic">see <a href="https://ana-serrano.github.io/projects/VR-cinematography.html#downloads">Downloads</a></span>).</li>-->
+<li><span class="italic">September, 2020</span>: Paper available (<span class="italic">see <a href="https://ana-serrano.github.io/projects/VR-LateralMotion.html#downloads">Downloads</a></span>).</li>
 </ul>
 
 
 <h1><a id="abstract" href="https://ana-serrano.github.io/projects/VR-LateralMotion.html#top">Abstract</a></h1>
 <p>
-<!--EMPTY FOR NOW-->
+Virtual Reality (VR) systems increase immersion by reproducing users’ move-
+ments in the real world. However, several works have shown that this real-
+to-virtual mapping does not need to be precise in order to convey a realistic
+experience. Being able to alter this mapping has many potential applications,
+since achieving an accurate real-to-virtual mapping is not always possible
+due to limitations in the capture or display hardware, or in the physical
+space available. In this work, we measure detection thresholds for lateral
+translation gains of virtual camera motion in response to the corresponding
+head motion under natural viewing, and in the absence of locomotion, so that
+virtual camera movement can be either compressed or expanded while these
+manipulations remain undetected. Finally, we propose three applications for
+our method, addressing three key problems in VR: improving 6-DoF viewing
+for captured 360º footage, overcoming physical constraints, and reducing
+simulator sickness. We have further validated our thresholds and evaluated
+our applications by means of additional user studies confirming that our ma-
+nipulations remain imperceptible, and showing that (i) compressing virtual
+camera motion reduces visible artifacts in 6-DoF, hence improving perceived
+quality, (ii) virtual expansion allows for completion of virtual tasks within
+a reduced physical space, and (iii) simulator sickness may be alleviated in
+simple scenarios when our compression method is applied.
 <h1><a id="downloads" href="https://ana-serrano.github.io/projects/VR-LateralMotion.html#top">Downloads</a></h1>
-<!--<ul>
-<li><a target="_blank" href="https://graphics.unizar.es/papers/Serrano_SIGG2017_VR-cine.pdf">Paper [PDF, 24.8 MB]</a></li>
-<li><a target="_blank" href="https://www.dropbox.com/s/2mxg7w3sktyrvru/Serrano_SIGG2017_VR-cine_supp.zip?raw=1">Supplementary [ZIP, 132.48 MB]</a></li>
-<li><a target="_blank" href="https://www.dropbox.com/s/7umz2lqakhpwt23/Serrano_SIGG2017_VR-cine.pptx?raw=1">Slides [PPTX, 301 MB]</a></li>
-<li><a target="_blank" href="http://webdiis.unizar.es/~aserrano/docs/AnaSerrano_SIGG2017_VR-cine_code.zip">Code and data [ZIP, 266.44 MB]</a></li>
+<ul>
+<li><a target="_blank" href="https://graphics.unizar.es/papers/VR-motion_SA2020_main.pdf">Paper [PDF, 39.9 MB]</a></li>
+<li><a target="_blank" href="https://www.dropbox.com/s/urgw3pu9ad74mgc/Serrano_SA2020_VR-Motion_supp.pdf?raw=1">Supplementary [PDF, 8.01 MB]</a></li>
+<li><a href="">Code and data (soon)</a></li>
+<!--<li><a target="_blank" href="http://webdiis.unizar.es/~aserrano/docs/AnaSerrano_SIGG2017_VR-cine_code.zip">Code and data [ZIP, 266.44 MB]</a></li>
 <li><a target="_blank" href="https://drive.google.com/drive/folders/0B6OEXFkAawbNdUxTRlZid0tNTk0?usp=sharing">Full video/audio dataset and eyetracking data [shared folder]</a></li>
 </ul>
 <p><i>The code and dataset provided are property of Universidad de Zaragoza - free for non-commercial purposes</i></p>-->
 
 <h1><a id="bibtex" href="https://ana-serrano.github.io/projects/VR-LateralMotion.html#top">Bibtex</a></h1>
 <div id="bibtexsec">
-<!--EMPTY FOR NOW-->
+@article{Serrano2020_VR-LateralMotion,
+    author = {Serrano, Ana and Martin, Daniel and Gutierrez, Diego and Myszkowski, Karol and Masia, Belen},
+    title = {Imperceptible manipulation of lateral camera motion for improved virtual reality applications},
+    journal = {ACM Transactions on Graphics},
+    volume = {39},
+    number = {6},
+    year = {2020},
+    doi = {10.1145/3414685.3417773},
+}
 </div>
-
 
 
 <h1><a id="related" href="#top">Related</a></h1>
 <ul>
-<!--<li>2017: <a target="_blank" href="https://vsitzmann.github.io/vr-saliency/">Saliency in VR: How do people explore virtual environments?</a></li>-->
+<li>2019: <a target="_blank" href="https://ana-serrano.github.io/projects/VR-6dof.html">Motion parallax for 360° RGBD video</a></li>
 </ul>
 
 <h1><a id="acks" href="#top">Acknowledgements</a></h1>
 <p>
-<!--EMPTY FOR NOW-->
+We thank Itrat Rubab for her help running some of the experiments.
+This work has received funding from the European Research Coun-
+cil (ERC) under the EU’s Horizon 2020 research and innovation
+programme (project CHAMELEON, Grant no. 682080), from the
+European Union MSCA-ITN programme (project DyViTo, Grant no.
+765121), from the Spanish Ministry of Economy and Competitive-
+ness (projects TIN2016-78753-P, and PID2019-105004GB-I00), and
+from the Government of Aragon (G&I Lab reference group). Ana
+Serrano was additionally supported by the Max Planck Institute for
+Informatics (Lise Meitner Postdoctoral Fellowship).
 </p>
 
 
