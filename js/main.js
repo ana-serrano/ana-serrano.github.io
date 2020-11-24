@@ -23,7 +23,7 @@ jQuery(document).ready(function($) {
 
 		if(groupName != 'all')
         {
-			for (var i = 2021; i > 2013; i--) 
+			for (var i = 2022; i > 2013; i--) 
             {
                 var contador = 0;
                 $("#" + i + " .publication_item").each(function()
@@ -49,7 +49,7 @@ jQuery(document).ready(function($) {
 			}
 		}
 		else{
-			for (i = 2014; i < 2021; i++) {				
+			for (i = 2014; i < 2022; i++) {				
 				$("#" + i).show();		
 
                 $("#" + i + " .publication_item").each(function()
