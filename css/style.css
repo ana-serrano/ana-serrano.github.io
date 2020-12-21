@@ -1,6 +1,21 @@
 /*--------------------------------------------------
 ----------------------- Ana styles ----------------
 ---------------------------------------------------*/
+
+.btnbib-link{
+    font-weight:bold;
+    background-color: #606777;
+    color: white;
+
+}
+
+.btnbib-link:hover{
+    background-color: #476de0;
+    font-weight:bold;
+    color: white;
+}
+
+
 .author-link{
 	font-weight:bold;
 	color:#606777;
