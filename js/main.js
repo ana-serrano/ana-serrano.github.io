@@ -1,3 +1,15 @@
+//If you want to copyText from Element
+function copyToClipboard(element) {
+  var elementText = $(element).text();
+  copyText(elementText); //use the copyText function below
+}
+
+//If you only want to put some Text in the Clipboard just use this function
+// and pass the string to copied as the argument.
+function copyText(text) {
+  navigator.clipboard.writeText(text);
+}
+
 jQuery(document).ready(function($) {
     "use strict";
     watch($('.pace-progress'), 'width', function() {
