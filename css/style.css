@@ -3457,7 +3457,7 @@ screen and (max-height: 300px) {
     .hs-menu {
         position: relative;
         width: 100%;
-        height: 320px;
+        height: 345px;
         left: 0;
     }
     .hs-headline {
