@@ -2090,8 +2090,7 @@ table{border-collapse:collapse;border-spacing:0}
 .author-link:hover{color:#476de0;font-weight:bold}
 .gilab-link{font-weight:bold;color:#788195}
 .gilab-link:hover{color:#476de0;font-weight:bold}
-#section3 .internship_title{color:#476de0}
-#section5 .internship_title{color:#476de0}
+#section3,#section5 .internship_title{color:#476de0}
 body{font-family:'Raleway',Calibri,Arial,sans-serif;background:#e4e4e8;font-weight:400;font-size:16px;color:#606777;overflow-y:hidden;overflow-x:hidden;-webkit-font-smoothing:antialiased;-webkit-overflow-scrolling:touch}
 *:focus{outline:0}
 a{color:#788195;text-decoration:none!important}
