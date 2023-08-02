@@ -2090,7 +2090,8 @@ table{border-collapse:collapse;border-spacing:0}
 .author-link:hover{color:#476de0;font-weight:bold}
 .gilab-link{font-weight:bold;color:#788195}
 .gilab-link:hover{color:#476de0;font-weight:bold}
-#section3,#section5 .internship_title{color:#476de0}
+#section3 .internship_title{color:#476de0}
+#section5 .internship_title{color:#476de0}
 body{font-family:'Raleway',Calibri,Arial,sans-serif;background:#e4e4e8;font-weight:400;font-size:16px;color:#606777;overflow-y:hidden;overflow-x:hidden;-webkit-font-smoothing:antialiased;-webkit-overflow-scrolling:touch}
 *:focus{outline:0}
 a{color:#788195;text-decoration:none!important}
@@ -2247,8 +2248,8 @@ ul.marquee li{position:absolute;top:-999em;left:0;display:block;white-space:nowr
 .resume-section .resume .resume-date .separator{display:block;border-top:1px solid rgba(255,255,255,0.82);height:0;margin:0 auto;width:25px}
 .resume-section .resume h4{margin-top:0;margin-bottom:9px;font-size:10px}
 .resume-section .resume-wrapper{position:relative}
-.img-pub{height:80px;width:142px}
-.int-pub{height:70px;width:70px}
+.img-pub{height:144px;width:255px}
+.int-pub{height:100px;width:100px}
 .publication-section .card-drop{position:relative;-moz-perspective:800px;-webkit-perspective:800px;perspective:800px;z-index:999}
 .publication-section .card-drop a{display:block;width:100%!important;padding-left:20px;height:40px;line-height:40px;font-size:11px;font-family:Montserrat;font-weight:400;text-decoration:none;color:#606777;background-color:#f2f2f4;-moz-transition:all .3s ease-out;-o-transition:all .3s ease-out;-webkit-transition:all .3s ease-out;transition:all .3s ease-out}
 .publication-section .card-drop>a.toggle{display:inline-block;color:#606777;border:1px solid rgba(120,129,149,0.33);font-size:11px;font-family:Montserrat;line-height:37px;position:relative;z-index:300;-moz-backface-visibility:hidden;-webkit-backface-visibility:hidden;backface-visibility:hidden;-moz-transform-style:preserve-3d;-webkit-transform-style:preserve-3d;transform-style:preserve-3d;-moz-transform-origin:50% 0;-ms-transform-origin:50% 0;-webkit-transform-origin:50% 0;transform-origin:50% 0;-moz-transition:.1s linear;-o-transition:.1s linear;-webkit-transition:.1s linear;transition:.1s linear;background-color:#f2f2f4}
@@ -2276,7 +2277,7 @@ ul.marquee li{position:absolute;top:-999em;left:0;display:block;white-space:nowr
 .publication-section .media .panel-heading{height:80px}
 .publication-section .media .panel-heading{font-size:50px;color:#fff;opacity:1}
 .publication-section .media .panel-body{padding:0 15px}
-.publication-section .media .media-body{padding-left:10px;border-left:1px solid #dbdbe0;min-height:80px;padding-top:.75%}
+.publication-section .media .media-body{padding-left:10px;min-height:80px;padding-top:.75%}
 .publication-section .media .date{width:80px}
 .publication-section .media .date .day{font-weight:200;display:block;text-align:center;line-height:100%;font-size:40px;color:rgba(255,255,255,0.82)}
 .publication-section .media .date .month{width:100%;display:inline-block;color:rgba(255,255,255,0.82);font-size:16px;font-weight:500;text-align:center;padding-bottom:3px}

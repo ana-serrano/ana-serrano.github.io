@@ -1250,8 +1250,8 @@ ul.marquee li {
 ------------------ Publication ---------------------
 ---------------------------------------------------*/
 .img-pub{
-	height: 144px;
-	width: 255px;
+	height: 80px;
+	width: 142px;
 
 }
 .int-pub{

@@ -337,7 +337,7 @@
                                     <hr style="margin:8px auto">
 									<a href="https://vclab.kaist.ac.kr/cgf2022/CGF22-paper-errata-fix.pdf" target="_blank"><span class="label label-primary">PDF</span></a>
 									<a href="https://vclab.kaist.ac.kr/cgf2022/CGF22-supple.pdf" target="_blank"><span class="label label-primary">Supp.</span></a>
-									<a href="https://github.com/KAIST-VCLAB/hdr-sa-csf" target="_blank"><span class="label label-primary">Project page</span></a>
+									<a href="https://github.com/KAIST-VCLAB/hdr-sa-csf" target="_blank"><span class="label label-primary">Project page (with code and data)</span></a>
 									<a href="https://vclab.kaist.ac.kr/egsr2021/EGSR21-presentation.pdf" target="_blank"><span class="label label-primary">Slides</span></a>	
 									<a href data-toggle="modal" data-target="#Yi2021-CSF"><span class="label label-primary">Bibtex</span></a>	
 									<span class="filter filter-primary">Journal (Q2)</span>
