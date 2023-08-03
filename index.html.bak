@@ -276,7 +276,7 @@
                             <div class="publication_item" data-group='JOURNAL PAPERS'>
                                 <div class="media">
                                     <div class="pull-left">
-                                        <img loading="lazy" class="img-pub" src="images/pubs/2023/publications_ISMAR2023_360Dataset.png"/>
+                                        <img loading="lazy" class="img-pub" src="images/pubs/2023/publications_ISMAR2023_360dataset.png"/>
                                     </div>
                                     <div class="media-body">
                                         <h3>D-SAV360: A Dataset of Gaze Scanpaths on 360º Ambisonic Videos</h3>
