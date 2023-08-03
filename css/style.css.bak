@@ -2883,7 +2883,7 @@ img.mfp-img {
 ---------------------------------------------------*/
 
 @media screen and (max-width:1024px) {
-    .publication-section .media .media-body {
+.publication-section .media .media-body {
     padding-left: 2px;
     border-left: none;
 }

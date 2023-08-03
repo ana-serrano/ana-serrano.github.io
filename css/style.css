@@ -524,6 +524,8 @@ ul.marquee li {
     height: 100%;
     margin: 10px 0;
     position: relative;
+	width: 1600px;
+    margin: auto;
 }
 .about-section .aboutInfo-contanier .about-cover {
     background: linear-gradient(rgba(43, 48, 59, 0.5), rgba(43, 48, 59, 0.5)), url(../images/cover.jpg) no-repeat;
