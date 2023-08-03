@@ -12,19 +12,17 @@
     <link rel="shortcut icon" href="images/favicon.ico">
 
     <!-- CSS | STYLE -->
-	<link rel="stylesheet" type="text/css" href="css/compressed.css" />
+	<!--<link rel="stylesheet" type="text/css" href="css/compressed.css" />-->
 	<link rel="stylesheet" type="text/css" href="css/colors/purple.css" />
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <!--
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
+    <!--<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />-->
 	<link rel="stylesheet" type="text/css" href="css/academicons.min.css"/>	
-    <link rel="stylesheet" type="text/css" href="css/linecons.css" />
-    <link rel="stylesheet" type="text/css" href="css/normalize.css" />    
-    <link rel="stylesheet" type="text/css" href="css/style.css" />-->
+    <!--<link rel="stylesheet" type="text/css" href="css/linecons.css" />-->
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />   
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
 
     <!-- CSS | Google Fonts -->
-
     <link href='https://fonts.googleapis.com/css?family=Montserrat:400' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Raleway:200,400,300,500,600' rel='stylesheet' type='text/css'>
    
@@ -55,7 +53,7 @@
             <div class="hs-headline">
                 <a id="my-link" href="#my-panel"><i class="fa fa-bars"></i></a>
                 <div class="img-wrap">
-                    <img loading="lazy" src="images/portrait.jpg" height="150px" />
+                    <img loading="lazy" src="images/portrait.png" height="150px" />
                 </div>
                 <div class="profile_info">
                     <h1>Ana Serrano</h1>
@@ -77,7 +75,7 @@
             <!-- End Profil Image-->
 
             <!-- menu -->
-            <nav style="margin-top:75px">
+            <nav style="margin-left:30px;margin-top:120px">
                 <a href="#section1"><span class="menu_name">ABOUT</span><span class="fa fa-home"></span> </a>
                 <a href="#section2"><span class="menu_name">PUBLICATIONS</span><span class="fa fa-paperclip"></span> </a>
                 <a href="#section3"><span class="menu_name">CAREER</span><span class="fa fa-plane"></span> </a>
@@ -122,11 +120,11 @@
                         <ul id="marquee" class="marquee">
                            
 							<li>
-								I have been recognized as an Eurographics Junior Fellow.                     
+								I have received the Eurographics 2023 Young Researcher Award           
 							</li>
-                            <li>
+                            <!--<li>
 								Check our new work ScanGAN360! Best journal paper at IEEE VR 2022. Code and dataset available online. 					
-							</li>                           
+							</li>   -->                        
                         </ul>
                     </div>
                     <!-- End News scroll -->
@@ -135,9 +133,7 @@
             <!-- End Header -->
 
             <!-- hs-content-wrapper -->
-            <div class="hs-content-wrapper">
-			
-			
+            <div class="hs-content-wrapper">			
 			
                 <!-- About section -->
                 <article class="hs-content about-section" id="section1">
@@ -145,26 +141,42 @@
                     <div class="hs-inner">
                         <span class="before-title">&nbsp </span>
                         <h2>ABOUT</h2>
-                        <!-- <span class="content-title">PERSONAL DETAILS</span> -->
-                        <div class="aboutInfo-contanier">
-                            <div class="tab-pane fade in active" id="bio">			
-								<h4>SHORT BIO</h4>
-								<p>								 
-									I am an Assistant Professor at Universidad de Zaragoza (Spain). Previously I was a Postdoctoral Research Fellow at the Max-Planck-Institute for Informatics working with <a class="author-link" href="http://people.mpi-inf.mpg.de/~karol/" target="_blank">Prof. Karol Myszkowski</a>.
-									I obtained my PhD under the supervision of <a class="author-link" href="http://giga.cps.unizar.es/~diegog/" target="_blank">Prof. Diego Gutierrez</a> and <a class="author-link" href="http://webdiis.unizar.es/~bmasia/" target="_blank">Prof. Belen Masia</a> at the Graphics & Imaging Lab (Universidad de Zaragoza). 
-									During my PhD I was the recipient of an <a class="author-link" href="https://research.adobe.com/fellowship/previous-fellowship-award-winners/" target="_blank">Adobe Research Fellowship</a> (honorable mention) in 2017, and a <a class="author-link" href="https://www.nvidia.com/en-us/research/graduate-fellowships/2018/ana-serrano/" target="_blank">NVIDIA Graduate Fellowship</a> in 2018. 
-									My thesis has been awarded with one of the <a class="author-link" href="https://www.eg.org/wp/eurographics-awards-programme/phd-award/" target="_blank">Eurographics 2020 PhD awards</a>. 
-								</p>
-								<h4>RESEARCH TOPICS</h4> 
-								<p>
-									My research spans several areas of visual computing, in particular: computational
-									imaging, material appearance perception and editing, and virtual reality, with a focus
-									on applying perceptually-motivated solutions. I am passionate about creating and
-									applying fundamental knowledge about the perceptual system to improve human
-									experiences and develop tools to assist content creation.
-								
-								</p>								
+                        <!-- <span class="content-title">PERSONAL DETAILS</span> -->				
+                        <div class="aboutInfo-contanier content">						
+						
+						<div class="row">
+							<div class="col-sm-4"> 
+								<img style="width:60%;border-radius:50%;margin:auto;display: block;" src="images/photo.png"/>
+							</div>							
+							<div class="col-sm-7">
+								<div class="tab-pane fade in active" id="bio">
+									<h4>SHORT BIO</h4>
+									<p>								 
+										I am an Assistant Professor at Universidad de Zaragoza (Spain). Previously I was a Postdoctoral Research Fellow at the Max-Planck-Institute for Informatics working with <a class="author-link" href="http://people.mpi-inf.mpg.de/~karol/" target="_blank">Prof. Karol Myszkowski</a>.
+										I obtained my PhD under the supervision of <a class="author-link" href="http://giga.cps.unizar.es/~diegog/" target="_blank">Prof. Diego Gutierrez</a> and <a class="author-link" href="http://webdiis.unizar.es/~bmasia/" target="_blank">Prof. Belen Masia</a> at the Graphics & Imaging Lab (Universidad de Zaragoza). 
+										During my PhD I was the recipient of an <a class="author-link" href="https://research.adobe.com/fellowship/previous-fellowship-award-winners/" target="_blank">Adobe Research Fellowship</a> (honorable mention) in 2017, and a <a class="author-link" href="https://www.nvidia.com/en-us/research/graduate-fellowships/2018/ana-serrano/" target="_blank">NVIDIA Graduate Fellowship</a> in 2018. 
+										My thesis has been awarded with one of the <a class="author-link" href="https://www.eg.org/wp/eurographics-awards-programme/phd-award/" target="_blank">Eurographics 2020 PhD awards</a>
+										and I have received the <a class="author-link" href="https://www.eg.org/wp/eurographics-awards-programme/the-young-researcher-award/young-researcher-award-2023-ana-serrano/" target="_blank">Eurographics 2023 Young Researcher Award</a>. 
+									</p>								
+									
+									<h4>RESEARCH TOPICS</h4> 
+									<p>
+										My research spans several areas of visual computing, in particular: computational
+										imaging, material appearance perception and editing, and virtual reality, with a focus
+										on applying perceptually-motivated solutions. I am passionate about creating and
+										applying fundamental knowledge about the perceptual system to improve human
+										experiences and develop tools to assist content creation.
+									
+									</p>									
+								</div>
 							</div>
+							<div class="col-sm-1"> 
+							</div>	
+						</div>
+										
+							
+							
+							
 							<!--<div class="tab-pane fade in active" id="bio">
 								<img loading="lazy" src="images/logos/mpii-logo.png" width= "17%" style="margin:0 1%"/> <img loading="lazy" src="images/logos/gilab-logo.png" width= "17%" style="margin:0 1% 0 0"/> <img loading="lazy" src="images/logos/sci-logo.png" width= "17%" style="margin:0 1%"/> <img loading="lazy" src="images/logos/adobe-logo.png" width= "16.8%" style="margin:0 1%"/> <img loading="lazy" src="images/logos/nvidia-logo.png" width= "16.8%" style="margin:0 0 0 1%"/> 
 															
@@ -229,7 +241,87 @@
                             </div>
                         </div>
 						<!-- End Filter/Sort Menu -->	
+						
+						<!-- publication wrapper-->                           
+                        <div class="mygridfilter" id="2023">
+						
+						<!-- Year -->
+							<span class="content-title">2023</span>
+                            <br></br>
+						<!-- End Year-->
+						
+						<!-- publication item -->
+                            <div class="publication_item" data-group='CONFERENCES'>
+                                <div class="media">
+                                    <div class="pull-left">
+                                        <img loading="lazy" class="img-pub" src="images/pubs/2023/publications_ICCV2023_GlowGAN.png"/>
+                                    </div>
+                                    <div class="media-body">
+                                        <h3>GlowGAN: Unsupervised Learning of HDR Images from LDR Images in the Wild</h3>
+                                        <h4>Chao Wang, Ana Serrano, Xingang Pan, Bin Chen, Karol Myszkowski, Hans-Peter Seidel, Christian Theobalt and Thomas Leimkuehler</h4>
+                                        <span class="publication_description">ICCV 2023</span> 
+										<span class="publication_description">
+										</span> 
+									</div>
+									<hr style="margin:8px auto">
+									<a href="" target="_blank"><span class="label label-primary">PDF (soon)</span></a>
+									<a href="" target="_blank"><span class="label label-primary">Project page (soon)</span></a>	
+									<!--<a href data-toggle="modal" data-target="#Chen2022"><span class="label label-primary">Bibtex</span></a>	-->
+									<span class="filter filter-primary">Conference</span>
+                                </div> 								
+                            </div>		
+						<!-- End publication item --> 
+						
+						<!-- publication item -->
+                            <div class="publication_item" data-group='JOURNAL PAPERS'>
+                                <div class="media">
+                                    <div class="pull-left">
+                                        <img loading="lazy" class="img-pub" src="images/pubs/2023/publications_ISMAR2023_360Dataset.png"/>
+                                    </div>
+                                    <div class="media-body">
+                                        <h3>D-SAV360: A Dataset of Gaze Scanpaths on 360º Ambisonic Videos</h3>
+                                        <h4>Edurne Bernal-Berdun, Daniel Martin, Sandra Malpica, Pedro Perez, Diego Gutierrez, Belen Masia, and Ana Serrano</h4>
+                                        <span class="publication_description">IEEE TVCG (Proc. ISMAR), 2023</span> 
+										<span class="publication_description">
+										</span> 
+									</div>
+									<hr style="margin:8px auto">
+									<a href="" target="_blank"><span class="label label-primary">PDF (soon)</span></a>
+									<a href="" target="_blank"><span class="label label-primary">Project page (soon)</span></a>	
+									<!--<a href data-toggle="modal" data-target="#Chen2022"><span class="label label-primary">Bibtex</span></a>	-->
+									<span class="filter filter-primary">Journal (Q1)</span>
+                                </div> 								
+                            </div>		
+						<!-- End publication item --> 
+						
+						<!-- publication item -->
+                            <div class="publication_item" data-group='JOURNAL PAPERS'>
+                                <div class="media">
+                                    <div class="pull-left">
+                                        <img loading="lazy" class="img-pub" src="images/pubs/2023/publications_ISMAR2023_VisTasks.png"/>
+                                    </div>
+                                    <div class="media-body">
+                                        <h3>Task-dependent Visual Behavior in Immersive Environments: A Comparative Study of Free Exploration, Memory and Visual Search</h3>
+                                        <h4>Sandra Malpica, Daniel Martin, Ana Serrano, Diego Gutierrez and Belen Masia</h4>
+                                        <span class="publication_description">IEEE TVCG (Proc. ISMAR), 2023</span> 
+										<span class="publication_description">
+										</span> 
+									</div>
+									<hr style="margin:8px auto">
+									<a href="http://webdiis.unizar.es/~bmasia/files/Malpica_TVCG2023.pdf" target="_blank"><span class="label label-primary">PDF</span></a>
+									<a href="https://graphics.unizar.es/projects/VR-TaskDependentGaze/" target="_blank"><span class="label label-primary">Project page</span></a>	
+									<!--<a href data-toggle="modal" data-target="#Chen2022"><span class="label label-primary">Bibtex</span></a>	-->
+									<span class="filter filter-primary">Journal (Q1)</span>
+                                </div> 								
+                            </div>		
+						<!-- End publication item --> 
+						
+						
+						
+						</div>
+						<!-- End publication year wrapper-->      
 
+						
 						<!-- publication wrapper-->                           
                         <div class="mygridfilter" id="2022">
 						
@@ -256,9 +348,9 @@
 									<a href="https://glossmanager.mpi-inf.mpg.de/" target="_blank"><span class="label label-primary">Project page</span></a>	
 									<a href data-toggle="modal" data-target="#Chen2022"><span class="label label-primary">Bibtex</span></a>	
 									<span class="filter filter-primary">Conference</span>
-                                </div>  
-							<!-- End publication item --> 			
+                                </div> 								
                             </div>		
+						<!-- End publication item --> 	
 							
 						<!-- publication item -->
                             <div class="publication_item" data-group='JOURNAL PAPERS'>
@@ -364,7 +456,7 @@
 							<!-- End publication item --> 		
 						
 						
-						<!-- End publication wrapper -->
+						<!-- End publication year wrapper -->
 						</div>   
 
 						<!-- publication wrapper-->                           
