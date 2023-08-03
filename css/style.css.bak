@@ -2881,6 +2881,18 @@ img.mfp-img {
 /*--------------------------------------------------
 ------------------ Media Queries  ------------------
 ---------------------------------------------------*/
+@media screen and (min-width:1800px) {
+	.about-section .aboutInfo-contanier {
+		width: 1600px;
+		margin: auto;
+	}
+}
+@media screen and (max-width:1600px) {
+	.img-photo {
+		display: none;
+	}
+}
+
 
 @media screen and (max-width:1024px) {
 .publication-section .media .media-body {

@@ -524,8 +524,6 @@ ul.marquee li {
     height: 100%;
     margin: 10px 0;
     position: relative;
-	width: 1600px;
-    margin: auto;
 }
 .about-section .aboutInfo-contanier .about-cover {
     background: linear-gradient(rgba(43, 48, 59, 0.5), rgba(43, 48, 59, 0.5)), url(../images/cover.jpg) no-repeat;
@@ -2883,6 +2881,21 @@ img.mfp-img {
 /*--------------------------------------------------
 ------------------ Media Queries  ------------------
 ---------------------------------------------------*/
+@media screen and (min-width:1800px) {
+	.about-section .aboutInfo-contanier {
+		width: 1600px;
+		margin: auto;
+	}
+}
+@media screen and (max-width:1600px) {
+	.img-photo {
+		display: none;
+	}
+	.about-text {
+		width: 100%;
+	}
+}
+
 
 @media screen and (max-width:1024px) {
 .publication-section .media .media-body {
@@ -2891,6 +2904,9 @@ img.mfp-img {
 }
 .img-photo {
     display: none;
+}
+.about-text {
+	width: 100%;
 }
 .img-pub {
     display: none;
@@ -2911,6 +2927,9 @@ img.mfp-img {
 @media screen and (max-width:755px) {
 .img-photo {
     display: none;
+}
+.about-text {
+	width: 100%;
 }
 .img-pub {
     display: none;
