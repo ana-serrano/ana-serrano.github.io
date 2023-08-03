@@ -75,7 +75,7 @@
             <!-- End Profil Image-->
 
             <!-- menu -->
-            <nav style="margin-top:75px;margin-left:30px;margin-top:120px">
+            <nav style="margin-left:30px;margin-top:120px">
                 <a href="#section1"><span class="menu_name">ABOUT</span><span class="fa fa-home"></span> </a>
                 <a href="#section2"><span class="menu_name">PUBLICATIONS</span><span class="fa fa-paperclip"></span> </a>
                 <a href="#section3"><span class="menu_name">CAREER</span><span class="fa fa-plane"></span> </a>
@@ -158,7 +158,7 @@
 										My thesis has been awarded with one of the <a class="author-link" href="https://www.eg.org/wp/eurographics-awards-programme/phd-award/" target="_blank">Eurographics 2020 PhD awards</a>
 										and I have received the <a class="author-link" href="https://www.eg.org/wp/eurographics-awards-programme/the-young-researcher-award/young-researcher-award-2023-ana-serrano/" target="_blank">Eurographics 2023 Young Researcher Award</a>. 
 									</p>								
-									
+									<p>&nbsp </p>
 									<h4>RESEARCH TOPICS</h4> 
 									<p>
 										My research spans several areas of visual computing, in particular: computational
