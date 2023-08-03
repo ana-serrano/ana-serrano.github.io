@@ -106,6 +106,7 @@ a:active {
     left: -5px;
     top: 7px;
     float: right;
+	border-radius:50%;
 }
 .hs-content .active-sec {
     color: #fff;
@@ -285,6 +286,7 @@ a.hs-totop-link {
     -moz-transition: all .2s ease;
     -o-transition: all .2s ease;
     transition: all .2s ease;
+	
 }
 .hs-menu nav a {
     display: block;
@@ -330,6 +332,7 @@ a.hs-totop-link {
     position: relative;
     left: 0;
     float: right;
+	border-radius:50%;
 }
 .hs-menu .separator-aside {
     display: block;
@@ -929,6 +932,9 @@ ul.marquee li {
     background: rgba(255, 255, 255, 1);
     border: 1px solid #dbdbe0;
     margin-top: 10px;
+	border-radius: 10px;
+	box-shadow:0px 0px 17px 0px rgba(0,0,0,0.1); 
+
 }
 .about-section .tab-pane h3 {
     margin: 0;
@@ -1236,6 +1242,9 @@ ul.marquee li {
     padding: 10px;
     position: relative;
     border: 1px solid #dbdbe0;
+	border-radius: 10px;
+	box-shadow:0px 0px 17px 0px rgba(0,0,0,0.1); 
+	margin:15px;
 }
 .publication-section .media .publication_description {
     font-size: 13px;
@@ -1694,7 +1703,8 @@ ul.marquee li {
 }
 .teaching-section .teaching>li {
     position: relative;
-    margin-bottom: 10px;
+    margin-bottom: 10px;	
+
 }
 .teaching-section .teaching>li:before, .teaching-section .teaching>li:after {
     display: table;
@@ -1709,6 +1719,9 @@ ul.marquee li {
     padding: 10px;
     position: relative;
     border: 1px solid #dbdbe0;
+	border-radius: 10px;
+	box-shadow:0px 0px 17px 0px rgba(0,0,0,0.1); 
+	margin-bottom:5px;
 }
 .teaching-section .teaching>li>.timeline-item>.timeline-header {
     margin: 0;
@@ -1732,6 +1745,7 @@ ul.marquee li {
     display: inline-block;
 }
 .teaching-section .teaching>li>.teaching-tag {
+	border-radius:10px;
     width: 45px;
     height: 100%;
     font-size: 15px;
@@ -1754,6 +1768,7 @@ ul.marquee li {
     left: 0;
     width: 100%;
     background: rgba(0, 0, 0, 0.13);
+	border-radius: 10px;
 }
 .teaching-section .teaching .teaching-date span {
     width: 45px;

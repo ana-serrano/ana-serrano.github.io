@@ -285,6 +285,7 @@ a.hs-totop-link {
     -moz-transition: all .2s ease;
     -o-transition: all .2s ease;
     transition: all .2s ease;
+	
 }
 .hs-menu nav a {
     display: block;
@@ -330,6 +331,7 @@ a.hs-totop-link {
     position: relative;
     left: 0;
     float: right;
+	border-radius:50%;
 }
 .hs-menu .separator-aside {
     display: block;
@@ -929,6 +931,9 @@ ul.marquee li {
     background: rgba(255, 255, 255, 1);
     border: 1px solid #dbdbe0;
     margin-top: 10px;
+	border-radius: 10px;
+	box-shadow:0px 0px 17px 0px rgba(0,0,0,0.1); 
+
 }
 .about-section .tab-pane h3 {
     margin: 0;
@@ -1236,6 +1241,9 @@ ul.marquee li {
     padding: 10px;
     position: relative;
     border: 1px solid #dbdbe0;
+	border-radius: 10px;
+	box-shadow:0px 0px 17px 0px rgba(0,0,0,0.1); 
+	margin:15px;
 }
 .publication-section .media .publication_description {
     font-size: 13px;
@@ -1611,7 +1619,7 @@ ul.marquee li {
 .research-section .slide-header {
     padding: 10px;
     margin-bottom: 10px;
-    background: rgba(248, 249, 251, 0.6);
+    background: rgba(255, 255, 255, 1);
     border: 1px solid #dbdbe0;
 }
 .research-section .slide-header h3 {
@@ -1629,7 +1637,7 @@ ul.marquee li {
 .research-section .slide-content {
     height: 100%;
     padding: 10px;
-    background: rgba(248, 249, 251, 0.6);
+    background: rgba(255, 255, 255, 1);
     border: 1px solid #dbdbe0;
 }
 .research-section nav {
@@ -1694,7 +1702,8 @@ ul.marquee li {
 }
 .teaching-section .teaching>li {
     position: relative;
-    margin-bottom: 10px;
+    margin-bottom: 10px;	
+
 }
 .teaching-section .teaching>li:before, .teaching-section .teaching>li:after {
     display: table;
@@ -1704,11 +1713,14 @@ ul.marquee li {
 }
 .teaching-section .teaching>li>.timeline-item {
     margin-top: 0;
-    background: rgba(248, 249, 251, 0.6);
+    background: rgba(255, 255, 255, 1);
     margin-left: 55px;
     padding: 10px;
     position: relative;
     border: 1px solid #dbdbe0;
+	border-radius: 10px;
+	box-shadow:0px 0px 17px 0px rgba(0,0,0,0.1); 
+	margin-bottom:5px;
 }
 .teaching-section .teaching>li>.timeline-item>.timeline-header {
     margin: 0;
@@ -1732,6 +1744,7 @@ ul.marquee li {
     display: inline-block;
 }
 .teaching-section .teaching>li>.teaching-tag {
+	border-radius:10px;
     width: 45px;
     height: 100%;
     font-size: 15px;
@@ -1754,6 +1767,7 @@ ul.marquee li {
     left: 0;
     width: 100%;
     background: rgba(0, 0, 0, 0.13);
+	border-radius: 10px;
 }
 .teaching-section .teaching .teaching-date span {
     width: 45px;
@@ -1779,7 +1793,7 @@ ul.marquee li {
 }
 .skills-section .skolls {
     margin-top: 0;
-    background: rgba(248, 249, 251, 0.6);
+    background: rgba(255, 255, 255, 1);
     padding: 10px;
     position: relative;
     border: 1px solid #dbdbe0;
@@ -1821,7 +1835,7 @@ ul.marquee li {
 }
 .skills-section .bar {
     float: left;
-    background: rgba(255, 255, 255, 0.82);
+    background: rgba(255, 255, 255, 1);
     height: 100%;
     -ms-filter: "alpha(opacity=100)";
     filter: alpha(opacity=100);
@@ -2178,7 +2192,7 @@ ul.marquee li {
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
     -ms-transition: all .3s ease-in-out;
-    background: rgba(248, 249, 251, 0.6);
+    background: rgba(255, 255, 255, 1);
     border: 1px solid #dbdbe0;
     font-family: Montserrat!important;
 }
@@ -2194,7 +2208,7 @@ ul.marquee li {
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
     -ms-transition: all .3s ease-in-out;
-    background: rgba(248, 249, 251, 0.6);
+    background: rgba(255, 255, 255, 1);
     border: 1px solid #dbdbe0;
     font-family: Montserrat!important;
 }
@@ -3054,7 +3068,7 @@ a.hs-totop-link {
     border-left: none;
 }
 .publication-section .media .ex-link {
-    background: rgba(248, 249, 251, 0.8);
+    background: rgba(255, 255, 255, 1);
 }
 .research-section .slide-date {
     font-size: 10px;
