@@ -1392,7 +1392,8 @@ ul.marquee li {
     background: #476de0;
 }
 .publication-section .label-primary, .publication-detail .selected, .teaching-section .label-primary {
-    background: #2b303b;
+    background: #262626;
+	border-radius:8px;
 }
 .publication-detail {
     position: relative;
@@ -2891,6 +2892,9 @@ img.mfp-img {
 	.img-photo {
 		display: none;
 	}
+	.about-text {
+		width: 100%;
+	}
 }
 
 
@@ -2901,6 +2905,9 @@ img.mfp-img {
 }
 .img-photo {
     display: none;
+}
+.about-text {
+	width: 100%;
 }
 .img-pub {
     display: none;
@@ -2921,6 +2928,9 @@ img.mfp-img {
 @media screen and (max-width:755px) {
 .img-photo {
     display: none;
+}
+.about-text {
+	width: 100%;
 }
 .img-pub {
     display: none;

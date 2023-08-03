@@ -1392,7 +1392,9 @@ ul.marquee li {
     background: #476de0;
 }
 .publication-section .label-primary, .publication-detail .selected, .teaching-section .label-primary {
-    background: #2b303b;
+    background: #262626;
+	border-radius:8px;
+	padding:4px;
 }
 .publication-detail {
     position: relative;
