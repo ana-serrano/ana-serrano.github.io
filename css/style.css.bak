@@ -106,6 +106,7 @@ a:active {
     left: -5px;
     top: 7px;
     float: right;
+	border-radius:50%;
 }
 .hs-content .active-sec {
     color: #fff;
@@ -2804,7 +2805,10 @@ img.mfp-img {
 }
 }
 @media all and (max-width:900px) {
-    .img-pub {
+.img-photo {
+    display: none;
+}
+.img-pub {
     display: none;
 }
 .int-pub {
@@ -2883,6 +2887,9 @@ img.mfp-img {
     padding-left: 2px;
     border-left: none;
 }
+.img-photo {
+    display: none;
+}
 .img-pub {
     display: none;
 }
@@ -2900,7 +2907,10 @@ img.mfp-img {
 }
 }
 @media screen and (max-width:755px) {
-    .img-pub {
+.img-photo {
+    display: none;
+}
+.img-pub {
     display: none;
 }
 .int-pub {
@@ -3036,7 +3046,10 @@ a.hs-totop-link {
 }
 }
 @media screen and (max-width:450px) {
-    .img-pub {
+.img-photo {
+    display: none;
+}	
+.img-pub {
     display: none;
 }
 .int-pub {
