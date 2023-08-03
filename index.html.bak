@@ -182,28 +182,41 @@
 															
 							</div>-->
 							
-							<span class="before-title">&nbsp </span>
-							<h2>CONTACT</h2>
-							<div class="tab-pane fade in active" style="text-align: center;">	
-									<i class="fas fa-map-marked-alt"></i>
-									
-									<p style="line-height:15px;text-align: center;">									
-									<b>Universidad de Zaragoza</b><br> 
-									EINA (Edificio Ada Byron), D. 2.21<br> 
-									Maria de Luna, 1<br> 
-									50018 - Zaragoza<br> 
-									Spain</p>
-									
-									<p style="text-align: center;">
-									<i class="fa fa-phone"></i>
-									&nbsp; +34 876 555 529</p>
-									<p style="text-align: center;">
-									<i class="fas fa-envelope-open-text"></i>
-									&nbsp; anase@unizar.es</p>
-							</div>
-						</div>
+							<span class="before-title content">&nbsp </span>
+								<div class="row">
+									<div class="col-sm-1"> 
+									</div>
+									<div class="col-sm-10"> 
+										<div class="tab-pane fade in active content" style="text-align: center;">
+											<div class="row">												
+												<div class="col-sm-6"style="margin-top:40px"> 
+													<i class="fas fa-map-marked-alt"></i>
+													
+													<p style="line-height:15px;text-align:center;">									
+													<b>Universidad de Zaragoza</b><br> 
+													EINA (Edificio Ada Byron), D. 2.21<br> 
+													Maria de Luna, 1<br> 
+													50018 - Zaragoza<br> 
+													Spain</p>
+													
+													<p style="text-align: center;">
+													<i class="fa fa-phone"></i>
+													&nbsp; +34 876 555 529</p>
+													<p style="text-align: center;">
+													<i class="fas fa-envelope-open-text"></i>
+													&nbsp; anase@unizar.es</p>
+												</div>
+												<div class="col-sm-6"> 									
+													<iframe src="https://www.google.com/maps/embed/v1/place?q=https://www.google.com/maps/place/Edificio+Ada+Byron/@41.6832615,-0.8910323,17z/data=!3m1!4b1!4m6!3m5!1s0xd59135dc8ea7ad5:0xfd0014845df510e5!8m2!3d41.6832615!4d-0.8884574!16s%2Fg%2F11cn34953s?entry=ttu&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8" frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe>
+												</div>											
+											</div>
+										</div>
+									</div>
+									<div class="col-sm-1"> 
+									</div>
+								</div>
 					</div>
-						<br>
+					<br>
                 </article>
                 <!-- End About Section -->
 				
@@ -276,7 +289,7 @@
                             <div class="publication_item" data-group='JOURNAL PAPERS'>
                                 <div class="media">
                                     <div class="pull-left">
-                                        <img loading="lazy" class="img-pub" src="images/pubs/2023/publications_ISMAR2023_360dataset.png"/>
+                                        <img loading="lazy" class="img-pub" src="images/pubs/2023/publications_ISMAR2023_360Dataset.png"/>
                                     </div>
                                     <div class="media-body">
                                         <h3>D-SAV360: A Dataset of Gaze Scanpaths on 360º Ambisonic Videos</h3>
