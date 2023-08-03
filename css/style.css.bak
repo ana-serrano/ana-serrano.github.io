@@ -1075,8 +1075,8 @@ ul.marquee li {
 ------------------ Publication ---------------------
 ---------------------------------------------------*/
 .img-pub {
-    height: 144px;
-    width: 255px;
+    height: 173px;
+    width: 306px;
     border: 1px solid;
 	border-color: #828282;
 }
@@ -1394,6 +1394,7 @@ ul.marquee li {
 .publication-section .label-primary, .publication-detail .selected, .teaching-section .label-primary {
     background: #262626;
 	border-radius:8px;
+	padding:4px;
 }
 .publication-detail {
     position: relative;
