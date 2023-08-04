@@ -224,7 +224,7 @@ a.hs-totop-link {
     display: block;
     width: 160px;
     height: 160px;
-    border: 5px solid rgba(120, 129, 149, 0.19);
+    border: 5px solid rgba(197, 205, 223, 0.19);
     margin: auto;
 	border-radius:50%;
 }
