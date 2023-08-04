@@ -2852,6 +2852,11 @@ img.mfp-img {
 .img-photo {
     display: none;
 }
+.about-text {
+		width: 84%;
+		margin-left:8%;
+		margin-right:8%;
+}
 .img-pub {
     display: none;
 }
@@ -2936,7 +2941,9 @@ img.mfp-img {
 		display: none;
 	}
 	.about-text {
-		width: 100%;
+		width: 84%;
+		margin-left:8%;
+		margin-right:8%;
 	}
 }
 
@@ -2950,7 +2957,9 @@ img.mfp-img {
     display: none;
 }
 .about-text {
-	width: 100%;
+	width: 84%;
+	margin-left:8%;
+	margin-right:8%;
 }
 .img-pub {
     display: none;
@@ -2974,6 +2983,8 @@ img.mfp-img {
 }
 .about-text {
 	width: 100%;
+	margin-left:0%;
+	margin-right:0%;
 }
 .img-pub {
     display: none;
@@ -3113,6 +3124,11 @@ a.hs-totop-link {
 @media screen and (max-width:450px) {
 .img-photo {
     display: none;
+}
+.about-text {
+		width: 100%;
+		margin-left:0%;
+		margin-right:0%;
 }	
 .img-pub {
     display: none;
