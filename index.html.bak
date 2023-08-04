@@ -14,7 +14,7 @@
     <!-- CSS | STYLE -->
 	<!--<link rel="stylesheet" type="text/css" href="css/compressed.css" />-->
 	<link rel="stylesheet" type="text/css" href="css/colors/purple.css" />
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+	<!--<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">-->
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
     <!--<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />-->
 	<link rel="stylesheet" type="text/css" href="css/academicons.min.css"/>	
@@ -64,9 +64,9 @@
 					<h4><span class="fas fa-inbox fa-sm"></span>&nbsp;&nbsp;&nbsp;<a class="gilab-link"  target="_blank" href="mailto:anase@unizar.es">anase@unizar.es</a></h4>
 					<h6 style="padding-top:5px">
 						<!--<a class="author-link" href="https://www.dropbox.com/s/o3krekoqljhqf6o/CV.pdf?raw=1" target="_blank"><i class="ai ai-cv-square big-icon fa-2x"></i></a>&nbsp&nbsp&nbsp-->
-						<a class="author-link" href="https://scholar.google.es/citations?user=-tzn_AsAAAAJ&hl=es" target="_blank"><span class="ai ai-google-scholar fa-2x"></span></a>&nbsp&nbsp&nbsp		
-						<a class="author-link" href="https://github.com/ana-serrano" target="_blank"><i class="fab fa-github fa-2x"></i></a>&nbsp&nbsp&nbsp&nbsp			
-						<a class="author-link" href="https://twitter.com/DrAnaSerrano" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>
+						<a class="author-link" href="https://scholar.google.es/citations?user=-tzn_AsAAAAJ&hl=es" target="_blank"><span class="ai ai-google-scholar fa-2x icons-nav" style="font-size:2.3em;"></span></a>&nbsp&nbsp&nbsp		
+						<a class="author-link" href="https://github.com/ana-serrano" target="_blank"><i class="fab fa-github fa-2x icons-nav" style="font-size:2.3em;"></i></a>&nbsp&nbsp&nbsp&nbsp			
+						<a class="author-link" href="https://twitter.com/DrAnaSerrano" target="_blank"><i class="fab fa-twitter fa-2x icons-nav" style="font-size:2.3em;"></i></a>
 					</h6>					
                 </div>
                 <div style="clear:both"></div>
@@ -148,7 +148,7 @@
 							<div class="img-photo col-sm-4"> 
 								<img style="width:70%;border-radius:50%;margin:auto;display: block;box-shadow:0px 0px 17px 0px rgba(0,0,0,0.1);margin-right:10px;" src="images/photo.png"/>
 							</div>							
-							<div class="col-sm-7">
+							<div class="about-text col-sm-7">
 								<div class="tab-pane fade in active" id="bio">
 									<h4>SHORT BIO</h4>
 									<p>								 
@@ -601,9 +601,9 @@
                                         <h4>Ana Serrano*, Daniel Martin*, Diego Gutierrez, Karol Myszkowski, and Belen Masia</h4>
                                         <span class="publication_description">Transactions on Graphics (Proc. SIGGRAPH Asia), 2020</span> </div>
                                     <hr style="margin:8px auto">
-                                    <a href="https://graphics.unizar.es/papers/VR-motion_SA2020_main.pdf" target="_blank"><span class="label label-primary">PDF</span></a> 	
+									<a href="https://graphics.unizar.es/papers/VR-motion_SA2020_main.pdf" target="_blank"><span class="label label-primary">PDF</span></a> 	
 									<a href="https://ana-serrano.github.io/projects/VR-LateralMotion" target="_blank"><span class="label label-primary">Project page</span></a>
-                                    <!--<a href="http://ana-serrano.github.io/bibs/Serrano_SA2020_VR-Motion.bib" target="_blank"><span class="label label-primary">Bibtex</span></a>-->									
+									<!--<a href="http://ana-serrano.github.io/bibs/Serrano_SA2020_VR-Motion.bib" target="_blank"><span class="label label-primary">Bibtex</span></a>-->									
 									<a href="https://www.dropbox.com/s/ktawdtqf992buj6/Serrano_SIGG2020_VR-motion.pptx?raw=1" target="_blank"><span class="label label-primary">Slides</span></a>	
 									<a href="https://youtu.be/cMdMp8RREcE" target="_blank"><span class="label label-primary">Presentation (Youtube)</span></a>	
 									<a href data-toggle="modal" data-target="#Serrano2020"><span class="label label-primary">Bibtex</span></a>		
@@ -1189,7 +1189,7 @@
                         <span class="before-title">&nbsp </span>
                         <h2>CAREER</h2>
 						<!-- Filter/Sort Menu -->
-                        <span class="content-title">Positions</span>                        
+                        <span class="content-title">POSITIONS</span>                        
                         <!-- End Filter/Sort Menu -->
 						
 						<!-- publication wrapper - Max-Planck institut informatik -->
@@ -1262,7 +1262,7 @@
 						
 						
                         <!-- Filter/Sort Menu -->
-                        <span class="content-title">Internships</span>                        
+                        <span class="content-title">RESEARCH STAYS</span>                        
                         <!-- End Filter/Sort Menu -->
 
                         <!-- publication wrapper - Max-Planck institut informatik -->
@@ -1370,6 +1370,7 @@
                             <!-- End publication item -->                          
                         </div>
                         <!-- End Publication Wrapper -->
+						
                     </div>
                     <div class="clear"></div>
                 </article>
@@ -1380,7 +1381,198 @@
                     <span class="sec-icon fa fa-book"></span>
                     <div class="hs-inner">
                         <span class="before-title">&nbsp </span>
-                        <h2>TEACHING</h2>
+                        <h2>TEACHING & SUPERVISION</h2>
+						
+						<!--CURRENT STUDENTS -->
+						<div class="teaching-wrapper">
+                            <ul class="teaching">  								
+                                <li class="time-label">
+                                    <span class="content-title">CURRENT STUDENTS</span>
+                                </li>
+								<!--PHD STUDENTS -->
+								<li>
+									<div class="teaching-tag" style="background:#7EB69F">
+                                        <span class="fa-solid fa-star" style="font-size:1.3em"></span>
+                                        <div class="teaching-date">
+                                            <span>PhD</span>                                            
+                                        </div>
+                                    </div>
+									<div class="timeline-item">
+											<a class="teaching-link" href="https://dsubias.github.io/" target="_blank">J. Daniel Subias</a>
+											<h3 style="display:inline" class="timeline-header">- Representation, Perception, and Intuitive Editing of Appearance.</h3>
+											<h4 style="display:inline">09/2022 - today.</h4>
+											<br>
+											<a class="teaching-link" href="https://edurnebernal.github.io/" target="_blank">Edurne Bernal</a>
+											<h3 style="display:inline" class="timeline-header">- Computational Models of Perception in Virtual Environments.</h3>
+											<h4 style="display:inline">02/2022 - today.</h4>											
+									</div>									
+								 </li>
+								 <!--END OF PHD STUDENTS -->
+								 
+								 <!--MASTER STUDENTS -->
+								 <!--<li>
+									<div class="teaching-tag" style="background:#62999C">
+                                        <span class="fa-solid fa-star-half-stroke" style="font-size:1.3em"></span>
+                                        <div class="teaching-date">
+                                            <span>MSc</span>                                            
+                                        </div>
+                                    </div>
+									<div class="timeline-item">
+											<a class="teaching-link" href="https://dsubias.github.io/" target="_blank">J. Daniel Subias</a>
+											<h3 style="display:inline" class="timeline-header">- Representation, Perception, and Intuitive Editing of Appearance.</h3>
+											<h4 style="display:inline">09/2022 - today.</h4>
+									</div>
+								 </li> -->
+								 <!--END OF MASTER STUDENTS -->
+								 <!--BACHELOR STUDENTS -->
+								 <li>
+									<div class="teaching-tag"  style="background:#4A5D76">
+                                        <span class="fa-regular fa-star" style="font-size:1.3em"></span>
+                                        <div class="teaching-date">
+                                            <span>BSc</span>                                            
+                                        </div>
+                                    </div>
+									<div class="timeline-item">
+											<h3 style="display:inline" class="timeline-header"> <b>Carmen Real</b> 
+											- Desarrollo de una aplicación para el estudio de la eficacia del uso de métodos de Redirected Walking en Realidad Virtual.</h3>											
+											<br>
+											<h3 style="display:inline" class="timeline-header"><b>Daniel Ariza</b> 
+											- Exploración de diseños para la cocina del futuro mediante interacciones en realidad virtual.</h3>											
+											<br>
+											<h3 style="display:inline" class="timeline-header"><b>Daniel Gracia</b> 
+											- Diseño y control de animaciones para un entorno de realidad virtual enfocado a experimentos con usuarios.</h3>											
+											<br>
+											<h3 style="display:inline" class="timeline-header"><b>Fran Crespo</b>
+											- Reconocimiento de utensilios de cocina en vídeos mediante técnicas de aprendizaje profundo.</h3>											
+											<br>
+											<h3 style="display:inline" class="timeline-header"><b>Guillermo Enguita</b>
+											- Detección de acciones durante el proceso de cocinado mediante técnicas de aprendizaje automático.</h3>											
+									</div>
+								 </li>
+								<!--END OF BACHELOR STUDENTS -->
+								
+							</ul>
+                        </div>
+						<!--END OF CURRENT STUDENTS -->			
+						<!--FORMER STUDENTS -->						
+						<div class="teaching-wrapper">
+                            <ul class="teaching">  								
+                                <li class="time-label">
+                                    <span class="content-title">FORMER STUDENTS</span>
+                                </li>
+								<!--PHD STUDENTS -->
+								<!--<li>
+									<div class="teaching-tag" style="background:#8cbfaa">
+                                        <span class="fa-solid fa-star" style="font-size:1.3em"></span>
+                                        <div class="teaching-date">
+                                            <span>PhD</span>                                            
+                                        </div>
+                                    </div>
+									<div class="timeline-item">
+											<a class="teaching-link" href="https://dsubias.github.io/" target="_blank">J. Daniel Subias</a>
+											<h3 style="display:inline" class="timeline-header">- Representation, Perception, and Intuitive Editing of Appearance.</h3>
+											<h4 style="display:inline">09/2022 - today.</h4>
+											<br>
+											<a class="teaching-link" href="https://edurnebernal.github.io/" target="_blank">Edurne Bernal</a>
+											<h3 style="display:inline" class="timeline-header">- Computational Models of Perception in Virtual Environments.</h3>
+											<h4 style="display:inline">02/2022 - today.</h4>											
+									</div>									
+								</li>-->								 
+								<!--END OF PHD STUDENTS -->
+								 
+								<!--MASTER STUDENTS -->
+								<li>
+									<div class="teaching-tag" style="background:#62999C">
+                                        <span class="fa-solid fa-star-half-stroke" style="font-size:1.3em"></span>
+                                        <div class="teaching-date">
+                                            <span>MSc</span>                                            
+                                        </div>
+                                    </div>
+									<div class="timeline-item">
+											<h3 style="display:inline" class="timeline-header"> <b>Alejandro Lopez</b> 
+											- Action recognition and object detection in cooking videos via deep learning.</h3>	
+											<br>
+											<h3 style="display:inline" class="timeline-header"> <b>Andres Fandos</b> 
+											- Deep learning models for 3D mesh saliency prediction.</h3>	
+											<br>
+											<h3 style="display:inline" class="timeline-header"> <b>Daniel Jimenez</b> 
+											- Analysis and experimentation of visual performance degradation effects due to auditory stimuli in immersive virtual environments.</h3>	
+											<br>
+											<h3 style="display:inline" class="timeline-header"> <b>Felix Bernal</b> 
+											- Audio-visual saliency prediction for 360º video via deep learning.</h3>	
+											<br>
+											<h3 style="display:inline" class="timeline-header"> <b>Carlos Marañes</b> 
+											- Study and metrics for analyzing storytelling understanding in virtual reality.</h3>
+											<br>
+											<h3 style="display:inline" class="timeline-header"> <b>Daniel Martin</b> 
+											- Study and improvement of motion parallax reproduction for 360º content visualization in virtual reality.</h3>	
+											<br>
+											<h3 style="display:inline" class="timeline-header"> <b>Sandra Malpica</b>											
+											- Study and applications of human sensory perception in virtual reality.</h3>	
+											<br>
+											
+									</div>
+								</li>
+								<!--END OF MASTER STUDENTS -->
+								<!--BACHELOR STUDENTS -->
+								<li>
+									<div class="teaching-tag"  style="background:#4A5D76">
+                                        <span class="fa-regular fa-star" style="font-size:1.3em"></span>
+                                        <div class="teaching-date">
+                                            <span>BSc</span>                                            
+                                        </div>
+                                    </div>
+									<div class="timeline-item">
+											<h3 style="display:inline" class="timeline-header"> <b>Santiago Jimenez</b> 
+											- Predicción de saliencia audiovisual en contenido 360º.</h3>											
+											<br>
+											<h3 style="display:inline" class="timeline-header"><b>Pedro Perez</b> 
+											- Desarrollo de una herramienta de recogida y visualización de datos relativos a la exploración de contenido en realidad virtual.</h3>											
+											<br>
+											<h3 style="display:inline" class="timeline-header"><b>Carlos Marañes</b> 
+											- Segmentación cognitiva de eventos en realidad virtual: aplicación a metraje completo.</h3>											
+											<br>
+											<h3 style="display:inline" class="timeline-header"><b>Miguel Martinez</b>
+											- Generación de escenas virtuales para evaluación de algoritmos de procesado de video 360.</h3>											
+											<br>
+											<h3 style="display:inline" class="timeline-header"><b>Javier Camon</b>
+											- Edición en Realidad Virtual: influencia de técnicas sonoras en la continuidad narrativa.</h3>
+											<br>
+											<h3 style="display:inline" class="timeline-header"><b>Miguel Barrio</b>
+											- Estudio de modelos de representación de materiales para su uso en edición intuitiva de apariencia.</h3>
+											<br>
+											<h3 style="display:inline" class="timeline-header"><b>Sandra Malpica</b>
+											- Mejora de un modelo de representación de materiales para su uso en edición intuitiva de apariencia.</h3>
+											<br>
+											<h3 style="display:inline" class="timeline-header"><b>Jaime Ruiz-Borau</b>
+											- Edición cinematográfica y continuidad narrativa en realidad virtual.</h3>
+											<br>
+											<h3 style="display:inline" class="timeline-header"><b>Santiago Calvo</b>
+											- Transferencia de textura y estilo entre imágenes utilizando redes neuronales convolucionales: un enfoque orientado a la conservación de contenido.</h3>
+											<br>
+											<h3 style="display:inline" class="timeline-header"><b>Marcos Allue</b>
+											- Percepción crossmodal en entornos inmersivos.</h3>
+											<br>
+											<h3 style="display:inline" class="timeline-header"><b>Nicolas Landa</b>
+											- Captura de imágenes de alto rango dinámico en un solo disparo mediante Compressive Sensing.</h3>
+											
+									</div>
+								</li>
+								<!--END OF BACHELOR STUDENTS -->
+							</ul>
+                        </div>		
+						<!--END OF FORMER STUDENTS -->
+						
+						<!--TEACHING-->
+						<div class="teaching-wrapper">
+                            <ul class="teaching">  								
+                                <li class="time-label">
+                                    <span class="content-title">TEACHING</span>
+                                </li>
+							</ul>
+                        </div>			
+						<!--END OF TEACHING -->		
+								
                         <div class="teaching-wrapper">
                             <ul class="teaching">  								
                                 <li class="time-label">
@@ -1970,6 +2162,8 @@
     <script type="text/javascript" src="js/watch.js"></script>
     <script type="text/javascript" src="js/layout.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
+	<script src="https://kit.fontawesome.com/0590f4860e.js" crossorigin="anonymous"></script>
+
 
     <!-- END PLUGIN SCRIPTS -->
 </body>
