@@ -1570,8 +1570,8 @@
                                     <span class="content-title">TEACHING</span>
                                 </li>
 								<li>
-                                    <div class="teaching-tag">
-                                        <span class="fa fa-suitcase"></span>
+                                    <div class="teaching-tag" style="background:#a59c26">
+                                        <span class="fa-solid fa-building-columns" style="font-size:1.5em"></span>
                                         <div class="teaching-date">
                                             <span>Master</span>                                            
                                         </div>
@@ -1594,14 +1594,14 @@
                                     </div>
 								</li>
 								<li>
-                                    <div class="teaching-tag">
-                                        <span class="fa fa-suitcase"></span>
+                                    <div class="teaching-tag" style="background:#a59c26">
+                                        <span class="fa-solid fa-building-columns" style="font-size:1.5em"></span>
                                         <div class="teaching-date">
                                             <span>Bach.</span>                                            
                                         </div>
                                     </div>
 									<div class="timeline-item">
-                                        <h3 style="display:inline" class="timeline-header"> <b>Programming Fundamentals.</b> 
+                                        <h3 style="display:inline" class="timeline-header"> <b>Programming Fundamentals</b> 
 										- Fall 2023, Fall 2022, Fall 2021.</h3>											
 										<br>
 										<h3 style="display:inline" class="timeline-header"><b>Photography, Image Editing and Compositing</b> 
@@ -1610,10 +1610,10 @@
 										<h3 style="display:inline" class="timeline-header"><b>Management Information Systems</b> 
 										- Spring 2021.</h3>											
 										<br>
-										<h3 style="display:inline" class="timeline-header"> <b>Programming Fundamentals (TA).</b> 
+										<h3 style="display:inline" class="timeline-header"> <b>Programming Fundamentals (TA)</b> 
 										- Fall 2019, Fall 2018, Fall 2017, Fall 2016.</h3>
 										<br>
-										<h3 style="display:inline" class="timeline-header"> <b>Photography, Image Editing and Compositing (TA).</b> 
+										<h3 style="display:inline" class="timeline-header"> <b>Photography, Image Editing and Compositing (TA)</b> 
 										- Fall 2018, Fall 2017.</h3>	
                                     </div>
 								</li>								
