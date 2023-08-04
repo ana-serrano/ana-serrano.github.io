@@ -61,7 +61,7 @@
 					<h4>Universidad de Zaragoza</h4>
 					<h4><a class="gilab-link" target="_blank" href="graphics.unizar.es">Graphics & Imaging Lab</a></h4>
                     <!--<h6><span class="fas fa-location-arrow fa-sm"></span>&nbsp;&nbsp;&nbsp;Zaragoza , SPAIN</h6>-->
-					<h4><span class="fas fa-inbox fa-sm"></span>&nbsp;&nbsp;&nbsp;<a class="gilab-link"  target="_blank" href="mailto:anase@unizar.es">anase@unizar.es</a></h4>
+					<h4><span class="fas fa-inbox fa-sm" style="font-color:#788195"></span>&nbsp;&nbsp;&nbsp;<a class="gilab-link"  target="_blank" href="mailto:anase@unizar.es">anase@unizar.es</a></h4>
 					<h6 style="padding-top:5px">
 						<!--<a class="author-link" href="https://www.dropbox.com/s/o3krekoqljhqf6o/CV.pdf?raw=1" target="_blank"><i class="ai ai-cv-square big-icon fa-2x"></i></a>&nbsp&nbsp&nbsp-->
 						<a class="author-link" href="https://scholar.google.es/citations?user=-tzn_AsAAAAJ&hl=es" target="_blank"><span class="ai ai-google-scholar fa-2x icons-nav" style="font-size:2.3em;"></span></a>&nbsp&nbsp&nbsp		
@@ -1594,7 +1594,7 @@
                                     </div>
 								</li>
 								<li>
-                                    <div class="teaching-tag" style="background:#a59c26">
+                                    <div class="teaching-tag" style="background:#686319">
                                         <span class="fa-solid fa-building-columns" style="font-size:1.5em"></span>
                                         <div class="teaching-date">
                                             <span>Bach.</span>                                            
