@@ -210,7 +210,6 @@
 												</div>
 												<div class="col-sm-6"> 									
 													<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2979.7257750331114!2d-0.8910323233945591!3d41.68326547758961!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd59135dc8ea7ad5%3A0xfd0014845df510e5!2sEdificio%20Ada%20Byron!5e0!3m2!1sen!2ses!4v1691151730647!5m2!1sen!2ses&language=en" frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-
 												</div>											
 											</div>
 										</div>
@@ -1509,10 +1508,10 @@
 											- Study and metrics for analyzing storytelling understanding in virtual reality.</h3>
 											<br>
 											<a class="teaching-link" href="http://webdiis.unizar.es/~danims/" target="_blank">Daniel Martin</a>
-											- Study and improvement of motion parallax reproduction for 360º content visualization in virtual reality.</h3>	
+											<h3 style="display:inline" class="timeline-header">- Study and improvement of motion parallax reproduction for 360º content visualization in virtual reality.</h3>	
 											<br>
 											<a class="teaching-link" href="https://smalpica.github.io/" target="_blank">Sandra Malpica</a>										
-											- Study and applications of human sensory perception in virtual reality.</h3>	
+											<h3 style="display:inline" class="timeline-header">- Study and applications of human sensory perception in virtual reality.</h3>	
 											<br>
 											
 									</div>
@@ -1546,7 +1545,7 @@
 											- Estudio de modelos de representación de materiales para su uso en edición intuitiva de apariencia.</h3>
 											<br>
 											<a class="teaching-link" href="https://smalpica.github.io/" target="_blank">Sandra Malpica</a>	
-											- Mejora de un modelo de representación de materiales para su uso en edición intuitiva de apariencia.</h3>
+											<h3 style="display:inline" class="timeline-header">- Mejora de un modelo de representación de materiales para su uso en edición intuitiva de apariencia.</h3>
 											<br>
 											<h3 style="display:inline" class="timeline-header"><b>Jaime Ruiz-Borau</b>
 											- Edición cinematográfica y continuidad narrativa en realidad virtual.</h3>
