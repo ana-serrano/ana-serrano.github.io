@@ -59,7 +59,8 @@
                     <h1>Ana Serrano</h1>
                     <h4 style="margin: 10px 0 -9px 0">Assistant Professor</h4>
 					<h4>Universidad de Zaragoza</h4>
-					<h4><a class="gilab-link" target="_blank" href="graphics.unizar.es">Graphics & Imaging Lab</a></h4>
+					<h4><a class="gilab-link" target="_blank" href="https://graphics.unizar.es">Graphics & Imaging Lab</a></h4>
+					<h4><a class="gilab-link" target="_blank" href="https://graphics.unizar.es">Graphics & Imaging Lab</a></h4>
                     <!--<h6><span class="fas fa-location-arrow fa-sm"></span>&nbsp;&nbsp;&nbsp;Zaragoza , SPAIN</h6>-->
 					<h4><span class="fas fa-inbox fa-sm" style="color:#788195"></span>&nbsp;&nbsp;&nbsp;<a class="gilab-link"  target="_blank" href="mailto:anase@unizar.es">anase@unizar.es</a></h4>
 					<h6 style="padding-top:5px">
@@ -1403,7 +1404,7 @@
 									<div class="timeline-item">
 											<a class="teaching-link" href="https://dsubias.github.io/" target="_blank">J. Daniel Subias</a>
 											<h3 style="display:inline" class="timeline-header">- Representation, Perception, and Intuitive Editing of Appearance.</h3>
-											<h4 style="display:inline">09/2022 - today.</h4>
+											<h4 style="display:inline">12/2022 - today.</h4>
 											<br>
 											<a class="teaching-link" href="https://edurnebernal.github.io/" target="_blank">Edurne Bernal-Berdun</a>
 											<h3 style="display:inline" class="timeline-header">- Computational Models of Perception in Virtual Environments.</h3>
