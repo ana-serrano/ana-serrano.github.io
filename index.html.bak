@@ -335,7 +335,7 @@
                             <div class="publication_item" data-group='OTHERS'>
                                 <div class="media">
                                     <div class="pull-left">
-                                        <img loading="lazy" class="img-pub" src="images/pubs/2023/publications_ISMAR2023_360Dataset.png"/>
+                                        <img loading="lazy" class="img-pub" src="images/pubs/2023/publications_VSS_gloss.png"/>
                                     </div>
                                     <div class="media-body">
                                         <h3>Towards latent representations of gloss in complex stimuli using unsupervised learning</h3>
