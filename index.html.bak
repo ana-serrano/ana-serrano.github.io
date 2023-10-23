@@ -2,6 +2,17 @@
 <html lang="en">
 
 <head>
+<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-LDTT10WH7S"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'G-LDTT10WH7S');
+	</script>
+<!-- Google tag (gtag.js) -->
+	
     <title>ANA SERRANO</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
@@ -123,7 +134,10 @@
 								I received the Eurographics 2023 Young Researcher Award. Thanks for everyone's support!
 							</li>
 							<li>
-								After an absolutely absurd amount of time adjusting itsy-bitsy details, my web is updated.  
+								Two new papers presented at ISMAR 2023. Check the project pages for code and data.   
+							</li>
+							<li>
+								Two new papers accepted to SIGGRAPH Asia 2023. Coming soon!   
 							</li>
                             <!--<li>
 								Check our new work ScanGAN360! Best journal paper at IEEE VR 2022. Code and dataset available online. 					
@@ -266,22 +280,44 @@
 						<!-- End Year-->
 						
 						<!-- publication item -->
-                            <div class="publication_item" data-group='CONFERENCES'>
+                            <div class="publication_item" data-group='JOURNAL PAPERS'>
                                 <div class="media">
                                     <div class="pull-left">
-                                        <img loading="lazy" class="img-pub" src="images/pubs/2023/publications_ICCV2023_GlowGAN.png"/>
+                                        <img loading="lazy" class="img-pub" src="images/pubs/2023/publications_SIGGA2023_TAF.png"/>
                                     </div>
                                     <div class="media-body">
-                                        <h3>GlowGAN: Unsupervised Learning of HDR Images from LDR Images in the Wild</h3>
-                                        <h4>Chao Wang, Ana Serrano, Xingang Pan, Bin Chen, Karol Myszkowski, Hans-Peter Seidel, Christian Theobalt and Thomas Leimkuehler</h4>
-                                        <span class="publication_description">ICCV 2023</span> 
+                                        <h3>An Implicit Neural Representation for the Image Stack: Depth, All in Focus, and High Dynamic Range</h3>
+                                        <h4> Chao Wang, Ana Serrano, Xingang Pan, Krzysztof Wolski, Bin Chen, Karol Myszkowski, Hans-Peter Seidel, Christian Theobalt, and Thomas Leimkühler</h4>
+                                        <span class="publication_description">Transactions on Graphics (Proc. SIGGRAPH Asia), 2023</span> 
 										<span class="publication_description">
 										</span> 
 									</div>
 									<hr style="margin:8px auto">
-									<a href="" target="_blank"><span class="label label-primary">PDF (soon)</span></a>
-									<a href="" target="_blank"><span class="label label-primary">Project page (soon)</span></a>	
-									<!--<a href data-toggle="modal" data-target="#Chen2022"><span class="label label-primary">Bibtex</span></a>	-->
+									<a href="https://taf.mpi-inf.mpg.de/resource/An%20Implicit%20Neural%20Representation%20for%20the%20Image%20Stack:%20Depth,%20All%20in%20Focus,%20and%20High%20Dynamic%20Range.pdf" target="_blank"><span class="label label-primary">PDF</span></a>
+									<a href="https://taf.mpi-inf.mpg.de/" target="_blank"><span class="label label-primary">Project page</span></a>	
+									<a href data-toggle="modal" data-target="#Wang2023S"><span class="label label-primary">Bibtex</span></a>	
+									<span class="filter filter-primary">Journal (Q1)</span>
+                                </div> 								
+                            </div>		
+						<!-- End publication item -->
+						
+						<!-- publication item -->
+                            <div class="publication_item" data-group='CONFERENCES'>
+                                <div class="media">
+                                    <div class="pull-left">
+                                        <img loading="lazy" class="img-pub" src="images/pubs/2023/publications_SIGGA2023_gloss.png"/>
+                                    </div>
+                                    <div class="media-body">
+                                        <h3>The effect of display capabilities on the gloss consistency between real and virtual objects</h3>
+                                        <h4> Bin Chen*, Akshay Jindal*, Michal Piovarči, Chao Wang, Hans-Peter Seidel, Piotr Didyk, Karol Myszkowski, Ana Serrano, and Rafał K. Mantiuk</h4>
+                                        <span class="publication_description">SIGGRAPH Asia 2023</span> 
+										<span class="publication_description">
+										</span> 
+									</div>
+									<hr style="margin:8px auto">
+									<a href="https://stereohdrgloss.mpi-inf.mpg.de/resource/paper_763_saconferencepapers23-93.pdf" target="_blank"><span class="label label-primary">PDF</span></a>
+									<a href="https://stereohdrgloss.mpi-inf.mpg.de/" target="_blank"><span class="label label-primary">Project page</span></a>	
+									<a href data-toggle="modal" data-target="#Chen2023"><span class="label label-primary">Bibtex</span></a>
 									<span class="filter filter-primary">Conference</span>
                                 </div> 								
                             </div>		
@@ -301,9 +337,9 @@
 										</span> 
 									</div>
 									<hr style="margin:8px auto">
-									<a href="" target="_blank"><span class="label label-primary">PDF (soon)</span></a>
-									<a href="" target="_blank"><span class="label label-primary">Project page (soon)</span></a>	
-									<!--<a href data-toggle="modal" data-target="#Chen2022"><span class="label label-primary">Bibtex</span></a>	-->
+									<a href="https://graphics.unizar.es/papers/Bernal-Berdun2023dsav360.pdf" target="_blank"><span class="label label-primary">PDF</span></a>
+									<a href="https://graphics.unizar.es/projects/D-SAV360/" target="_blank"><span class="label label-primary">Project page</span></a>	
+									<a href data-toggle="modal" data-target="#Bernal2023"><span class="label label-primary">Bibtex</span></a>	
 									<span class="filter filter-primary">Journal (Q1)</span>
                                 </div> 								
                             </div>		
@@ -325,11 +361,33 @@
 									<hr style="margin:8px auto">
 									<a href="http://webdiis.unizar.es/~bmasia/files/Malpica_TVCG2023.pdf" target="_blank"><span class="label label-primary">PDF</span></a>
 									<a href="https://graphics.unizar.es/projects/VR-TaskDependentGaze/" target="_blank"><span class="label label-primary">Project page</span></a>	
-									<!--<a href data-toggle="modal" data-target="#Chen2022"><span class="label label-primary">Bibtex</span></a>	-->
+									<a href data-toggle="modal" data-target="#Malpica2023"><span class="label label-primary">Bibtex</span></a>
 									<span class="filter filter-primary">Journal (Q1)</span>
                                 </div> 								
                             </div>		
 						<!-- End publication item --> 
+						
+						<!-- publication item -->
+                            <div class="publication_item" data-group='CONFERENCES'>
+                                <div class="media">
+                                    <div class="pull-left">
+                                        <img loading="lazy" class="img-pub" src="images/pubs/2023/publications_ICCV2023_GlowGAN.png"/>
+                                    </div>
+                                    <div class="media-body">
+                                        <h3>GlowGAN: Unsupervised Learning of HDR Images from LDR Images in the Wild</h3>
+                                        <h4>Chao Wang, Ana Serrano, Xingang Pan, Bin Chen, Karol Myszkowski, Hans-Peter Seidel, Christian Theobalt and Thomas Leimkühler</h4>
+                                        <span class="publication_description">ICCV 2023</span> 
+										<span class="publication_description">
+										</span> 
+									</div>
+									<hr style="margin:8px auto">
+									<a href="https://glowgan.mpi-inf.mpg.de/resource/glowgan.pdf" target="_blank"><span class="label label-primary">PDF</span></a>
+									<a href="https://glowgan.mpi-inf.mpg.de/" target="_blank"><span class="label label-primary">Project page</span></a>	
+									<a href data-toggle="modal" data-target="#Wang2023"><span class="label label-primary">Bibtex</span></a>
+									<span class="filter filter-primary">Conference</span>
+                                </div> 								
+                            </div>		
+						<!-- End publication item -->
 						
 						<!-- publication item -->
                             <div class="publication_item" data-group='OTHERS'>
@@ -773,8 +831,10 @@
                                     <div class="media-body">
                                         <h3>Motion parallax for 360 RGBD video</h3>
                                         <h4>Ana Serrano, Incheol Kim, Zhili Chen, Stephen DiVerdi, Diego Gutierrez, Aaron Hertzmann, and Belen Masia</h4>
-                                        <span class="publication_description">IEEE TVCG (Proc. IEEE VR), 2019</span><br>
-										<span class="publication_extra">> Best Journal Paper Nominee</span><br> 
+                                        <span class="publication_description">IEEE TVCG (Proc. IEEE VR), 2019</span>
+										<span class="publication_description">
+										<a style="color:#FB7575;" href="https://ieeevr.org/2019/awards/conference_awards.html" target="_blank">★Best Journal Paper Nominee★</a>
+										</span> <br>
 										<span class="publication_extra">> Invited to SIGGRAPH 2019 IEEE TVCG Session on Virtual and Augmented Reality</span> 										
 									</div>
                                     <hr style="margin:8px auto">
@@ -866,8 +926,10 @@
                                     <div class="media-body">
                                         <h3>Saliency in VR: How do people explore virtual environments?</h3>
                                         <h4>Vincent Sitzmann*, Ana Serrano*, Amy Pavel, Maneesh Agrawala, Diego Gutierrez, Belen Masia, Gordon Wetzstein</h4>
-                                        <span class="publication_description">IEEE TVCG (Proc. IEEE VR), 2018</span><br>
-										<span class="publication_extra">> Best Journal Paper Nominee</span> 
+                                        <span class="publication_description">IEEE TVCG (Proc. IEEE VR), 2018</span>
+										<span class="publication_description">
+										<a style="color:#FB7575;">★Best Journal Paper Nominee★</a>
+										</span> <br>
 										<span class="publication_extra">> Invited to SIGGRAPH 2018 IEEE TVCG Session on Virtual and Augmented Reality</span> 
 									</div>
                                     <hr style="margin:8px auto">
@@ -922,8 +984,10 @@
                                         <h3>Attribute-preserving gamut mapping of measured BRDFs</h3>
                                         <h4>Tiancheng Sun, Ana Serrano, Diego Gutierrez, y Belen Masia</h4>
                                         <span class="publication_description">Computer Graphics Forum (Proc. EGSR), 2017</span> 
-										<span class="publication_extra">> Also presented as a poster at SIGGRAPH 2017, 
-										and awarded with the 1st place at the ACM Student Research Competition Grand Final (undergraduate category) 
+										<span class="publication_description">
+										<a style="color:#FB7575;" href="https://www.acm.org/media-center/2018/june/src-2018-grand-finals" target="_blank">★1st place at the ACM Student Research Competition★</a>
+										</span> <br>
+										<span class="publication_extra">> Also presented as a poster at SIGGRAPH 2017
 										</span>
 									</div>
 									<hr style="margin:8px auto">
@@ -1049,8 +1113,10 @@
                                     <div class="media-body">
                                         <h3>Convolutional Sparse Coding for High Dynamic Range Imaging</h3>
                                         <h4>Ana Serrano, Felix Heide, Diego Gutierrez, Gordon Wetzstein, and Belen Masia</h4>
-                                        <span class="publication_description">Computer Graphics Forum (Proc. EUROGRAPHICS), 2016</span><br>
-										<span class="publication_extra">> Best paper Honorable Mention</span>
+                                        <span class="publication_description">Computer Graphics Forum (Proc. EUROGRAPHICS), 2016</span>
+										<span class="publication_description">
+										<a style="color:#FB7575;" href="https://gpcg.pt/eurographics2016/honorable-mentions/index.htm" target="_blank">★Best Paper Honorable Mention★</a>
+										</span> <br>
 									</div>
 									<hr style="margin:8px auto">
                                     <a href="https://graphics.unizar.es/papers/Serrano_EG16.pdf" target="_blank"><span class="label label-primary">PDF</span></a>
@@ -1836,6 +1902,121 @@
 <!--------------------------------------
 ---------------------------------------->
 <!-- MODALS FOR BIBLIOGRAPHY GO HERE -->
+
+<!-- Modal Begin-->
+<div class="modal fade" id="Wang2023S" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 class="modal-title" id="exampleModalLongTitle" style="text-align:center">Cite (BibTeX)</h3>
+      </div>
+      <div class="modal-body" style="font-family:'Courier New';font-size:12px">
+        <p id="Wang2023S-text">
+		@article{wang2023neural,<br>
+		author={Wang, Chao and Serrano, Ana and Pan, Xingang and Wolski, Krzysztof and Chen, Bin and Seidel, Hans-Peter and Theobalt, Christian
+        and Myszkowski, Karol and Leimk{\"u}hler, Thomas},<br>
+		title={A Neural Implicit Representation for the Image Stack: Depth, All in Focus, and High Dynamic Range},<br>
+		journal={ACM Transactions on Graphics},<br>
+		month     = {October},<br>
+		year      = {2023},<br>
+		Volume={42},<br>
+        Number={6},<br>
+		DOI={10.1145/3618367},<br>
+		}
+		</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btnbib-link" onclick="copyToClipboard('#Wang2023S-text')">Copy to clipboard</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal End-->
+
+<!-- Modal Begin-->
+<div class="modal fade" id="Wang2023" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 class="modal-title" id="exampleModalLongTitle" style="text-align:center">Cite (BibTeX)</h3>
+      </div>
+      <div class="modal-body" style="font-family:'Courier New';font-size:12px">
+        <p id="Wang2023-text">
+		@InProceedings{Wang_2023_ICCV,<br>
+		author    = {Wang, Chao and Serrano, Ana and Pan, Xingang and Chen, Bin and Myszkowski, Karol and Seidel, Hans-Peter and Theobalt, Christian and Leimk\"uhler, Thomas},<br>
+		title     = {GlowGAN: Unsupervised Learning of HDR Images from LDR Images in the Wild},<br>
+		booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},<br>
+		month     = {October},<br>
+		year      = {2023},<br>
+		pages     = {10509-10519}<br>
+		}
+		</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btnbib-link" onclick="copyToClipboard('#Wang2023-text')">Copy to clipboard</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal End-->
+
+<!-- Modal Begin-->
+<div class="modal fade" id="Bernal2023" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 class="modal-title" id="exampleModalLongTitle" style="text-align:center">Cite (BibTeX)</h3>
+      </div>
+      <div class="modal-body" style="font-family:'Courier New';font-size:12px">
+        <p id="Bernal2023-text">
+		@article{Bernal_2023_DSAV360,<br>
+		  author={Bernal-Berdun, Edurne and Martin, Daniel and Malpica, Sandra and Perez, Pedro J. and Gutierrez, Diego and Masia, Belen and Serrano, Ana},<br>
+		  journal={IEEE Transactions on Visualization and Computer Graphics},<br>
+		  title={D-SAV360: A Dataset of Gaze Scanpaths on 360° Ambisonic Videos},<br> 
+		  year={2023},<br>
+		  pages={1-11},<br>
+		  doi={10.1109/TVCG.2023.3320237}<br>
+		  }
+		</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btnbib-link" onclick="copyToClipboard('#Bernal2023-text')">Copy to clipboard</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal End-->
+
+<!-- Modal Begin-->
+<div class="modal fade" id="Malpica2023" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 class="modal-title" id="exampleModalLongTitle" style="text-align:center">Cite (BibTeX)</h3>
+      </div>
+      <div class="modal-body" style="font-family:'Courier New';font-size:12px">
+        <p id="Malpica2023-text">
+		@article{Malpica_2023_VRtasks,<br>
+		  author={Malpica, Sandra and Martin, Daniel and Serrano, Ana and Gutierrez, Diego and Masia, Belen},<br>
+		  journal={IEEE Transactions on Visualization and Computer Graphics}, <br>
+		  title={Task-Dependent Visual Behavior in Immersive Environments: A Comparative Study of Free Exploration, Memory and Visual Search}, <br>
+		  year={2023},<br>
+		  pages={1-9},<br>
+		  doi={10.1109/TVCG.2023.3320259}<br>
+		  }
+		</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btnbib-link" onclick="copyToClipboard('#Malpica2023-text')">Copy to clipboard</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal End-->
 
 <!-- Modal Begin-->
 <div class="modal fade" id="Chen2022" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
