@@ -272,10 +272,10 @@
 						<!-- End Filter/Sort Menu -->	
 						
 						<!-- publication wrapper-->                           
-                        <div class="mygridfilter" id="2023">
+                        <div class="mygridfilter" id="2024">
 						
 						<!-- Year -->
-							<span class="content-title">2023</span>
+							<span class="content-title">2024</span>
                             <br></br>
 						<!-- End Year-->
 						
@@ -283,45 +283,54 @@
                             <div class="publication_item" data-group='JOURNAL PAPERS'>
                                 <div class="media">
                                     <div class="pull-left">
-                                        <img loading="lazy" class="img-pub" src="images/pubs/2023/publications_SIGGA2023_TAF.png"/>
+                                        <img loading="lazy" class="img-pub" src="images/pubs/2024/publications_TVCG_MaterialsSky.png"/>
                                     </div>
                                     <div class="media-body">
-                                        <h3>An Implicit Neural Representation for the Image Stack: Depth, All in Focus, and High Dynamic Range</h3>
-                                        <h4> Chao Wang, Ana Serrano, Xingang Pan, Krzysztof Wolski, Bin Chen, Karol Myszkowski, Hans-Peter Seidel, Christian Theobalt, and Thomas Leimkühler</h4>
-                                        <span class="publication_description">Transactions on Graphics (Proc. SIGGRAPH Asia), 2023</span> 
+                                        <h3>Studying the Effect of Material and Geometry on Perceptual Outdoor Illumination</h3>
+                                        <h4>Miao Wang, Jin-Chao Zhou, Wei-Qi Feng, Yu-Zhu Jiang, and Ana Serrano</h4>
+                                        <span class="publication_description">IEEE TVCG, 2024</span> 
 										<span class="publication_description">
 										</span> 
 									</div>
 									<hr style="margin:8px auto">
-									<a href="https://taf.mpi-inf.mpg.de/resource/An%20Implicit%20Neural%20Representation%20for%20the%20Image%20Stack:%20Depth,%20All%20in%20Focus,%20and%20High%20Dynamic%20Range.pdf" target="_blank"><span class="label label-primary">PDF</span></a>
-									<a href="https://taf.mpi-inf.mpg.de/" target="_blank"><span class="label label-primary">Project page</span></a>	
-									<a href data-toggle="modal" data-target="#Wang2023S"><span class="label label-primary">Bibtex</span></a>	
+									<a href="pdf/TVCG23_Perceptual_Outdoor_Illumination.pdf" target="_blank"><span class="label label-primary">PDF</span></a>
+									<a><span class="label label-primary">Project page (soon)</span></a>	
 									<span class="filter filter-primary">Journal (Q1)</span>
                                 </div> 								
                             </div>		
 						<!-- End publication item -->
 						
 						<!-- publication item -->
-                            <div class="publication_item" data-group='CONFERENCES'>
+                            <div class="publication_item" data-group='JOURNAL PAPERS'>
                                 <div class="media">
                                     <div class="pull-left">
-                                        <img loading="lazy" class="img-pub" src="images/pubs/2023/publications_SIGGA2023_gloss.png"/>
+                                        <img loading="lazy" class="img-pub" src="images/pubs/2024/publications_TVC_3DSaliency.png"/>
                                     </div>
                                     <div class="media-body">
-                                        <h3>The effect of display capabilities on the gloss consistency between real and virtual objects</h3>
-                                        <h4> Bin Chen*, Akshay Jindal*, Michal Piovarči, Chao Wang, Hans-Peter Seidel, Piotr Didyk, Karol Myszkowski, Ana Serrano, and Rafał K. Mantiuk</h4>
-                                        <span class="publication_description">SIGGRAPH Asia 2023</span> 
+                                        <h3>SAL3D: a model for saliency prediction in 3D meshes</h3>
+                                        <h4>Daniel Martin, Andres Fandos, Belen Masia, and Ana Serrano</h4>
+                                        <span class="publication_description">The Visual Computer, 2024</span> 
 										<span class="publication_description">
 										</span> 
 									</div>
 									<hr style="margin:8px auto">
-									<a href="https://stereohdrgloss.mpi-inf.mpg.de/resource/paper_763_saconferencepapers23-93.pdf" target="_blank"><span class="label label-primary">PDF</span></a>
-									<a href="https://stereohdrgloss.mpi-inf.mpg.de/" target="_blank"><span class="label label-primary">Project page</span></a>	
-									<a href data-toggle="modal" data-target="#Chen2023"><span class="label label-primary">Bibtex</span></a>
-									<span class="filter filter-primary">Conference</span>
+									<a href="https://link.springer.com/article/10.1007/s00371-023-03206-0" target="_blank"><span class="label label-primary">PDF</span></a>
+									<a><span class="label label-primary">Project page (soon)</span></a>	
+									<span class="filter filter-primary">Journal (Q2)</span>
                                 </div> 								
                             </div>		
-						<!-- End publication item --> 
+						<!-- End publication item -->
+						
+						
+						</div>
+						
+						<!-- publication wrapper-->                           
+                        <div class="mygridfilter" id="2023">
+						
+						<!-- Year -->
+							<span class="content-title">2023</span>
+                            <br></br>
+						<!-- End Year-->						
 						
 						<!-- publication item -->
                             <div class="publication_item" data-group='JOURNAL PAPERS'>
@@ -366,6 +375,53 @@
                                 </div> 								
                             </div>		
 						<!-- End publication item --> 
+						
+						<!-- publication item -->
+                            <div class="publication_item" data-group='JOURNAL PAPERS'>
+                                <div class="media">
+                                    <div class="pull-left">
+                                        <img loading="lazy" class="img-pub" src="images/pubs/2023/publications_SIGGA2023_TAF.png"/>
+                                    </div>
+                                    <div class="media-body">
+                                        <h3>An Implicit Neural Representation for the Image Stack: Depth, All in Focus, and High Dynamic Range</h3>
+                                        <h4> Chao Wang, Ana Serrano, Xingang Pan, Krzysztof Wolski, Bin Chen, Karol Myszkowski, Hans-Peter Seidel, Christian Theobalt, and Thomas Leimkühler</h4>
+                                        <span class="publication_description">Transactions on Graphics (Proc. SIGGRAPH Asia), 2023</span> 
+										<span class="publication_description">
+										</span> 
+									</div>
+									<hr style="margin:8px auto">
+									<a href="https://taf.mpi-inf.mpg.de/resource/An%20Implicit%20Neural%20Representation%20for%20the%20Image%20Stack:%20Depth,%20All%20in%20Focus,%20and%20High%20Dynamic%20Range.pdf" target="_blank"><span class="label label-primary">PDF</span></a>
+									<a href="https://taf.mpi-inf.mpg.de/" target="_blank"><span class="label label-primary">Project page</span></a>	
+									<a href data-toggle="modal" data-target="#Wang2023b"><span class="label label-primary">Bibtex</span></a>
+									<span class="filter filter-primary">Journal (Q1)</span>
+                                </div> 								
+                            </div>		
+						<!-- End publication item -->
+						
+						
+						<!-- publication item -->
+                            <div class="publication_item" data-group='CONFERENCES'>
+                                <div class="media">
+                                    <div class="pull-left">
+                                        <img loading="lazy" class="img-pub" src="images/pubs/2023/publications_SIGGA2023_gloss.png"/>
+                                    </div>
+                                    <div class="media-body">
+                                        <h3>The effect of display capabilities on the gloss consistency between real and virtual objects</h3>
+                                        <h4> Bin Chen*, Akshay Jindal*, Michal Piovarči, Chao Wang, Hans-Peter Seidel, Piotr Didyk, Karol Myszkowski, Ana Serrano, and Rafał K. Mantiuk</h4>
+                                        <span class="publication_description">SIGGRAPH Asia 2023</span> 
+										<span class="publication_description">
+										</span> 
+									</div>
+									<hr style="margin:8px auto">
+									<a href="https://stereohdrgloss.mpi-inf.mpg.de/resource/paper_763_saconferencepapers23-93.pdf" target="_blank"><span class="label label-primary">PDF</span></a>
+									<a href="https://stereohdrgloss.mpi-inf.mpg.de/" target="_blank"><span class="label label-primary">Project page</span></a>	
+									<a href data-toggle="modal" data-target="#Chen2023"><span class="label label-primary">Bibtex</span></a>
+									<span class="filter filter-primary">Conference</span>
+                                </div> 								
+                            </div>		
+						<!-- End publication item --> 
+						
+						
 						
 						<!-- publication item -->
                             <div class="publication_item" data-group='CONFERENCES'>
@@ -1904,30 +1960,30 @@
 <!-- MODALS FOR BIBLIOGRAPHY GO HERE -->
 
 <!-- Modal Begin-->
-<div class="modal fade" id="Wang2023S" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+<div class="modal fade" id="Wang2023b" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
       <div class="modal-header">
         <h3 class="modal-title" id="exampleModalLongTitle" style="text-align:center">Cite (BibTeX)</h3>
       </div>
       <div class="modal-body" style="font-family:'Courier New';font-size:12px">
-        <p id="Wang2023S-text">
-		@article{wang2023neural,<br>
-		author={Wang, Chao and Serrano, Ana and Pan, Xingang and Wolski, Krzysztof and Chen, Bin and Seidel, Hans-Peter and Theobalt, Christian
-        and Myszkowski, Karol and Leimk{\"u}hler, Thomas},<br>
-		title={A Neural Implicit Representation for the Image Stack: Depth, All in Focus, and High Dynamic Range},<br>
-		journal={ACM Transactions on Graphics},<br>
+        <p id="Wang2023b-text">
+		@article{Wang_2023_SIGGA,<br>
+		author    = {Wang, Chao and Serrano, Ana and Pan, Xingang and Wolski, Krzysztof and Chen, Bin and Myszkowski, Karol and Seidel, Hans-Peter and Theobalt, Christian and Leimk\"{u}hler, Thomas},<br>
+		title     = {An Implicit Neural Representation for the Image Stack: Depth, All in Focus, and High Dynamic Range},<br>
+		journal = {ACM Trans. Graph.},<br>
 		month     = {October},<br>
 		year      = {2023},<br>
-		Volume={42},<br>
-        Number={6},<br>
-		DOI={10.1145/3618367},<br>
+		volume = {42},<br>
+		number = {6},<br>
+		articleno = {221},<br>
+		numpages = {11}<br>
 		}
 		</p>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btnbib-link" onclick="copyToClipboard('#Wang2023S-text')">Copy to clipboard</button>
+        <button type="button" class="btn btnbib-link" onclick="copyToClipboard('#Wang2023b-text')">Copy to clipboard</button>
       </div>
     </div>
   </div>
