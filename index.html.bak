@@ -75,8 +75,9 @@
 					<h4><span class="fas fa-inbox fa-sm" style="color:#788195"></span>&nbsp;&nbsp;&nbsp;<a class="gilab-link"  target="_blank" href="mailto:anase@unizar.es">anase@unizar.es</a></h4>
 					<h6 style="padding-top:5px">
 						<!--<a class="author-link" href="https://www.dropbox.com/s/o3krekoqljhqf6o/CV.pdf?raw=1" target="_blank"><i class="ai ai-cv-square big-icon fa-2x"></i></a>&nbsp&nbsp&nbsp-->
+						<a class="author-link" href="https://orcid.org/0000-0002-7796-3177" target="_blank"><i class="fa-brands fa-orcid icons-nav" style="font-size:2.3em;"></i></a>&nbsp&nbsp&nbsp
 						<a class="author-link" href="https://scholar.google.es/citations?user=-tzn_AsAAAAJ&hl=es" target="_blank"><span class="ai ai-google-scholar fa-2x icons-nav" style="font-size:2.3em;"></span></a>&nbsp&nbsp&nbsp		
-						<a class="author-link" href="https://github.com/ana-serrano" target="_blank"><i class="fab fa-github fa-2x icons-nav" style="font-size:2.3em;"></i></a>&nbsp&nbsp&nbsp&nbsp			
+						<a class="author-link" href="https://github.com/ana-serrano" target="_blank"><i class="fab fa-github fa-2x icons-nav" style="font-size:2.3em;"></i></a>&nbsp&nbsp&nbsp&nbsp
 						<a class="author-link" href="https://twitter.com/DrAnaSerrano" target="_blank"><i class="fab fa-twitter fa-2x icons-nav" style="font-size:2.3em;"></i></a>
 					</h6>					
                 </div>
@@ -163,7 +164,7 @@
 						
 						<div class="row">
 							<div class="img-photo col-sm-4"> 
-								<img style="width:70%;border-radius:50%;margin:auto;display: block;box-shadow:0px 0px 17px 0px rgba(0,0,0,0.1);margin-right:10px;" src="images/photo.png"/>
+								<img style="width:67%;border-radius:50%;margin:auto;display: block;box-shadow:0px 0px 17px 0px rgba(0,0,0,0.1);margin-right:10px;" src="images/photo.png"/>
 							</div>							
 							<div class="about-text col-sm-7">
 								<div class="tab-pane fade in active" id="bio">
@@ -1544,13 +1545,13 @@
                                         </div>
                                     </div>
 									<div class="timeline-item">
-											<a class="teaching-link" href="https://dsubias.github.io/" target="_blank">J. Daniel Subias</a>
-											<h3 style="display:inline" class="timeline-header">- Representation, Perception, and Intuitive Editing of Appearance.</h3>
-											<h4 style="display:inline">12/2022 - today.</h4>
-											<br>
-											<a class="teaching-link" href="https://edurnebernal.github.io/" target="_blank">Edurne Bernal-Berdun</a>
-											<h3 style="display:inline" class="timeline-header">- Computational Models of Perception in Virtual Environments.</h3>
-											<h4 style="display:inline">02/2022 - today.</h4>											
+										<a class="teaching-link" href="https://dsubias.github.io/" target="_blank">J. Daniel Subias</a>
+										<h3 style="display:inline" class="timeline-header">- Representation, Perception, and Intuitive Editing of Appearance.</h3>
+										<h4 style="display:inline">12/2022 - today.</h4>
+										<br>
+										<a class="teaching-link" href="https://edurnebernal.github.io/" target="_blank">Edurne Bernal-Berdun</a>
+										<h3 style="display:inline" class="timeline-header">- Computational Models of Perception in Virtual Environments.</h3>
+										<h4 style="display:inline">02/2022 - today.</h4>											
 									</div>									
 								 </li>
 								 <!--END OF PHD STUDENTS -->
@@ -1578,21 +1579,21 @@
                                             <span>BSc</span>                                            
                                         </div>
                                     </div>
-									<div class="timeline-item">
-											<h3 style="display:inline" class="timeline-header"> <b>Carmen Real</b> 
-											- Desarrollo de una aplicación para el estudio de la eficacia del uso de métodos de Redirected Walking en Realidad Virtual.</h3>											
-											<br>
-											<h3 style="display:inline" class="timeline-header"><b>Daniel Ariza</b> 
-											- Exploración de diseños para la cocina del futuro mediante interacciones en realidad virtual.</h3>											
-											<br>
-											<h3 style="display:inline" class="timeline-header"><b>Daniel Gracia</b> 
-											- Diseño y control de animaciones para un entorno de realidad virtual enfocado a experimentos con usuarios.</h3>											
-											<br>
-											<h3 style="display:inline" class="timeline-header"><b>Fran Crespo</b>
-											- Reconocimiento de utensilios de cocina en vídeos mediante técnicas de aprendizaje profundo.</h3>											
-											<br>
-											<h3 style="display:inline" class="timeline-header"><b>Guillermo Enguita</b>
-											- Detección de acciones durante el proceso de cocinado mediante técnicas de aprendizaje automático.</h3>											
+									<div class="timeline-item">		
+										<h3 style="display:inline" class="timeline-header"><b>Cristian Selivanov</b> 
+										- Exploración de técnicas de handtracking para mejorar la experiencia de usuario en la cocina del futuro.</h3>
+										<br>
+										<h3 style="display:inline" class="timeline-header"><b>Belen Gimeno</b> 
+										- Implementación de un sistema de realidad extendida para estudiar la experiencia de usuario en la cocina del futuro.</h3>																						
+										<br>
+										<h3 style="display:inline" class="timeline-header"><b>Juan Lorente</b> 
+										- Predicción de trayectorias de mirada (scanpaths) en vídeo 360º.</h3>
+										<br>
+										<h3 style="display:inline" class="timeline-header"><b>Pablo Lacueva</b> 
+										- Implementación de medidas de incertidumbre para tareas de edición de apariencia de materiales.</h3>																						
+										<br>
+										<h3 style="display:inline" class="timeline-header"><b>Daniel Gracia</b> 
+										- Diseño y control de animaciones para un entorno de realidad virtual enfocado a experimentos con usuarios.</h3>																						
 									</div>
 								 </li>
 								<!--END OF BACHELOR STUDENTS -->
@@ -1635,6 +1636,9 @@
                                         </div>
                                     </div>
 									<div class="timeline-item">
+											<h3 style="display:inline" class="timeline-header"> <b>Isaac Velasco</b> 
+											- Use of attention-redirection methods for search tasks in extended reality.</h3>	
+											<br>
 											<h3 style="display:inline" class="timeline-header"> <b>Alejandro Lopez</b> 
 											- Action recognition and object detection in cooking videos via deep learning.</h3>	
 											<br>
@@ -1669,6 +1673,14 @@
                                         </div>
                                     </div>
 									<div class="timeline-item">
+											<h3 style="display:inline" class="timeline-header"> <b>Carmen Real</b> 
+											- Desarrollo de una aplicación para el estudio de la eficacia del uso de métodos de Redirected Walking en Realidad Virtual.</h3>											
+											<br>					
+											<h3 style="display:inline" class="timeline-header"><b>Fran Crespo</b>
+											- Reconocimiento de utensilios de cocina en vídeos mediante técnicas de aprendizaje profundo.</h3>											
+											<br>
+											<h3 style="display:inline" class="timeline-header"><b>Guillermo Enguita</b>
+											- Detección de acciones durante el proceso de cocinado mediante técnicas de aprendizaje automático.</h3>											
 											<h3 style="display:inline" class="timeline-header"> <b>Santiago Jimenez</b> 
 											- Predicción de saliencia audiovisual en contenido 360º.</h3>											
 											<br>
@@ -1958,6 +1970,34 @@
 <!--------------------------------------
 ---------------------------------------->
 <!-- MODALS FOR BIBLIOGRAPHY GO HERE -->
+
+<!-- Modal Begin-->
+<div class="modal fade" id="Chen2023" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 class="modal-title" id="exampleModalLongTitle" style="text-align:center">Cite (BibTeX)</h3>
+      </div>
+      <div class="modal-body" style="font-family:'Courier New';font-size:12px">
+        <p id="Chen2023-text">
+		@inproceedings{Chen_2023_SIGGA,<br>
+		author    = {Chen, Bin and Jindal, Akshay and Piovar\v{c}i, Michal and Wang, Chao and Seidel, Hans-Peter and Didyk, Piotr and Myszkowski, Karol and Serrano, Ana and Mantiuk, Rafa\l{} K.},<br>
+		title     = {The Effect of Display Capabilities on the Gloss Consistency between Real and Virtual Objects},<br>
+		booktitle = {SIGGRAPH Asia 2023 Conference Papers},<br>
+		year      = {2023},<br>
+		articleno = {90},<br>
+		numpages = {11}<br>
+		}
+		</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btnbib-link" onclick="copyToClipboard('#Chen2023-text')">Copy to clipboard</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal End-->
 
 <!-- Modal Begin-->
 <div class="modal fade" id="Wang2023b" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
