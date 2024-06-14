@@ -176,8 +176,9 @@
 										I am an Assistant Professor at Universidad de Zaragoza (Spain). Previously I was a Postdoctoral Research Fellow at the Max-Planck-Institute for Informatics working with <a class="author-link" href="http://people.mpi-inf.mpg.de/~karol/" target="_blank">Prof. Karol Myszkowski</a>.
 										I obtained my PhD under the supervision of <a class="author-link" href="http://giga.cps.unizar.es/~diegog/" target="_blank">Prof. Diego Gutierrez</a> and <a class="author-link" href="http://webdiis.unizar.es/~bmasia/" target="_blank">Prof. Belen Masia</a> at the Graphics & Imaging Lab (Universidad de Zaragoza). 
 										During my PhD I was the recipient of an <a class="author-link" href="https://research.adobe.com/fellowship/previous-fellowship-award-winners/" target="_blank">Adobe Research Fellowship</a> (honorable mention) in 2017, and a <a class="author-link" href="https://www.nvidia.com/en-us/research/graduate-fellowships/2018/ana-serrano/" target="_blank">NVIDIA Graduate Fellowship</a> in 2018. 
-										My thesis has been awarded with one of the <a class="author-link" href="https://www.eg.org/wp/eurographics-awards-programme/phd-award/" target="_blank">Eurographics 2020 PhD awards</a>
-										and I have received the <a class="author-link" href="https://www.eg.org/wp/eurographics-awards-programme/the-young-researcher-award/young-researcher-award-2023-ana-serrano/" target="_blank">Eurographics 2023 Young Researcher Award</a>. 
+										My thesis has been awarded with one of the <a class="author-link" href="https://www.eg.org/wp/eurographics-awards-programme/phd-award/" target="_blank">Eurographics 2020 PhD awards</a>.
+										Recently, I have received the <a class="author-link" href="https://www.eg.org/wp/eurographics-awards-programme/the-young-researcher-award/young-researcher-award-2023-ana-serrano/" target="_blank">Eurographics 2023 Young Researcher Award</a>
+										and the <a class="author-link" href="https://www.computer.org/csdl/proceedings-article/vr/2024/740200z030/1WaaKL10UyQ" target="_blank">VGTC VR 2024 Significant New Researcher Award</a>. 
 									</p>								
 									<p>&nbsp </p>
 									<h4>RESEARCH TOPICS</h4> 
@@ -310,7 +311,7 @@
                             <div class="publication_item" data-group='JOURNAL PAPERS'>
                                 <div class="media">
                                     <div class="pull-left">
-                                        <img loading="lazy" class="img-pub" src="images/pubs/2024/publications_TVCG_AudioVisRotations.png"/>
+                                        <img loading="lazy" class="img-pub" src="images/pubs/2024/publications_EG_WeakLabels.png"/>
                                     </div>
                                     <div class="media-body">
                                         <h3>Predicting Perceived Gloss: Do Weak Labels Suffice?</h3>
@@ -322,7 +323,7 @@
 									<hr style="margin:8px auto">
 									<a><span class="label label-primary">PDF (soon)</span></a>
 									<a><span class="label label-primary">Project page (soon)</span></a>	
-									<span class="filter filter-primary">Journal (Q1)</span>
+									<span class="filter filter-primary">Journal (Q2)</span>
                                 </div> 								
                             </div>		
 						<!-- End publication item -->				
