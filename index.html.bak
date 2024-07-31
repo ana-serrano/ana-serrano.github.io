@@ -411,8 +411,9 @@
 										</span> <br>
 									</div>
 									<hr style="margin:8px auto">
-									<a><span class="label label-primary">PDF (soon)</span></a>
-									<a><span class="label label-primary">Project page (soon)</span></a>	
+									<a><span target="_blank" href="https://graphics.unizar.es/papers/GuerreroViu2024perceivedGloss.pdf" class="label label-primary">PDF</span></a>
+									<a><span target="_blank" href="https://graphics.unizar.es/projects/perceived_gloss_2024/" class="label label-primary">Project page</span></a>	
+									<a href data-toggle="modal" data-target="#Guerrero2024"><span class="label label-primary">Bibtex</span></a>	
 									<span class="filter filter-primary">Journal (Q2)</span>
                                 </div> 								
                             </div>		
@@ -2113,6 +2114,35 @@
 <!-- MODALS FOR BIBLIOGRAPHY GO HERE -->
 
 <!-- Modal Begin-->
+<div class="modal fade" id="Guerrero2024" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 class="modal-title" id="exampleModalLongTitle" style="text-align:center">Cite (BibTeX)</h3>
+      </div>
+      <div class="modal-body" style="font-family:'Courier New';font-size:12px">
+        <p id="Guerrero2024-text">
+		@article{guerrero2024gloss,<br>
+		author    = {Guerrero-Viu, Julia and Subias, J. Daniel and Serrano, Ana and Storrs, Katherine R. and Fleming, Roland W. and Masia, Belen and Gutierrez, Diego},<br>
+		title     = {{Predicting Perceived Gloss: Do Weak Labels Suffice?}},<br>
+		journal   = {Computer Graphics Forum},<br>
+		year      = {2024},<br>		
+		volume    = {43},<br>
+        number    = {2},<br>
+		DOI = {10.1111/cgf.15037}<br>
+		}
+		</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btnbib-link" onclick="copyToClipboard('#Guerrero2024-text')">Copy to clipboard</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal End-->
+
+<!-- Modal Begin-->
 <div class="modal fade" id="Wang2024b" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
@@ -2124,7 +2154,7 @@
 		@article{wang2024cinematicSplatting,<br>
 		author    = {Wang, Chao and Wolski, Krzysztof and Kerbl, Bernhard and Serrano, Ana and Bemana, Mojtaba and Seidel, Hans-Peter and Myszkowski, Karol and Leimk{\"u}hler, Thomas},<br>
 		title     = {Cinematic Gaussians: Real-Time HDR Radiance Fields with Depth of Field},<br>
-		journal={arXiv preprint arXiv:2406.07329},<br>
+		journal   = {arXiv preprint arXiv:2406.07329},<br>
 		year      = {2024}<br>		
 		}
 		</p>
@@ -2139,14 +2169,14 @@
 <!-- Modal End-->
 
 <!-- Modal Begin-->
-<div class="modal fade" id="peng2024" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+<div class="modal fade" id="Peng2024" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
       <div class="modal-header">
         <h3 class="modal-title" id="exampleModalLongTitle" style="text-align:center">Cite (BibTeX)</h3>
       </div>
       <div class="modal-body" style="font-family:'Courier New';font-size:12px">
-        <p id="peng2024-text">
+        <p id="Peng2024-text">
 		@article{peng2024Saccades,<br>
 		author    = {Peng, Xi and Zhang, Yunxiang, and Jim{\'e}nez Navarro, Daniel and Serrano, Ana and Myszkowski, Karol and Sun, Qi},<br>
 		title     = {Measuring and Predicting Multisensory Reaction Latency: A Probabilistic Model for Visual-Auditory Integration},<br>
@@ -2159,7 +2189,7 @@
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btnbib-link" onclick="copyToClipboard('#peng2024-text')">Copy to clipboard</button>
+        <button type="button" class="btn btnbib-link" onclick="copyToClipboard('#Peng2024-text')">Copy to clipboard</button>
       </div>
     </div>
   </div>
