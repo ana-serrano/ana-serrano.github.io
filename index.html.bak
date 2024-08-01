@@ -411,8 +411,8 @@
 										</span> <br>
 									</div>
 									<hr style="margin:8px auto">
-									<a><span target="_blank" href="https://graphics.unizar.es/papers/GuerreroViu2024perceivedGloss.pdf" class="label label-primary">PDF</span></a>
-									<a><span target="_blank" href="https://graphics.unizar.es/projects/perceived_gloss_2024/" class="label label-primary">Project page</span></a>	
+									<a target="_blank" href="https://graphics.unizar.es/papers/GuerreroViu2024perceivedGloss.pdf"><span class="label label-primary">PDF</span></a>
+									<a target="_blank" href="https://graphics.unizar.es/projects/perceived_gloss_2024/"><span class="label label-primary">Project page</span></a>	
 									<a href data-toggle="modal" data-target="#Guerrero2024"><span class="label label-primary">Bibtex</span></a>	
 									<span class="filter filter-primary">Journal (Q2)</span>
                                 </div> 								
