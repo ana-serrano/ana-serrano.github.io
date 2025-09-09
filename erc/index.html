@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Join PROXIE — PhD & Postdoc in XR and Human Perception</title>
+  <meta name="description" content="PROXIE investigates perception in immersive XR. PhD and Postdoc openings at the Graphics & Imaging Lab (Universidad de Zaragoza), working with Ana Serrano.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div id="flyer-content">
+    <!-- Header -->
+    <header class="hero">
+      <div class="hero__inner container">
+        <div class="hero__left">
+          <img src="logo.png" alt="PROXIE logo" class="brand__img" />
+        </div>
+
+        <div class="hero__center">
+          <h1 class="brand__title">Join <span class="accent">PROXIE</span></h1>
+          <p class="brand__subtitle">PhD &amp; Postdoc in XR and Human Perception</p>
+        </div>
+
+        <div class="hero__right">
+          <div class="hero__badge">ERC-funded • Universidad de Zaragoza</div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main flyer content -->
+    <main class="container">
+      <section class="intro card">
+        <p class="lead">
+          <strong>PROXIE</strong> (<b>P</b>erceptual <b>R</b>ealities: <b>O</b>ptimizing <b>X</b>R through Perceptually-<b>I</b>nformed <b>E</b>xperiences)
+          investigates human perception in immersive Extended Reality (XR) environments. The project focuses on:
+        </p>
+        <ul class="bullets">
+          <li><span class="icon">👁️</span><strong>Attention &amp; gaze</strong> in immersive, task-driven XR.</li>
+          <li><span class="icon">🔊</span><strong>Multisensory integration</strong> across vision, audio, and proprioception.</li>
+          <li><span class="icon">🎨</span><strong>Visual quality &amp; material appearance</strong> in VR/AR/MR.</li>
+        </ul>
+      </section>
+
+      <section class="card">
+        <h2 class="h">Your environment</h2>
+        <p>
+          Successful candidates will join the
+          <a href="https://graphics.unizar.es/" target="_blank" rel="noopener">Graphics &amp; Imaging Lab</a>
+          and work with
+          <a href="https://ana-serrano.github.io/" target="_blank" rel="noopener">Ana Serrano</a>.
+        </p>
+      </section>
+
+      <section class="card">
+        <h2 class="h">Requirements</h2>
+
+        <div class="req">
+          <h3>For PhD</h3>
+          <ul>
+            <li>MSc (or equivalent) in Computer Science, Engineering, Mathematics, Physics, Cognitive Science, or related field.</li>
+          </ul>
+        </div>
+
+        <div class="req">
+          <h3>For Postdoc</h3>
+          <ul>
+            <li>PhD and solid record of publications in a related area.</li>
+          </ul>
+        </div>
+
+        <div class="req">
+          <h3>Common</h3>
+          <ul>
+            <li>Strong programming skills (Python or C++).</li>
+            <li>Solid background in math/statistics and experimental methods.</li>
+            <li>Strong written and spoken English.</li>
+            <li>Interest in XR/perception and teamwork in an interdisciplinary environment.</li>
+          </ul>
+        </div>
+
+        <div class="req">
+          <h3>Nice to have</h3>
+          <ul class="two-col">
+            <li>Unity/Unreal</li><li>Eye-tracking</li><li>Psychophysics</li>
+            <li>Machine learning</li><li>Audio/signal processing</li><li>HCI</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="apply card">
+        <h2 class="h">How to apply</h2>
+        <p>Send your <strong>CV</strong> and <strong>Motivation Letter</strong> to: <a href="mailto:anase@unizar.es">anase@unizar.es</a></p>
+        <p>Subject line: <code>[PROXIE HIRING] PhD/Postdoc - Your Name</code></p>
+
+       
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>© <span id="y"></span> PROXIE • Graphics &amp; Imaging Lab, Universidad de Zaragoza</p>
+    </footer>
+  </div>
+
+  <!-- Year -->
+  <script>
+    document.getElementById('y').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
