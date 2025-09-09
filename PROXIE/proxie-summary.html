@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>PROXIE — Project Summary</title>
+  <meta name="description" content="One-page summary of PROXIE: Perceptual Realities — Optimizing XR through Perceptually-Informed Experiences.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div id="flyer-content">
+    <!-- Header -->
+    <header class="hero">
+      <div class="hero__inner container">
+        <div class="hero__left">
+          <img src="logo.png" alt="PROXIE logo" class="brand__img" />
+        </div>
+
+        <div class="hero__center">
+          <h1 class="brand__title"><span class="accent">Perceptual Realities</span></h1>
+          <p class="brand__subtitle">Optimizing XR through Perceptually-Informed Experiences</p>
+        </div>
+
+        <div class="hero__right">
+          <div class="hero__badge">ERC-funded • Universidad de Zaragoza</div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main content -->
+    <main class="container">
+      <!-- What is PROXIE -->
+      <section class="intro card">
+        <h2 class="h">What is PROXIE?</h2>
+        <p class="lead">
+          Extended Reality (XR)—including Virtual, Augmented, and Mixed Reality—offers unique opportunities
+          to study and optimize human perception in immersive environments. Building on strong prior work
+          on visual, auditory, and multisensory perception, <strong>PROXIE</strong> investigates perception in
+          <em>ecologically valid</em> XR scenarios, where users perform complex, realistic tasks.
+        </p>
+      </section>
+
+      <!-- Our approach -->
+      <section class="card">
+        <h2 class="h">Our approach</h2>
+        <p>
+          We combine <strong>psychophysical experiments</strong> and <strong>computational modeling</strong>
+          to develop adaptive perceptual models for XR. Experiments systematically vary
+          <strong>task type</strong> (free exploration, memory recall, search),
+          <strong>environment complexity</strong>, and
+          <strong>multisensory conditions</strong> (vision, audition, proprioception).
+        </p>
+        <ul>
+          <li><strong>Eye-tracking</strong> — gaze allocation and scanpaths.</li>
+          <li><strong>Physiological signals</strong> — electrodermal activity, ECG, heart rate variability.</li>
+          <li><strong>Behavioral responses</strong> — motion traces, task performance.</li>
+          <li><strong>Subjective measures</strong> — presence, workload, engagement.</li>
+        </ul>
+        <p>
+          These multimodal datasets will feed into <strong>machine learning models</strong> (transformers, RNNs,
+          probabilistic formulations) that predict attention, multisensory synchronization thresholds, and visual
+          quality perception under varying task demands.
+        </p>
+      </section>
+
+      <!-- Research focus -->
+      <section class="card">
+        <h2 class="h">Research focus</h2>
+        <ul>
+          <li><span class="icon">👁️</span><strong>Attention</strong> — Saliency and gaze dynamics across tasks and environments, integrating physiological markers of cognitive load.</li>
+          <li><span class="icon">🔊</span><strong>Multisensory mappings</strong> — Psychometric quantification of detection thresholds for audio–visual and proprioceptive misalignments, enabling perceptually grounded manipulations (e.g., redirected walking, hand motion adjustments).</li>
+          <li><span class="icon">🎨</span><strong>Visual perception</strong> — Adapting state-of-the-art quality metrics (e.g., ColorVideoVDP, FovVideoVDP) and developing task-dependent appearance metrics for materials (gloss, translucency).</li>
+          <li><span class="icon">🧪</span><strong>Applications & Ecological validity</strong> — Validation in XR use cases: storytelling, training/education, telepresence, and collaborative design.</li>
+        </ul>
+      </section>
+
+      <!-- Impact -->
+      <section class="card">
+        <h2 class="h">Impact</h2>
+		The project will produce:
+        <ul>
+          <li>Large <strong>multimodal datasets</strong> for XR perception research.</li>
+          <li><strong>Adaptive perceptual models</strong> that account for task, environment, and multisensory context.</li>
+          <li>Insights transferable to XR system design, from <strong>rendering</strong> to <strong>interaction techniques</strong>.</li>
+        </ul>
+      </section>
+
+      <!-- Who we are -->
+      <section class="card">
+        <h2 class="h">Team</h2>
+        <p>
+          The project is led by <a href="https://ana-serrano.github.io/" target="_blank" rel="noopener">Ana Serrano</a>.
+          You will join the <a href="https://graphics.unizar.es/" target="_blank" rel="noopener">Graphics &amp; Imaging Lab</a>, at Universidad de Zaragoza (Spain).
+        </p>
+      </section>
+
+      <!-- More info -->
+      <section class="apply card">
+        <h2 class="h">Find more about how to apply for a position</h2>
+        <p>
+          👉 <a href="https://ana-serrano.github.io/PROXIE" target="_blank" rel="noopener">ana-serrano.github.io/PROXIE</a>
+        </p>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>© <span id="y"></span> PROXIE • Graphics &amp; Imaging Lab, Universidad de Zaragoza</p>
+    </footer>
+  </div>
+
+  <!-- Year -->
+  <script>
+    document.getElementById('y').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
