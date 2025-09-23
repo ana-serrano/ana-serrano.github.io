@@ -92,7 +92,8 @@
         </div>
 
         <div class="req">
-          <h3>Experience on (nice to have):</h3>
+          <h3>Nice to have</h3>
+		  Experience on:
           <ul class="two-col">
             <li>Unity/Unreal Engine</li><li>Eye-tracking</li><li>Psychophysics</li>
             <li>Machine learning</li><li>Audio/signal processing</li><li>HCI</li>
