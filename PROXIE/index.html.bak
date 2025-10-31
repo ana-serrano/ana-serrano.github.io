@@ -49,18 +49,16 @@
           <li><span class="icon">🔊</span><strong>Multisensory integration</strong> across vision, audio, and proprioception.</li>
           <li><span class="icon">🎨</span><strong>Visual quality &amp; material appearance</strong> in VR/AR/MR.</li>
         </ul>
-		<p>
-			Find out more about the project <a href="https://ana-serrano.github.io/PROXIE/summary" target="_blank" rel="noopener">here</a>.
-		</p>
+		
       </section>
 
       <section class="card">
         <h2 class="h">Your environment</h2>
         <p>
-          Successful candidates will join the
-          <a href="https://graphics.unizar.es/" target="_blank" rel="noopener">Graphics &amp; Imaging Lab</a>
-          and work with
-          <a href="https://ana-serrano.github.io/" target="_blank" rel="noopener">Ana Serrano</a>.
+          Successful candidates will join the Graphics &amp; Imaging Lab 
+          (<a href="https://graphics.unizar.es/" target="_blank" rel="noopener">https://graphics.unizar.es/</a>)
+          and work with Ana Serrano
+          (<a href="https://ana-serrano.github.io/" target="_blank" rel="noopener">https://ana-serrano.github.io/</a>).
         </p>
       </section>
 
@@ -92,8 +90,7 @@
         </div>
 
         <div class="req">
-          <h3>Nice to have</h3>
-		  Experience on:
+          <h3>Experience on (nice to have):</h3>
           <ul class="two-col">
             <li>Unity/Unreal Engine</li><li>Eye-tracking</li><li>Psychophysics</li>
             <li>Machine learning</li><li>Audio/signal processing</li><li>HCI</li>
@@ -109,7 +106,7 @@
 		  and your <strong>Transcript of records</strong> to: 
 		  <a href="mailto:anase@unizar.es">anase@unizar.es</a>
 		</p>
-        <p>Subject line: <strong><code style="font-size:18px">[PROXIE HIRING] PhD/Postdoc - Your Name</code></strong></p>
+        <p>Subject line: <strong><code style="font-size:20px">[PROXIE HIRING] PhD/Postdoc - Your Name</code></strong></p>
 
        
       </section>
