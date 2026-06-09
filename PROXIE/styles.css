@@ -21,7 +21,7 @@ a:hover{text-decoration:underline}
 
 /* Stable header: same width and layout on every page */
 .site-header{width:100%;background:rgba(255,255,255,.94);border-bottom:1px solid var(--line);box-shadow:0 1px 10px rgba(24,40,80,.035)}
-.header-wrap{width:min(1040px,92%);margin:0 auto;padding:18px 0 12px}
+.header-wrap{width:min(1040px,92%);margin:0 auto;padding:0 0 12px}
 .header-main{display:flex;align-items:center;justify-content:space-between;gap:24px;min-height:76px}
 .site-brand{display:flex;align-items:center;gap:16px;min-width:0;color:var(--text)}
 .site-brand:hover{text-decoration:none}
