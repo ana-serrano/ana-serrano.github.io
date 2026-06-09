@@ -3,125 +3,86 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Join PROXIE — PhD & Postdoc in XR and Human Perception</title>
-  <meta name="description" content="PROXIE investigates perception in immersive XR. PhD and Postdoc openings at the Graphics & Imaging Lab (Universidad de Zaragoza), working with Ana Serrano.">
+  <title>PROXIE — Perceptual Realities</title>
+  <meta name="description" content="PROXIE studies human perception in immersive XR environments to build adaptive, perceptually-informed XR experiences.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-  <div id="flyer-content">
-    <!-- Header -->
-    <header class="hero">
-      <div class="hero__inner container">
-        <div class="hero__left">
-          <img src="logo.png" alt="PROXIE logo" class="brand__img" />
-        </div>
-
-        <div class="hero__center">
-          <h1 class="brand__title"><span class="accent">We are hiring!</span></h1>
-          <p class="brand__subtitle">PhD &amp; Postdoc in XR and Human Perception</p>
-        </div>
-
-        <div class="hero__right">
-          <div class="hero__badge">ERC-funded • Universidad de Zaragoza</div>
+  <header class="site-header">
+    <div class="header-wrap">
+      <div class="header-main">
+        <a class="site-brand" href="index.html" aria-label="PROXIE home">
+          <img src="logo.png" alt="PROXIE logo" class="site-logo" />
+          <div class="site-title-block">
+            <div class="site-title">Perceptual Realities</div>
+            <div class="site-subtitle">Optimizing XR through Perceptually-Informed Experiences</div>
+          </div>
+        </a>
+        <div class="header-funding" aria-label="Project funding">
+          <img src="erc-logo.png" alt="European Research Council" class="erc-logo" />
+          <div class="funding-text">
+            <span>ERC Starting Grant</span>
+            <small>Universidad de Zaragoza</small>
+          </div>
         </div>
       </div>
-    </header>
-	
-	
+      <nav class="site-nav" aria-label="Main navigation">
+        <a class="active" href="index.html">Home</a>
+        <a href="publications.html">Publications</a>
+        <a href="outputs.html">Datasets &amp; Code</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <img src="banner.jpg" alt="PROXIE XR banner" class="hero-banner__img">
+      <p class="lead" style="text-align: justify;">
+        <strong>PROXIE</strong> 
+		studies how human perception changes when users actively interact with immersive Extended Reality (XR) environments.
+		<br><br>
+		Much of our current understanding of perception comes from carefully controlled laboratory experiments. XR provides an opportunity to complement these studies by investigating perception in more realistic and interactive environments.
+		<br><br>
+		PROXIE investigates how attention and multisensory perception are shaped by tasks, cognitive demands, and environmental context. By combining XR experiments, eye tracking, physiological sensing, psychophysics, and machine learning, we aim to develop computational models of perception that enable the next generation of adaptive XR systems.
+      </p>
+    </section>
+
+    <section class="grid">
+      <article class="mini-card">
+        <div class="section-kicker">WP1</div>
+        <h3>Attention</h3>
+        <p style="text-align: justify;">Models of gaze and attention allocation. We study how users distribute their attention across immersive environments and how this changes with different tasks and multisensory conditions.</p>
+      </article>
+      <article class="mini-card">
+        <div class="section-kicker">WP2</div>
+        <h3>Multisensory mappings</h3>
+        <p style="text-align: justify;">Detection thresholds and perceptual limits for audio, vision, and proprioception. We investigate when users notice sensory inconsistencies and how XR systems can exploit perceptual tolerance to improve interaction and performance.</p>
+      </article>
+      <article class="mini-card">
+        <div class="section-kicker">WP3</div>
+        <h3>Visual perception</h3>
+        <p style="text-align: justify;">Models of visual quality and perceived appearance. We study how task demands and environmental context influence the perception of visual content in XR.</p>
+      </article>
+	  <article class="mini-card">
+        <div class="section-kicker">WP3</div>
+        <h3>Applications and Validation</h3>
+        <p style="text-align: justify;">Validation of the developed models in realistic applications including telepresence, storytelling, education, training, and collaborative environments.</p>
+      </article>
+    </section>
 
 
-    <!-- Main flyer content -->
-    <main class="container">
-      <section class="intro card">
-		 <header class="hero-banner">
-			<img src="banner.jpg" alt="PROXIE VR banner" class="hero-banner__img">
-		</header>
-        <p class="lead">
-          <strong>PROXIE</strong> (<b>P</b>erceptual <b>R</b>ealities: <b>O</b>ptimizing <b>X</b>R through Perceptually-<b>I</b>nformed <b>E</b>xperiences)
-          investigates human perception in immersive Extended Reality (XR) environments. The project focuses on:
-        </p>
-        <ul>
-          <li><span class="icon">👁️</span><strong>Attention &amp; gaze</strong> in immersive, task-driven XR.</li>
-          <li><span class="icon">🔊</span><strong>Multisensory integration</strong> across vision, audio, and proprioception.</li>
-          <li><span class="icon">🎨</span><strong>Visual quality &amp; material appearance</strong> in VR/AR/MR.</li>
-        </ul>
-		<p>
-			Find out more about the project <a href="https://ana-serrano.github.io/PROXIE/summary" target="_blank" rel="noopener">here</a>.
-		</p>
-      </section>
 
-      <section class="card">
-        <h2 class="h">Your environment</h2>
-        <p>
-          Successful candidates will join the
-          <a href="https://graphics.unizar.es/" target="_blank" rel="noopener">Graphics &amp; Imaging Lab</a>
-          and work with
-          <a href="https://ana-serrano.github.io/" target="_blank" rel="noopener">Ana Serrano</a>.
-        </p>
-      </section>
+    <section class="card">
+      <h2 class="h">Quick links</h2>
+      <p class="muted">For the complete publication list, see <a href="https://ana-serrano.github.io/" target="_blank" rel="noopener">Ana Serrano's website</a> and the <a href="https://graphics.unizar.es/publications.html" target="_blank" rel="noopener">Graphics &amp; Imaging Lab publications page</a>.</p>
+    </section>
+  </main>
 
-      <section class="card">
-        <h2 class="h">Requirements</h2>
-
-        <div class="req">
-          <h3>For PhD</h3>
-          <ul>
-            <li>MSc (or equivalent) in Computer Science, Engineering, or related field.</li>
-          </ul>
-        </div>
-
-        <div class="req">
-          <h3>For Postdoc</h3>
-          <ul>
-            <li>PhD and solid record of publications in a related area (TVCG, IEEE VR, ISMAR, SIGGRAPH, CHI, UIST...).</li>
-          </ul>
-        </div>
-
-        <div class="req">
-          <h3>Common</h3>
-          <ul>
-            <li>Strong programming skills (Python or C++).</li>
-            <li>Solid background in math/statistics and experimental methods.</li>
-            <li>Strong written and spoken English.</li>
-            <li>Interest in XR/perception and ability to work as part of a team in an interdisciplinary environment.</li>
-          </ul>
-        </div>
-
-        <div class="req">
-          <h3>Experience on (nice to have):</h3>
-          <ul class="two-col">
-            <li>Unity/Unreal Engine</li><li>Eye-tracking</li><li>Psychophysics</li>
-            <li>Machine learning</li><li>Audio/signal processing</li><li>HCI</li>
-          </ul>
-        </div>
-      </section>
-
-      <section class="apply card">
-        <h2 class="h">How to apply</h2>
-        <p>
-		  Send your <strong>CV</strong>, <strong>Motivation letter</strong>, and a short 
-		  <strong>Statement of contribution</strong> (max. 500 words on which PROXIE topics you’d like to work on and why), 
-		  and your <strong>Transcript of records</strong> to: 
-		  <a href="mailto:anase@unizar.es">anase@unizar.es</a>
-		</p>
-        <p>Subject line: <strong><code style="font-size:18px">[PROXIE HIRING] PhD/Postdoc - Your Name</code></strong></p>
-
-       
-      </section>
-    </main>
-
-    <footer class="footer">
-      <p>© <span id="y"></span> PROXIE • Graphics &amp; Imaging Lab, Universidad de Zaragoza</p>
-    </footer>
-  </div>
-
-  <!-- Year -->
-  <script>
-    document.getElementById('y').textContent = new Date().getFullYear();
-  </script>
+  <footer class="footer"><p>© <span id="y"></span> PROXIE • Graphics &amp; Imaging Lab, Universidad de Zaragoza</p></footer>
+  <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
 </body>
 </html>

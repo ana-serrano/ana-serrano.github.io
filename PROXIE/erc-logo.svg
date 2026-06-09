@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 210 72" role="img" aria-label="European Research Council">
+  <rect x="1" y="1" width="208" height="70" rx="12" fill="#ffffff" stroke="#d8e1f5" stroke-width="2"/>
+  <circle cx="36" cy="36" r="20" fill="#244ed0" opacity="0.95"/>
+  <circle cx="36" cy="36" r="12" fill="#ffffff" opacity="0.95"/>
+  <circle cx="36" cy="36" r="5" fill="#244ed0"/>
+  <text x="66" y="31" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="800" fill="#24416d">ERC</text>
+  <text x="66" y="49" font-family="Inter, Arial, sans-serif" font-size="10" font-weight="700" fill="#55627a">European Research Council</text>
+</svg>
