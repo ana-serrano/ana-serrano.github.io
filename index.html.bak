@@ -181,7 +181,7 @@
 										and the <a class="author-link" href="https://www.computer.org/csdl/proceedings-article/vr/2024/740200z030/1WaaKL10UyQ" target="_blank">VGTC VR 2024 Significant New Researcher Award</a>. 
 									
 										<p style="background-color:#eef6ff; padding:8px 12px; border-left:4px solid #2b6cb0; border-radius:6px;">
-										I have been awarded a European Research Council (ERC) Starting Grant. Learn more about the project and available positions 
+										I have been awarded a European Research Council (ERC) Starting Grant (2026-2030). Learn more about the project
 										<a class="author-link" href="https://ana-serrano.github.io/PROXIE" target="_blank">here</a>.
 									</p>
 									</p>								
@@ -281,6 +281,147 @@
                         </div>
 						<!-- End Filter/Sort Menu -->	
 						
+							<!-- publication wrapper-->                           
+                        <div class="mygridfilter" id="2026">
+						
+						<!-- Year -->
+						<span class="content-title">2026</span>
+                        <br></br>
+						<!-- End Year-->	
+						
+						
+						<!-- publication item -->
+                            <div class="publication_item" data-group='CONFERENCES'>
+                                <div class="media">
+                                    <div class="pull-left">
+                                        <img loading="lazy" class="img-pub" src="images/pubs/2026/publications_SIGG_VisDominance.png"/>
+                                    </div>
+                                    <div class="media-body">
+                                        <h3>Dynamic Visual Dominance in Stereoscopic Foveation</h3>
+                                        <h4>Daniel Jiménez-Navarro, Colin Groth, Kenneth Chen, Qi Sun, Karol Myszkowski, Hans-Peter Seidel, Ana Serrano</h4>
+                                        <span class="publication_description">SIGGRAPH, 2026</span> 
+										<span class="publication_description">
+										</span> <br>
+									</div>
+									<hr style="margin:8px auto">
+									<a href="https://dynamicvisualdominance.mpi-inf.mpg.de/resource/paper.pdf" target="_blank"><span class="label label-primary">PDF</span></a>
+									<a href="https://dynamicvisualdominance.mpi-inf.mpg.de/" target="_blank"><span class="label label-primary">Project page</span></a>	
+									<!-- <a href data-toggle="modal" data-target="#Jimenez2026"><span class="label label-primary">Bibtex</span></a>	-->
+									<span class="filter filter-primary">Conference (Core A*)</span>
+                                </div> 								
+                            </div>		
+						<!-- End publication item -->
+						
+						<!-- publication item -->
+                            <div class="publication_item" data-group='JOURNAL PAPERS'>
+                                <div class="media">
+                                    <div class="pull-left">
+                                        <img loading="lazy" class="img-pub" src="images/pubs/2026/publications_IEEEVR_Overdrive.png"/>
+                                    </div>
+                                    <div class="media-body">
+                                        <h3>Overdriving Visual Depth Perception via Sound Modulation in VR</h3>
+                                        <h4>Daniel Jimenez-Navarro, Colin Groth, Xi Peng, Jorge Pina, Qi Sun, Praneeth Chakravarthula, Karol Myszkowski, Hans-Peter Seidel, and Ana Serrano</h4>
+                                        <span class="publication_description">IEEE TVCG (Proc. IEEE VR), 2026</span> 
+										<span class="publication_description">
+										</span> <br>
+									</div>
+									<hr style="margin:8px auto">
+									<a href="https://avdepthoverdrive.mpi-inf.mpg.de/resource/paper.pdf" target="_blank"><span class="label label-primary">PDF</span></a>
+									<a href="https://avdepthoverdrive.mpi-inf.mpg.de/" target="_blank"><span class="label label-primary">Project page</span></a>	
+									<!-- <a href data-toggle="modal" data-target="#Jimenez2026"><span class="label label-primary">Bibtex</span></a>	-->
+									<span class="filter filter-primary">Journal (Q1)</span>
+                                </div> 								
+                            </div>		
+						<!-- End publication item -->
+						
+						<!-- publication item -->
+                            <div class="publication_item" data-group='JOURNAL PAPERS'>
+                                <div class="media">
+                                    <div class="pull-left">
+                                        <img loading="lazy" class="img-pub" src="images/pubs/2026/publications_CAG_Style.png"/>
+                                    </div>
+                                    <div class="media-body">
+                                        <h3>Style-Aware Gloss Control for Generative Non-Photorealistic Rendering</h3>
+                                        <h4>Santiago Jimenez-Navarro, Belen Masia, and Ana Serrano</h4>
+                                        <span class="publication_description">Computers & Graphics, 2026</span> 
+										<span class="publication_description">
+										</span> <br>
+									</div>
+									<hr style="margin:8px auto">
+									<a href="https://graphics.unizar.es/projects/JimenezNavarro2026-NPRdisentanglement/static/pdfs/paper.pdf" target="_blank"><span class="label label-primary">PDF</span></a>
+									<a href="https://graphics.unizar.es/projects/JimenezNavarro2026-NPRdisentanglement/" target="_blank"><span class="label label-primary">Project page</span></a>	
+									<!-- <a href data-toggle="modal" data-target="#Jimenez2026"><span class="label label-primary">Bibtex</span></a>	-->
+									<span class="filter filter-primary">Journal (Q2)</span>
+                                </div> 								
+                            </div>		
+						<!-- End publication item -->
+						
+						<!-- publication item -->
+                            <div class="publication_item" data-group='JOURNAL PAPERS'>
+                                <div class="media">
+                                    <div class="pull-left">
+                                        <img loading="lazy" class="img-pub" src="images/pubs/2026/publications_CAG_EyeCL.png"/>
+                                    </div>
+                                    <div class="media-body">
+                                        <h3>An analysis of gaze behavior under multisensory cognitive load in immersive environments</h3>
+                                        <h4>Jaime Bielsa, Jorge Pina, Ana Serrano, and Daniel Martin</h4>
+                                        <span class="publication_description">Computers & Graphics (Proc. CEIG), 2026</span> 
+										<span class="publication_description">
+										</span> <br>
+									</div>
+									<hr style="margin:8px auto">
+									<a href="https://graphics.unizar.es/papers/Bielsa_2026_CLGaze.pdf" target="_blank"><span class="label label-primary">PDF</span></a>
+									<a href="https://graphics.unizar.es/projects/Bielsa2026-CLGaze/" target="_blank"><span class="label label-primary">Project page</span></a>	
+									<span class="filter filter-primary">Journal (Q2)</span>
+                                </div> 								
+                            </div>		
+						<!-- End publication item -->
+						
+						<!-- publication item -->
+                            <div class="publication_item" data-group='OTHERS'>
+                                <div class="media">
+                                    <div class="pull-left">
+                                        <img loading="lazy" class="img-pub" src="images/pubs/2026/publications_CHI_Sickness.png"/>
+                                    </div>
+                                    <div class="media-body">
+                                        <h3>Design and evaluation of a continuous interface for real-time self-reporting of VR sickness</h3>
+                                        <h4>Maria Plaza, Carmen Real, Ana Serrano, and Diego Gutierrez</h4>
+                                        <span class="publication_description">SIGCHI (Posters), 2026</span> 
+										<span class="publication_description">
+										</span> <br>
+									</div>
+									<hr style="margin:8px auto">
+									<a href="https://graphics.unizar.es/papers/Plaza_2026_Sickness.pdf" target="_blank"><span class="label label-primary">PDF</span></a>
+									<a href="https://graphics.unizar.es/projects/Plaza2026-SicknessInterface/" target="_blank"><span class="label label-primary">Project page</span></a>	
+									<span class="filter filter-primary">Poster</span>
+                                </div> 								
+                            </div>		
+						<!-- End publication item -->
+						
+						<!-- publication item -->
+                            <div class="publication_item" data-group='OTHERS'>
+                                <div class="media">
+                                    <div class="pull-left">
+                                        <img loading="lazy" class="img-pub" src="images/pubs/2026/publications_IEEEVR_EyeCL.png"/>
+                                    </div>
+                                    <div class="media-body">
+                                        <h3>Exploring Gaze Behavior in Immersive VR under Cognitive Load</h3>
+                                        <h4>Jaime Bielsa, Jorge Pina, Ana Serrano, and Daniel Martin</h4>
+                                        <span class="publication_description">IEEE VR (Posters), 2026</span> 
+										<span class="publication_description">
+										</span> <br>
+									</div>
+									<hr style="margin:8px auto">
+									<a href="https://graphics.unizar.es/papers/2025_XR_CognitiveET_IEEEVR26Posters.pdf" target="_blank"><span class="label label-primary">PDF</span></a>
+									<a href="https://graphics.unizar.es/projects/CLGaze_2026/" target="_blank"><span class="label label-primary">Project page</span></a>	
+									<span class="filter filter-primary">Poster</span>
+                                </div> 								
+                            </div>		
+						<!-- End publication item -->
+						
+						
+						
+									
 						<!-- publication wrapper-->                           
                         <div class="mygridfilter" id="2025">
 						
@@ -347,7 +488,7 @@
 										</span> <br>
 									</div>
 									<hr style="margin:8px auto">
-									<a href="" target="_blank"><span class="label label-primary">PDF (soon)</span></a>
+									<a href="https://graphics.unizar.es/papers/bernalberdun2025AudiovisualDisparities.pdf" target="_blank"><span class="label label-primary">PDF</span></a>
 									<!-- <a href="" target="_blank"><span class="label label-primary">Project page</span></a>	-->
 									<!--<a href data-toggle="modal" data-target="#Bernal2025b"><span class="label label-primary">Bibtex</span></a>	-->
 									<span class="filter filter-primary">Conference (Core A*)</span>
@@ -1909,13 +2050,13 @@
                                         </div>
                                     </div>
 									<div class="timeline-item">
-											<a class="teaching-link">Carmen Real</a>
-											<h3 style="display:inline" class="timeline-header">- Multimodal Interaction in Immersive Environments.</h3>
-											<h4 style="display:inline">03/2024 - today.</h4>
-									<br>
-											<a class="teaching-link">Jaime Bielsa</a>
-											<h3 style="display:inline" class="timeline-header">- Physiological signals for investigating attention in XR environments.</h3>
-											<h4 style="display:inline">01/2025 - today.</h4>
+										<a class="teaching-link">Carmen Real</a>
+										<h3 style="display:inline" class="timeline-header">- Multimodal Interaction in Immersive Environments.</h3>
+										<h4 style="display:inline">03/2024 - today.</h4>
+										<br>
+										<a class="teaching-link">Jaime Bielsa</a>
+										<h3 style="display:inline" class="timeline-header">- Physiological signals for investigating attention in XR environments.</h3>
+										<h4 style="display:inline">01/2025 - today.</h4>
 									</div>
 								 </li> 
 								 <!--END OF MASTER STUDENTS -->
@@ -2331,6 +2472,32 @@
 <!--------------------------------------
 ---------------------------------------->
 <!-- MODALS FOR BIBLIOGRAPHY GO HERE -->
+
+<!-- Modal Begin-->
+<div class="modal fade" id="Jimenez2026" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 class="modal-title" id="exampleModalLongTitle" style="text-align:center">Cite (BibTeX)</h3>
+      </div>
+      <div class="modal-body" style="font-family:'Courier New';font-size:12px">
+        <p id="Jimenez2026-text">		
+		@article{jimenez2026overdriving,<br>
+          title={{Overdriving Visual Depth Perception via Sound Modulation in VR}},<br>
+		  author={Jimenez-Navarro, Daniel and Groth, Colin and Peng, Xi and Pina, Jorge and Sun, Qi and Chakravarthula, Praneeth and Myszkowski, Karol and Seidel, Hans-Peter and Serrano, Ana},<br>
+		  journal={IEEE Transactions on Visualization \& Computer Graphics},<br>
+		  year={2026}<br>
+		}
+		</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btnbib-link" onclick="copyToClipboard('#jimenez2026-text')">Copy to clipboard</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal End-->
 
 <!-- Modal Begin-->
 <div class="modal fade" id="Peng2025" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
