@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>PROXIE — Perceptual Realities</title>
+  <meta name="description" content="PROXIE studies human perception in immersive XR environments to build adaptive, perceptually-informed XR experiences.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-wrap">
+      <div class="header-main">
+        <a class="site-brand" href="index.html" aria-label="PROXIE home">
+          <img src="logo.png" alt="PROXIE logo" class="site-logo" />
+          <div class="site-title-block">
+            <div class="site-title">Perceptual Realities</div>
+            <div class="site-subtitle">Optimizing XR through Perceptually-Informed Experiences</div>
+          </div>
+        </a>
+        <div class="header-funding" aria-label="Project funding">
+          <img src="erc-logo.png" alt="European Research Council" class="erc-logo" />
+          <div class="funding-text">
+            <span>ERC Starting Grant</span>
+            <small>Universidad de Zaragoza, I3A</small>
+          </div>
+        </div>
+      </div>
+      <nav class="site-nav" aria-label="Main navigation">
+        <a class="active" href="index.html">Home</a>
+        <a href="publications.html">Publications</a>
+        <a href="outputs.html">Datasets &amp; Code</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <img src="banner.jpg" alt="PROXIE XR banner" class="hero-banner__img">
+      <p class="lead" style="text-align: justify;">
+        <strong>PROXIE</strong> 
+		studies how human perception changes when users actively interact with immersive Extended Reality (XR) environments.
+		<br><br>
+		Much of our current understanding of perception comes from carefully controlled laboratory experiments. XR provides an opportunity to complement these studies by investigating perception in more realistic and interactive environments.
+		<br><br>
+		PROXIE investigates how attention and multisensory perception are shaped by tasks, cognitive demands, and environmental context. By combining XR experiments, eye tracking, physiological sensing, psychophysics, and machine learning, we aim to develop computational models of perception that enable the next generation of adaptive XR systems.
+      </p>
+    </section>
+
+    <section class="grid">
+      <article class="mini-card">
+        <div class="section-kicker">WP1</div>
+        <h3>Attention</h3>
+        <p style="text-align: justify;">Models of gaze and attention allocation. We study how users distribute their attention across immersive environments and how this changes with different tasks and multisensory conditions.</p>
+      </article>
+      <article class="mini-card">
+        <div class="section-kicker">WP2</div>
+        <h3>Multisensory mappings</h3>
+        <p style="text-align: justify;">Detection thresholds and perceptual limits for audio, vision, and proprioception. We investigate when users notice sensory inconsistencies and how XR systems can exploit perceptual tolerance to improve interaction and performance.</p>
+      </article>
+      <article class="mini-card">
+        <div class="section-kicker">WP3</div>
+        <h3>Visual perception</h3>
+        <p style="text-align: justify;">Models of visual quality and perceived appearance. We study how task demands and environmental context influence the perception of visual content in XR.</p>
+      </article>
+	  <article class="mini-card">
+        <div class="section-kicker">WP4</div>
+        <h3>Applications and Validation</h3>
+        <p style="text-align: justify;">Validation of the developed models in realistic applications including telepresence, storytelling, education, training, and collaborative environments.</p>
+      </article>
+    </section>
+
+
+  </main>
+
+  <footer class="footer"><p>© <span id="y"></span> PROXIE</p></footer>
+  <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+</body>
+</html>

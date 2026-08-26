@@ -21,28 +21,45 @@
           <img src="erc-logo.png" alt="European Research Council" class="erc-logo" />
           <div class="funding-text">
             <span>ERC Starting Grant</span>
-            <small>Universidad de Zaragoza</small>
+            <small>Universidad de Zaragoza, I3A</small>
           </div>
         </div>
       </div>
       <nav class="site-nav" aria-label="Main navigation">
         <a href="index.html">Home</a>
         <a href="publications.html">Publications</a>
-        <a class="active" href="outputs.html">Datasets &amp; Code</a>
+        <a class="active" href="outputs.html">Datasets</a>
         <a href="contact.html">Contact</a>
       </nav>
     </div>
   </header>
   <main class="container">
-    <section class="card"><h2 class="h">Open science outputs</h2><p>PROXIE will collect multimodal XR data and develop perceptual models. Public datasets, code, models, and project pages will be listed here when available.</p></section>
-    <!--<section class="grid-2">
-      <article class="mini-card"><div class="section-kicker">Dataset</div><h3>D-SAV360</h3><p>Gaze scanpaths on 360° ambisonic videos.</p><p><a href="https://graphics.unizar.es/projects/D-SAV360/" target="_blank" rel="noopener">Project page</a> · <a href="https://zenodo.org/records/10458586" target="_blank" rel="noopener">Zenodo</a></p></article>
-      <article class="mini-card"><div class="section-kicker">Model</div><h3>AViSal360</h3><p>Audiovisual saliency prediction for 360° video.</p><p><a href="https://graphics.unizar.es/projects/AViSal360_2024/" target="_blank" rel="noopener">Project page</a></p></article>
-      <article class="mini-card"><div class="section-kicker">Project page</div><h3>Visual search and cognitive load</h3><p>Multisensory visual search tasks in immersive environments.</p><p><a href="https://graphics.unizar.es/projects/CLVisualSearch_2025/" target="_blank" rel="noopener">Project page</a></p></article>
-      <article class="mini-card"><div class="section-kicker">Coming soon</div><h3>PROXIE datasets</h3><p>Future datasets and code produced during the ERC project.</p></article>
-    </section>-->
+    <section class="card"><h2 class="h">Open science outputs</h2><p style="text-align: justify;">PROXIE will collect multimodal XR data and develop perceptual models. Public datasets will be listed here when available. Code and models are available in the corresponding project pages (publications section).</p></section>
+    
+	<section class="grid-3">
+      <article class="mini-card"><div class="section-kicker">Dataset</div>
+		  <div><img loading="lazy" class="img-dataset" src="images/pubs/2026/publications_CAG_Style.png"/></div>
+		  <h3>NPR-Gloss</h3><p>Non-Photorealistic Depictions of Gloss in Diverse Artistic Styles.</p>
+		  <p><a href="https://zenodo.org/records/21787560" target="_blank" rel="noopener">Zenodo</a></p>
+	  </article>
+      <!--<article class="mini-card"><div class="section-kicker">Model</div><h3>AViSal360</h3><p>Audiovisual saliency prediction for 360° video.</p><p><a href="https://graphics.unizar.es/projects/AViSal360_2024/" target="_blank" rel="noopener">Project page</a></p></article>-->
+      <!--<article class="mini-card"><div class="section-kicker">Project page</div><h3>Visual search and cognitive load</h3><p>Multisensory visual search tasks in immersive environments.</p><p><a href="https://graphics.unizar.es/projects/CLVisualSearch_2025/" target="_blank" rel="noopener">Project page</a></p></article>-->
+      <!--<article class="mini-card"><div class="section-kicker">Coming soon</div><h3>PROXIE datasets</h3><p>Future datasets and code produced during the ERC project.</p></article>-->
+    </section>
   </main>
   <footer class="footer"><p>© <span id="y"></span> PROXIE</p></footer>
   <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+  
+  <script>document.getElementById('y').textContent = new Date().getFullYear();
+
+    // Allows copy-paste from Ana's main website without changing image paths.
+    // In PROXIE/publications.html, pasted paths like "images/pubs/..." are mapped to "../images/pubs/...".
+    document.querySelectorAll('img.img-pub, img.img-dataset').forEach(function(img) {
+      var original = img.getAttribute('src') || '';
+      if (original.indexOf('images/pubs/') === 0) {
+        img.setAttribute('src', '../' + original);
+      }
+    });
+  </script>    
   </body>
 </html>

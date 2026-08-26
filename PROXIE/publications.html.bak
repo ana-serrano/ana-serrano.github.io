@@ -24,14 +24,14 @@
           <img src="erc-logo.png" alt="European Research Council" class="erc-logo" />
           <div class="funding-text">
             <span>ERC Starting Grant</span>
-            <small>Universidad de Zaragoza</small>
+            <small>Universidad de Zaragoza, I3A</small>
           </div>
         </div>
       </div>
       <nav class="site-nav" aria-label="Main navigation">
         <a href="index.html">Home</a>
         <a class="active" href="publications.html">Publications</a>
-        <a href="outputs.html">Datasets &amp; Code</a>
+        <a href="outputs.html">Datasets</a>
         <a href="contact.html">Contact</a>
       </nav>
     </div>
@@ -154,6 +154,7 @@
 					<hr style="margin:8px auto">
 					<a href="https://graphics.unizar.es/papers/Plaza_2026_Sickness.pdf" target="_blank"><span class="label label-primary">PDF</span></a>
 					<a href="https://graphics.unizar.es/projects/Plaza2026-SicknessInterface/" target="_blank"><span class="label label-primary">Project page</span></a>	
+					<a href="https://zaguan.unizar.es/record/171985" target="_blank"><span class="label label-open">Open Access (UNIZAR)</span></a>
 					<span class="filter filter-primary">Poster</span>
 				</div> 								
 			</div>		
